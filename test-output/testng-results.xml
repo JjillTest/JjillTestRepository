@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="15" total="16" passed="0" failed="1" skipped="0">
+<testng-results ignored="14" total="16" passed="1" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
@@ -22,23 +22,52 @@
     <line>
       <![CDATA[Adding STL item to Bag]]>
     </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-03-29T17:23:45Z" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Testing JJill Application]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]" finished-at="2022-03-29T17:24:32Z" duration-ms="46658">
+  <suite started-at="2022-04-01T16:08:21Z" name="Failed suite [Testing JJill Application]" finished-at="2022-04-01T16:10:39Z" duration-ms="138029">
     <groups>
       <group name="SmokeTest">
+        <method signature="TestCases.verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" name="verifyPaginationFunctionality" class="com.JJill.testcases.TestCases"/>
         <method signature="TestCases.verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" name="verifyShoptheLook" class="com.JJill.testcases.TestCases"/>
       </group> <!-- SmokeTest -->
+      <group name="V9-16X">
+        <method signature="TestCases.verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" name="verifyPaginationFunctionality" class="com.JJill.testcases.TestCases"/>
+      </group> <!-- V9-16X -->
       <group name="Production">
+        <method signature="TestCases.verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" name="verifyPaginationFunctionality" class="com.JJill.testcases.TestCases"/>
         <method signature="TestCases.verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" name="verifyShoptheLook" class="com.JJill.testcases.TestCases"/>
       </group> <!-- Production -->
     </groups>
-    <test started-at="2022-03-29T17:23:45Z" name="Test for the JJill application(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)" finished-at="2022-03-29T17:24:32Z" duration-ms="46658">
+    <test started-at="2022-04-01T16:08:21Z" name="Test for the JJill application(failed)" finished-at="2022-04-01T16:10:39Z" duration-ms="138029">
       <class name="com.JJill.testcases.TestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-03-29T13:23:45Z" name="setup" finished-at="2022-03-29T13:23:51Z" duration-ms="5923" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-04-01T12:08:21Z" name="setup" finished-at="2022-04-01T12:08:30Z" duration-ms="8312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-03-29T13:23:51Z" name="verifyShoptheLook" finished-at="2022-03-29T13:24:31Z" duration-ms="40089" status="FAIL">
+        <test-method signature="verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-04-01T12:08:30Z" name="verifyShoptheLook" finished-at="2022-04-01T12:09:09Z" duration-ms="39771" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div//span[@class='shop-link'])[2]"}
@@ -47,8 +76,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QU1980', ip: '10.0.0.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\NITKHI~1.KUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b73cd7e27a47bad72d2dd991cb0d9a00
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\NITKHI~1.KUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a35531d6b19655442002e7eac220cf6c
 *** Element info: {Using=xpath, value=(//div//span[@class='shop-link'])[2]}]]>
             </message>
             <full-stacktrace>
@@ -58,8 +87,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QU1980', ip: '10.0.0.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\NITKHI~1.KUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b73cd7e27a47bad72d2dd991cb0d9a00
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\NITKHI~1.KUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a35531d6b19655442002e7eac220cf6c
 *** Element info: {Using=xpath, value=(//div//span[@class='shop-link'])[2]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -133,15 +162,51 @@ Session ID: b73cd7e27a47bad72d2dd991cb0d9a00
             </line>
           </reporter-output>
         </test-method> <!-- verifyShoptheLook -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-03-29T13:24:31Z" name="tearDown" finished-at="2022-03-29T13:24:31Z" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-04-01T12:09:09Z" name="tearDown" finished-at="2022-04-01T12:09:10Z" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-03-29T13:24:31Z" name="closeAll" finished-at="2022-03-29T13:24:32Z" duration-ms="345" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-04-01T12:09:10Z" name="setup" finished-at="2022-04-01T12:09:15Z" duration-ms="5606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-04-01T12:09:15Z" name="verifyPaginationFunctionality" finished-at="2022-04-01T12:10:38Z" duration-ms="83089" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPaginationFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-04-01T12:10:38Z" name="tearDown" finished-at="2022-04-01T12:10:39Z" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@2e377400]" started-at="2022-04-01T12:10:39Z" name="closeAll" finished-at="2022-04-01T12:10:39Z" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAll -->
       </class> <!-- com.JJill.testcases.TestCases -->
-    </test> <!-- Test for the JJill application(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Testing JJill Application]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+    </test> <!-- Test for the JJill application(failed) -->
+  </suite> <!-- Failed suite [Testing JJill Application] -->
 </testng-results>
