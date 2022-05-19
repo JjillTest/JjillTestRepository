@@ -1,15 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>JJillTestAutomation</groupId>
 	<artifactId>JJillTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>JJILLTest</name>
-<!-- 	<url>http://www.example.com</url> -->
+	<!-- 	<url>http://www.example.com</url> -->
 	<!-- updated pom-->
- 
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -23,6 +21,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
@@ -106,16 +105,21 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>3.6.2</version>
 			<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>com.twilio.sdk</groupId>
-				<artifactId>twilio</artifactId>
-				<version>8.12.0</version>
-			</dependency>
-			<dependency>
-			    <groupId>com.aventstack</groupId>
-			    <artifactId>extentreports</artifactId>
-			    <version>5.0.3</version>
-			</dependency>
+		</dependency>
+		<dependency>
+			<groupId>com.twilio.sdk</groupId>
+			<artifactId>twilio</artifactId>
+			<version>8.12.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sikulix</groupId>
+			<artifactId>sikulixapi</artifactId>
+			<version>2.0.4</version>
+		</dependency>
 	</dependencies>
 </project>

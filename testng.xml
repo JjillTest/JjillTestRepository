@@ -7,7 +7,7 @@
     <test name="Test for the JJill application">
     <groups>
     <run>
-    <include name='Production'/>
+  <!--  <include name='SmokeTest'/>  -->
 <!-- <include name='h'/> -->
     </run>
     </groups>
@@ -17,12 +17,12 @@
            <!--   <include name="verifyForgotPasswordFunctionality"/>   --> 
               <!--  <include name="verifyPaginationFunctionality"/>  -->
             <!--     <include name="verifyPLPFunctionality"/>   -->
-        <!-- 	  <include name="verifySearchFunctionality"/>  -->
+   <!--    	  <include name="verifySearchFunctionality"/> -->
        <!--   <include name="verifyCompletetheLook"/>  -->  
-   <!--  <include name="verifyShoptheLook"/> -->
+   <include name="verifyShoptheLook"/>
 	<!--      <include name="verifyHeaderFunctionality"/>   -->                                             
      <!--      <include name="verifyMonetateBadging"/>       -->     
-           <!--   <include name="verifyFooterFunctionality"/> --><!--  -->
+     <!--         <include name="verifyFooterFunctionality"/>  -->
           <!--  <include name="verifyPDPFunctionality"/>  -->
     <!--    <include name="verifyQuickLookFunctionality"/> -->
       <!--      Works with staging Environment only

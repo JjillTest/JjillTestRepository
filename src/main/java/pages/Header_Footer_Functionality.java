@@ -178,7 +178,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 		@FindBy(xpath = "	(//h1[contains(text(),'WHO')])[1]")
 		WebElement Footerwhowearepage;
 
-		@FindBy(xpath = "(//a[contains(@href,'compassion')])[5]")
+		@FindBy(xpath = "(//a[contains(@href,'compassion')])[3]")
 		WebElement btn_Footercompassionfund;
 
 		@FindBy(xpath = "(//h1[contains(text(),'Compassion')])[1]")
@@ -454,7 +454,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 			driver.navigate().back();
 			for (int j = 0; j < 5; j++) {
 				jse.executeScript("window.scrollBy(0,1200)");
-				Thread.sleep(20);
+				Thread.sleep(40);
 			}
 		}
 		if (btn_Footeraccessibility.isDisplayed()) {

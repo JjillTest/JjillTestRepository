@@ -29,7 +29,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 
 	// Object Repository
 
-	@FindBy(xpath = "(//div[contains(@id,'product')])[7] /div /div[2] /a/h6")
+	@FindBy(xpath = "(//div[contains(@id,'product')])[8] /div /div[2] /a/h6")
 	WebElement selectitemdescription;
 
 	@FindBy(xpath = "(//span[contains(text(),'Quick Look')])[2]")
@@ -337,7 +337,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		for (int i = 0; i < 5; i++) {
 			Thread.sleep(1000);
 		}
-
 		Assert.assertEquals(ql_txtQuickLook.isDisplayed(), true);
 		Thread.sleep(200);
 		Assert.assertEquals(ql_heroimg.isDisplayed(), true);
@@ -375,7 +374,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		Thread.sleep(50);
 		ql_btnsize.click();
 		Thread.sleep(50);
-		//action.sendKeys(Keys.PAGE_DOWN).build().perform();
+		// action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		Assert.assertEquals(ql_sizeguide.isDisplayed(), true);
 		Thread.sleep(20);
 		ql_sizeguide.click();
@@ -471,7 +470,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			} else
 				continue;
 		}
-		
+
 		//
 		jse.executeScript("window.scrollBy(0,300)");
 		Thread.sleep(500);
@@ -485,22 +484,21 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		Thread.sleep(100);
 
 		return new PDP_QuickLook_Functionality();
-		//return new LoginFunctionality();
-		
+		// return new LoginFunctionality();
 
 	}
 
 	public LoginFunctionality validateBackOrderedFunctionality() throws InterruptedException {
 		Reporter.log("Validating the Backordered Functionality Started", true);
 		Thread.sleep(20);
-		
+
 		txtSearch.click();
 		readValuesForSearch("Search_Data", "BackOrdered");
 		Reporter.log("Enter Sku Data", true);
 		txtSearch.sendKeys(TestBase.testData.get().getSearchData());
 		txtSearch.sendKeys(Keys.ENTER);
 		Thread.sleep(2000);
-		
+
 		//
 		for (int i = 0; i < pdpbtnsizetype.size(); i++) {
 			String SizeType = TestBase.testData.get().getSizeType();
@@ -569,7 +567,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			txtSearch.sendKeys(TestBase.testData.get().getSearchData());
 			Thread.sleep(600);
 			txtSearch.sendKeys(Keys.ENTER);
-		//	searchresults.click();
+			// searchresults.click();
 			Thread.sleep(2000);
 			for (int i = 0; i < pdpbtnsizetype.size(); i++) {
 				String SizeType = TestBase.testData.get().getSizeType();

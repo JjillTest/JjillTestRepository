@@ -1,5 +1,6 @@
 package com.JJill.testcases;
 
+import org.sikuli.script.FindFailed;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -22,7 +23,7 @@ public class TestCases extends TestBase{
 		loginpage=new LoginFunctionality();
 	}
 	
-	@Test(groups={"SmokeTest"}) 
+	@Test() 
 	public void verifyLoginInFunctionality() throws InterruptedException{
 		loginpage.JJill_Login()
 		.ConnectingMethod()
@@ -89,7 +90,7 @@ public class TestCases extends TestBase{
 	}
 	
 	@Test(groups={"SmokeTest","Production"}) 
-	public void verifyShoptheLook() throws InterruptedException{
+	public void verifyShoptheLook() throws InterruptedException, FindFailed{
 		loginpage.JJill_Login()
 		.selectSTLDepartment()
 		.ConnectingMethodLogin_PLP()

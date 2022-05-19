@@ -10,11 +10,16 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
-
 import testbase.TestBase;
 import utilities.ElementOperations;
 import utilities.Utility;
 import java.util.List;
+
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Key;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
 
 public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 
@@ -101,17 +106,17 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 	@FindBy(xpath = "(//span[contains(text(),'View Shopping Bag')])[1]")
 	WebElement btnviewshoppingcart;
 
-	@FindBy(xpath = "(//div//span[@class='shop-link'])[2]")
+	@FindBy(xpath = "(//div//span[@class='shop-link'])[2]/../../div[2]/span")
 	WebElement btnSTL;
 	//*[@id=\"keylooks\"]/div[3]/a/div[2]/span
 	//*[@id="keylooks"]/div[3]/a/div[2]/span
 	//(//div//span[@class='shop-link'])[1]
 	//#keylooks > div:nth-child(3) > a > div.link-wrap.text-right > span
 	
-	@FindBy(xpath = "//div[@class='hidden-xs'] /h3[contains(@class,'sub-head ')]")
+	@FindBy(xpath = "//div[contains(@class,'visible-xs')]/h3[contains(@class,'sub-head marT0')]")
 	WebElement STLdesc;
 
-	@FindBy(xpath = "(//div[contains(@class,'jjill-ratings-list jjill-responsive-ratings')])[2]")
+	@FindBy(xpath = "(//div[contains(@class,'jjill-ratings-star')])[2]")
 	WebElement STLreviews;
 
 	@FindBy(xpath = "(//ul[contains(@aria-label,'Size')])[1]")
@@ -155,10 +160,13 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 
 	@FindBy(xpath = "//h3[contains(text(),'ADDED')]")
 	WebElement txtATBConfirmation;
+	
+Screen s=null;
 
 	public PLP_Search_CLT_STL_Functionality() {
 		PageFactory.initElements(driver, this);
 	}
+	
 
 	public LoginFunctionality validatePlpPage() throws InterruptedException {
 		Reporter.log("Validating the PLP Started", true);
@@ -338,7 +346,7 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 		return new LoginFunctionality();
 	}
 
-	public LoginFunctionality validateSTLPlpPage() throws InterruptedException {
+	public LoginFunctionality validateSTLPlpPage() throws InterruptedException, FindFailed {
 		Reporter.log("Adding STL item to Bag", true);
 		jse.executeScript("window.scrollBy(0,600)");
 		Thread.sleep(1000);
@@ -355,6 +363,12 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 				Thread.sleep(50);
 			}
 		} finally {
+
+			//Handling STL button using sikuli.
+			/*
+			 * s = new Screen(); s.hover(); s.click();
+			 */
+			
 			btnSTL.click();
 			Thread.sleep(10000);
 			Assert.assertEquals(STLdesc.isDisplayed(), true);
