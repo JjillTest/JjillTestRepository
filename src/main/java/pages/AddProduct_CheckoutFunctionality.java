@@ -1,5 +1,7 @@
 package pages;
 
+import java.awt.AWTException;
+import java.awt.Robot;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor;
@@ -30,6 +32,11 @@ public class AddProduct_CheckoutFunctionality extends ElementOperations {
 
 	@FindBy(css = "button[class*='offer-control close']")
 	WebElement btnclose;
+//	
+//	@FindBy(xpath = "(//a[@href='/shop/womens-clothing'])[1]")
+//	WebElement drpClothing;
+	
+	
 	@FindBy(css = "a[class= 'toplevel main-menu-link'][href='/shop/womens-clothing']")
 	WebElement drpClothing;
 
@@ -142,14 +149,14 @@ public class AddProduct_CheckoutFunctionality extends ElementOperations {
 	@FindBy(xpath = "//div[contains(@class,'order-info')] /p/span")
 	WebElement txtOrderNumber;
 
-
+	Robot robot;
 
 	public AddProduct_CheckoutFunctionality() {
 		PageFactory.initElements(driver, this);
 	}
 
 	// Select Department
-	public AddProduct_CheckoutFunctionality selectClothingDepartment() throws InterruptedException {
+	public AddProduct_CheckoutFunctionality selectClothingDepartment() throws InterruptedException, AWTException {
 		Reporter.log("Select the department", true);
 		Thread.sleep(4000);
 		try {
@@ -161,6 +168,14 @@ public class AddProduct_CheckoutFunctionality extends ElementOperations {
 				Thread.sleep(50);
 			}
 		} finally {
+		//	robot = new Robot();
+		//	robot.mouseMove(992,60);
+		//	robot.mousePress(sleephigh);
+		//	action.sendKeys("Hi");
+		//	action.clickAndHold(drpClothing).moveToElement(department_knitTops).click(department_knitTops);		
+			//action.moveToElement(drpClothing).moveToElement(department_knitTops).click().perform();
+		//	action.moveToElement(department_knitTops).perform();
+		//	action.clickAndHold(department_AllClothing).release().perform();
 			action.moveToElement(drpClothing).moveToElement(department_knitTops).click().perform();
 			Thread.sleep(1000);
 			Reporter.log("Selected the department sucessfully", true);

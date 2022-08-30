@@ -67,7 +67,7 @@ public class Pagination_Monetate  extends ElementOperations {
 		 */
 		for (int j = 0; j < i; j++) {
 			try {
-				System.out.println("Hi");
+			//	System.out.println("Hi");
 				if (pagecontent.isDisplayed()) {
 					Thread.sleep(5000);
 					if (btnnexttop.isDisplayed()) {

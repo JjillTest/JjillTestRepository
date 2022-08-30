@@ -7,7 +7,7 @@
     <test name="Test for the JJill application">
     <groups>
     <run>
-  <!--  <include name='SmokeTest'/>  -->
+ <!--  <include name='SmokeTest'/>  -->
 <!-- <include name='h'/> -->
     </run>
     </groups>
@@ -15,11 +15,11 @@
              <class name="com.JJill.testcases.TestCases">
               <methods> 
            <!--   <include name="verifyForgotPasswordFunctionality"/>   --> 
-              <!--  <include name="verifyPaginationFunctionality"/>  -->
+                <include name="verifyPaginationFunctionality"/>  
             <!--     <include name="verifyPLPFunctionality"/>   -->
    <!--    	  <include name="verifySearchFunctionality"/> -->
        <!--   <include name="verifyCompletetheLook"/>  -->  
-   <include name="verifyShoptheLook"/>
+  <!--  <include name="verifyShoptheLook"/> -->
 	<!--      <include name="verifyHeaderFunctionality"/>   -->                                             
      <!--      <include name="verifyMonetateBadging"/>       -->     
      <!--         <include name="verifyFooterFunctionality"/>  -->

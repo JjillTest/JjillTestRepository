@@ -1,5 +1,7 @@
 package com.JJill.testcases;
 
+import java.awt.AWTException;
+
 import org.sikuli.script.FindFailed;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -31,7 +33,7 @@ public class TestCases extends TestBase{
 	}
 //	
 	@Test(groups= {"Staging"})
-	public void verifyCheckoutFunctionality() throws InterruptedException{
+	public void verifyCheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Login()
 		.selectClothingDepartment()
 		.selectItemDetails()
@@ -46,7 +48,7 @@ public class TestCases extends TestBase{
 	}
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
-	public void verifyPDPFunctionality() throws InterruptedException{
+	public void verifyPDPFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Login()
 		.selectClothingDepartment()
 		.ConnectingMethodLogin_PDP()
@@ -117,7 +119,7 @@ public class TestCases extends TestBase{
 	}
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
-	public void verifyPaginationFunctionality() throws InterruptedException{
+	public void verifyPaginationFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Login()
 		.selectClothingDepartment()
 		.ConnectingMethodLogin_Pagination()
@@ -152,7 +154,7 @@ public class TestCases extends TestBase{
 	}
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"},priority=11) 
-	public void verifyQuickLookFunctionality() throws InterruptedException{
+	public void verifyQuickLookFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Login()
 		.selectClothingDepartment()
 		.ConnectingMethodLogin_PDP()

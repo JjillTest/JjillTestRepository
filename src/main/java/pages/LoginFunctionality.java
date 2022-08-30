@@ -128,6 +128,13 @@ public class LoginFunctionality extends ElementOperations {
 		waitforElementVisiblility(btnmyaccount, sleeplow).click();
 		readValuesForLogin("Login_Data", "Login");
 		Reporter.log("Enter Username and Password", true);
+		try {
+			driver.switchTo().frame(promotionbox);
+			btnclose.click();
+			driver.switchTo().parentFrame();
+			Thread.sleep(1000);
+		} 
+		finally {
 		username.sendKeys(TestBase.testData.get().getUserEmail());
 		waitforElementVisiblility(password, sleeplow);
 		password.sendKeys(TestBase.testData.get().getUserPassword());
@@ -137,7 +144,7 @@ public class LoginFunctionality extends ElementOperations {
 		Thread.sleep(500);
 		String title = driver.getTitle();
 		Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
-
+			}
 		return new AddProduct_CheckoutFunctionality();
 	}
 
