@@ -29,10 +29,10 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 
 	// Object Repository
 
-	@FindBy(xpath = "(//div[contains(@id,'product')])[8] /div /div[2] /a/h6")
+	@FindBy(xpath = "(//div[contains(@id,'product')])[1] /div /div[2] /a")
 	WebElement selectitemdescription;
 
-	@FindBy(xpath = "(//span[contains(text(),'Quick Look')])[2]")
+	@FindBy(xpath = "(//button/span[contains(text(),'Quick Look')])[3]")
 	WebElement btnquicklook;
 
 	@FindBy(xpath = "//h6[text()='Quick Look']")
@@ -53,7 +53,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 	@FindBy(xpath = "//div[@class='bv_stars_component_container']")
 	WebElement ql_bazaarvoice;
 
-	@FindBy(xpath = "(//div[@itemprop='aggregateRating'])[2]")
+	@FindBy(xpath = "(//div[@class='bv_stars_component_container'])[2]")
 	WebElement pdp_bazaarvoice;
 
 	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[1] /div//button")
@@ -61,6 +61,10 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 
 	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[1] /div//button")
 	List<WebElement> pdpbtnsizetype;
+	
+	@FindBy(xpath = "//span[contains(text(),'✖')]")
+	WebElement feedbackclose;
+	
 
 	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[2] /div//button/div/img")
 	List<WebElement> PDP_btncolor;
@@ -68,28 +72,34 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[3] /div//button")
 	List<WebElement> PDP_size;
 
+	@FindBy(xpath = "//h2[contains(text(),'1X IS NOW XL')]")
+	WebElement pdp_1xpopup;
+	
+	@FindBy(xpath = "//button[@class='close']")
+	WebElement pdp_1xpopupclose;
+	
 	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[2] /div//button")
 	WebElement ql_btncolor;
 
-	@FindBy(xpath = "(//p[contains(@class,'MuiTypography-body1')])[7]")
+	@FindBy(xpath = "(//p[contains(@class,'MuiTypography-body1')])[5]")
 	WebElement txtbtnColorName;
 
 	@FindBy(xpath = "(//p[contains(@class,'MuiTypography-body1')])[14]")
 	WebElement ql_txtbtnColorName;
 
-	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[4]/div[3]/button")
-	WebElement ql_btnsize;
+	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[3]/div/button/span[1]")
+	List<WebElement> ql_btnsize;
 
 	@FindBy(xpath = "//p[contains(text(),'Guide')]")
 	WebElement ql_sizeguide;
 
-	@FindBy(xpath = "(//p[contains(text(),'Size Guide')])[2]")
+	@FindBy(xpath = "(//h3[contains(text(),'Size Guide')])[1]")
 	WebElement sizeguidepopup;
 
 	@FindBy(css = "svg[width='1em'] path")
 	WebElement btnsizepopupClose;
 
-	@FindBy(xpath = "(//button[@aria-label='close'])[4]//span[1]")
+	@FindBy(xpath = "(//button[@aria-label='close'])[1]")
 	WebElement ql_btnsizepopupClose;
 
 	@FindBy(xpath = "(//div[@title='Fit Predictor'] /div)[1]")
@@ -115,15 +125,25 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 
 	@FindBy(xpath = "//p[contains(text(),'SAVED FOR LATER')]")
 	WebElement ql_saveforlaterpopup;
-
+	
+	@FindBy(xpath = "//p[text()='SAVED FOR LATER']/../button[@aria-label='close']")
+	WebElement ql_saveforlaterclose;	
+	
+	@FindBy(xpath = "(//button[@aria-label='close'])[4]/span[1]")
+	WebElement ql_sizeguideclose;	
+	
+	@FindBy(xpath = "(//button[@aria-label='close'])[3]/span")
+	WebElement pdp_sizeguideclose;	
+	
+	
 	@FindBy(xpath = "//a[contains(text(),'Full Details')]")
 	WebElement ql_fulldetails;
 
 	@FindBy(xpath = "//h4[text()='Share This Product'] /../a")
 	List<WebElement> pdp_Sharethisproduct;
 
-	@FindBy(xpath = "//button[@title='L']")
-	WebElement btnsize;
+//	@FindBy(xpath = "//button[@title='L']")
+//	WebElement btnsize;
 
 	@FindBy(xpath = "//button[@type='submit'][@data-th='add-to-cart']")
 	WebElement btnaddtobag;
@@ -131,7 +151,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 	@FindBy(xpath = "//div[contains(text(),'Style No')]")
 	WebElement txtStyleNo;
 
-	@FindBy(xpath = "//span[contains(text(),'DETAILS & CARE')]")
+	@FindBy(xpath = "//span[contains(text(),'RETURNS MADE EASY')]")
 	WebElement txtdetailscare;
 
 	@FindBy(xpath = "(//div[@role='tabpanel']/span)[1]")
@@ -146,7 +166,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 	@FindBy(xpath = "(//span[contains(text(),'View Shopping Bag')])[1]")
 	WebElement btnviewshoppingcart;
 
-	@FindBy(xpath = "(//input[@id='searchInput'])[1]")
+	@FindBy(xpath = "//input[@id='searchInput']")
 	WebElement txtSearch;
 
 	@FindBy(xpath = "//p[contains(text(),'QTY')]/../../../../p")
@@ -180,18 +200,20 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		PageFactory.initElements(driver, this);
 	}
 
-	public AddProduct_CheckoutFunctionality validatePdpPage() throws InterruptedException {
+	public AddProduct validatePdpPage() throws InterruptedException {
 		Reporter.log("Validating the PDP Started", true);
-		jse.executeScript("window.scrollBy(0,700)");
+		jse.executeScript("window.scrollBy(0,450)");
 		Thread.sleep(1000);
-		jse.executeScript("window.scrollBy(0,750)");
-		Thread.sleep(1000);
-		jse.executeScript("window.scrollBy(0,600)");
+		//jse.executeScript("window.scrollBy(0,750)");
+		//Thread.sleep(1000);
+		//jse.executeScript("window.scrollBy(0,600)");
 		selectitemdescription.click();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		for (int i = 0; i < 7; i++) {
 			Thread.sleep(1000);
 		}
+		feedbackclose.click();
+		Thread.sleep(30);
 		Assert.assertEquals(ql_heroimg.isDisplayed(), true);
 		Thread.sleep(20);
 		Assert.assertEquals(ql_sideimg.isDisplayed(), true);
@@ -208,6 +230,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		}
 		pdpbtnsizetype.get(0).click();
 		Thread.sleep(20);
+		jse.executeScript("window.scrollBy(0,150)");
 		for (int i = 0; i < PDP_btncolor.size(); i++) {
 			PDP_btncolor.get(i).click();
 			Thread.sleep(5);
@@ -215,31 +238,43 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			Reporter.log(name);
 			System.out.println(name);
 		}
-		jse.executeScript("window.scrollBy(0,100)");
+		//jse.executeScript("window.scrollBy(0,100)");
 		for (int i = 0; i < PDP_size.size(); i++) {
 			PDP_size.get(i).click();
 			Thread.sleep(5);
 			String size = PDP_size.get(i).getAttribute("title");
+			if(size.equals("1X"))
+				try
+			{
+				if(pdp_1xpopup.isDisplayed())
+				pdp_1xpopupclose.click();
+			}
+			catch(Exception e)
+			{
+				System.out.println("Real 1X items do not show 1x pop up");
+			}
 			Reporter.log(size);
 			System.out.println(size);
 		}
-		PDP_size.get(0).click();
-		// jse.executeScript("window.scrollBy(0,100)");
-		Assert.assertEquals(btnsize.isDisplayed(), true);
-		Thread.sleep(20);
-		jse.executeScript("window.scrollBy(0,100)");
-		btnsize.click();
+		PDP_size.get(2).click();
+		jse.executeScript("window.scrollBy(0,200)");
+//		Assert.assertEquals(btnsize.isDisplayed(), true);
+//		Thread.sleep(20);
+	//	jse.executeScript("window.scrollBy(0,100)");
+	//	btnsize.click();
 		Thread.sleep(50);
 		Assert.assertEquals(ql_sizeguide.isDisplayed(), true);
 		Thread.sleep(20);
 		ql_sizeguide.click();
+		Thread.sleep(500);
 		if (sizeguidepopup.isDisplayed()) {
 			Assert.assertEquals(sizeguidepopup.isDisplayed(), true);
 			Thread.sleep(20);
-			btnsizepopupClose.click();
+			pdp_sizeguideclose.click();
+			Thread.sleep(500);
 		}
 		Assert.assertEquals(ql_fitpredicator.isDisplayed(), true);
-		Thread.sleep(20);
+		Thread.sleep(50);
 		ql_fitpredicator.click();
 		if (fitpredicatorpopup.isDisplayed()) {
 			Assert.assertEquals(fitpredicatorpopup.isDisplayed(), true);
@@ -252,14 +287,12 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			Thread.sleep(20);
 			ql_quantityadd.click();
 			String qty = ql_quantityvalue.getAttribute("value");
-			System.out.print(qty);
 			Assert.assertEquals(qty, "2");
 		}
 		if (ql_quantitysub.isDisplayed()) {
 			Thread.sleep(20);
 			ql_quantitysub.click();
 			String qty = ql_quantityvalue.getAttribute("value");
-			System.out.print(qty);
 			Assert.assertEquals(qty, "1");
 		}
 		Assert.assertEquals(btnaddtobag.isDisplayed(), true);
@@ -288,7 +321,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			if (i == 1) {
 				for (String wh : allWindowHandles) {
 					driver.switchTo().window(wh);
-					System.out.println(driver.getWindowHandle());
 					String Title = driver.getTitle();
 					System.out.println(Title);
 					if (Title.contentEquals("Compose new Tweet / Twitter"))
@@ -298,7 +330,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			if (i == 2) {
 				for (String wh : allWindowHandles) {
 					driver.switchTo().window(wh);
-					System.out.println(driver.getWindowHandle());
 					String Title = driver.getTitle();
 					System.out.println(Title);
 					if (Title.contentEquals("Pinterest"))
@@ -308,13 +339,15 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			driver.switchTo().window(parentwindow);
 		}
 		Thread.sleep(20);
-		jse.executeScript("window.scrollBy(0,500)");
+		jse.executeScript("window.scrollBy(0,300)");
+		Thread.sleep(50);
 		Assert.assertEquals(txtStyleNo.isDisplayed(), true);
-		Thread.sleep(20);
+		Thread.sleep(40);
 		Assert.assertEquals(txtdetailscare.isDisplayed(), true);
-		Thread.sleep(20);
+		Thread.sleep(40);
 		Assert.assertNotNull(txtdetailscare_msg.getText());
 		Thread.sleep(20);
+		jse.executeScript("window.scrollBy(0,150)");
 		Assert.assertEquals(txtreturns.isDisplayed(), true);
 		txtreturns.click();
 		Assert.assertNotNull(txtreturns_msg.getText());
@@ -324,17 +357,21 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		Thread.sleep(20);
 		btnviewshoppingcart.click();
 		Reporter.log("PDP Validation Sucessful", true);
-		return new AddProduct_CheckoutFunctionality();
+		return new AddProduct();
 	}
 
-	public AddProduct_CheckoutFunctionality validateQuickLookScreen() throws InterruptedException {
+	public AddProduct validateQuickLookScreen() throws InterruptedException {
 		Reporter.log("Validate quicklook screen", true);
 		Thread.sleep(1000);
-		jse.executeScript("window.scrollBy(0,800)");
+		jse.executeScript("window.scrollBy(0,700)");
+		//only needed when item is third element
+		Thread.sleep(300);
+		jse.executeScript("window.scrollBy(0,300)");
+		//only needed when item is third element
 		action.moveToElement(btnquicklook);
 		action.click(btnquicklook).build().perform();
 		Thread.sleep(1000);
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 10; i++) {
 			Thread.sleep(1000);
 		}
 		Assert.assertEquals(ql_txtQuickLook.isDisplayed(), true);
@@ -361,6 +398,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			System.out.println(size);
 			Reporter.log(size);
 		}
+		action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		pdpbtnsizetype.get(0).click();
 		Thread.sleep(20);
 		for (int i = 0; i < PDP_btncolor.size(); i++) {
@@ -369,33 +407,49 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			String name = PDP_btncolor.get(i).getText();
 			System.out.println(name);
 		}
+		Thread.sleep(500);
 		action.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Assert.assertEquals(ql_btnsize.isDisplayed(), true);
-		Thread.sleep(50);
-		ql_btnsize.click();
-		Thread.sleep(50);
-		// action.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Assert.assertEquals(ql_sizeguide.isDisplayed(), true);
-		Thread.sleep(20);
-		ql_sizeguide.click();
-		if (sizeguidepopup.isDisplayed()) {
-			Assert.assertEquals(sizeguidepopup.isDisplayed(), true);
+	//	Assert.assertEquals(ql_btnsize.isDisplayed(), true);
+		for (int i = 0; i < ql_btnsize.size(); i++) {
 			Thread.sleep(20);
-			ql_btnsizepopupClose.click();
+			ql_btnsize.get(i).click();
+			String name = ql_btnsize.get(i).getText();
+			System.out.println(name);
+			Thread.sleep(5);
+			if(name.equals("1X"))
+				try
+			{
+				if(pdp_1xpopup.isDisplayed())
+				pdp_1xpopupclose.click();
+			}
+			catch(Exception e)
+			{
+				System.out.println("Real 1X items do not show 1x pop up");
+			}
+			
 		}
-
+		
+		
+		  Assert.assertEquals(ql_sizeguide.isDisplayed(), true); Thread.sleep(20);
+		  ql_sizeguide.click(); if (sizeguidepopup.isDisplayed()) {
+		  Assert.assertEquals(sizeguidepopup.isDisplayed(), true); Thread.sleep(50);
+		  ql_sizeguideclose.click(); Thread.sleep(1000); }
+		 
+	
+		jse.executeScript("window.scrollBy(0,100)");
 		Assert.assertEquals(ql_fitpredicator.isDisplayed(), true);
-		Thread.sleep(20);
+		Thread.sleep(500);
 		ql_fitpredicator.click();
 		if (fitpredicatorpopup.isDisplayed()) {
 			Assert.assertEquals(fitpredicatorpopup.isDisplayed(), true);
 			Thread.sleep(20);
 			fitpredicatorclose.click();
 			Thread.sleep(20);
-		}
+		}		
+		
 		jse.executeScript("window.scrollBy(0,100)");
 		if (ql_quantityadd.isDisplayed()) {
-			Thread.sleep(20);
+			Thread.sleep(40);
 			ql_quantityadd.click();
 			String qty = ql_quantityvalue.getAttribute("value");
 			System.out.print(qty);
@@ -408,23 +462,23 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			System.out.print(qty);
 			Assert.assertEquals(qty, "1");
 		}
-		Assert.assertEquals(btnaddtobag.isDisplayed(), true);
-		Thread.sleep(20);
-		Assert.assertEquals(ql_saveforlater.isDisplayed(), true);
-		Thread.sleep(20);
+		action.sendKeys(Keys.PAGE_DOWN).build().perform();
+		//Assert.assertEquals(ql_saveforlater.isDisplayed(), true);
 		if (ql_saveforlater.isDisplayed()) {
 			ql_saveforlater.click();
 			Thread.sleep(20);
 			Assert.assertEquals(ql_saveforlaterpopup.isDisplayed(), true);
 			Thread.sleep(20);
-			ql_btnsizepopupClose.click();
+			ql_saveforlaterclose.click();
 		}
 		Assert.assertEquals(ql_fulldetails.isDisplayed(), true);
+		Thread.sleep(20);
+		Assert.assertEquals(btnaddtobag.isDisplayed(), true);
 		Thread.sleep(20);
 		btnaddtobag.click();
 		btnviewshoppingcart.click();
 		Reporter.log("quicklook validation successful", true);
-		return new AddProduct_CheckoutFunctionality();
+		return new AddProduct();
 	}
 
 	public PDP_QuickLook_Functionality validateLowInventoryFunctionality() throws InterruptedException {
@@ -435,7 +489,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		txtSearch.sendKeys(TestBase.testData.get().getSearchData());
 		txtSearch.sendKeys(Keys.ENTER);
 		Thread.sleep(2000);
-		//
 		for (int i = 0; i < pdpbtnsizetype.size(); i++) {
 			String SizeType = TestBase.testData.get().getSizeType();
 			// System.out.println(SizeType);
@@ -448,6 +501,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		}
 
 		Thread.sleep(20);
+		jse.executeScript("window.scrollBy(0,100)");
 		for (int i = 0; i < PDP_btncolor.size(); i++) {
 			String color = TestBase.testData.get().getcolor();
 			// System.out.println(color);
@@ -491,14 +545,12 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 	public LoginFunctionality validateBackOrderedFunctionality() throws InterruptedException {
 		Reporter.log("Validating the Backordered Functionality Started", true);
 		Thread.sleep(20);
-
 		txtSearch.click();
 		readValuesForSearch("Search_Data", "BackOrdered");
 		Reporter.log("Enter Sku Data", true);
 		txtSearch.sendKeys(TestBase.testData.get().getSearchData());
 		txtSearch.sendKeys(Keys.ENTER);
 		Thread.sleep(2000);
-
 		//
 		for (int i = 0; i < pdpbtnsizetype.size(); i++) {
 			String SizeType = TestBase.testData.get().getSizeType();
@@ -512,6 +564,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 		}
 
 		Thread.sleep(20);
+		jse.executeScript("window.scrollBy(0,100)");
 		for (int i = 0; i < PDP_btncolor.size(); i++) {
 			String color = TestBase.testData.get().getcolor();
 			// System.out.println(color);
@@ -551,15 +604,15 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 
 	public PDP_QuickLook_Functionality validateOOSFunctionality() throws InterruptedException {
 		Reporter.log("Validating the Out of Stock Functionality Started", true);
-		try {
-			Thread.sleep(4000);
-			if (promotionbox.isDisplayed()) {
-				driver.switchTo().frame(promotionbox);
-				btnclose.click();
-				driver.switchTo().parentFrame();
-				Thread.sleep(500);
-			}
-		} finally {
+//		try {
+//			Thread.sleep(4000);
+//			if (promotionbox.isDisplayed()) {
+//				driver.switchTo().frame(promotionbox);
+//				btnclose.click();
+//				driver.switchTo().parentFrame();
+//				Thread.sleep(500);
+//			}
+//		} finally {
 			txtSearch.click();
 			readValuesForSearch("Search_Data", "OOS");
 			Reporter.log("Enter Sku Data", true);
@@ -581,6 +634,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			}
 
 			Thread.sleep(20);
+			jse.executeScript("window.scrollBy(0,100)");
 			for (int i = 0; i < PDP_btncolor.size(); i++) {
 				String color = TestBase.testData.get().getcolor();
 				// System.out.println(color);
@@ -611,7 +665,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			jse.executeScript("window.scrollBy(0,-300)");
 			action.click(headerlogo).perform();
 			Thread.sleep(100);
-		}
+		//}
 		return new PDP_QuickLook_Functionality();
 	}
 

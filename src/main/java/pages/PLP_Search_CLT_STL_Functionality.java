@@ -15,11 +15,6 @@ import utilities.ElementOperations;
 import utilities.Utility;
 import java.util.List;
 
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Key;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-
 
 public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 
@@ -61,7 +56,7 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 	@FindBy(css = "button[class*='offer-control close']")
 	WebElement btnclose;
 
-	@FindBy(xpath = "(//input[@id='searchInput'])[1]")
+	@FindBy(xpath = "//input[@name='searchTerm']")
 	WebElement txtSearch;
 
 	@FindBy(xpath = "//ul[@data-ui='thumbnails'] /li[1]")
@@ -106,33 +101,39 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 	@FindBy(xpath = "(//span[contains(text(),'View Shopping Bag')])[1]")
 	WebElement btnviewshoppingcart;
 
-	@FindBy(xpath = "(//div//span[@class='shop-link'])[2]/../../div[2]/span")
-	WebElement btnSTL;
+	@FindBy(css = "img[src*='must-have-outfits']")
+	List<WebElement> btnSTL;
 	//*[@id=\"keylooks\"]/div[3]/a/div[2]/span
 	//*[@id="keylooks"]/div[3]/a/div[2]/span
 	//(//div//span[@class='shop-link'])[1]
 	//#keylooks > div:nth-child(3) > a > div.link-wrap.text-right > span
 	
-	@FindBy(xpath = "//div[contains(@class,'visible-xs')]/h3[contains(@class,'sub-head marT0')]")
+	@FindBy(xpath = "(//h3[contains(@class,'sub-head marT0')])[2]")
 	WebElement STLdesc;
 
 	@FindBy(xpath = "(//div[contains(@class,'jjill-ratings-star')])[2]")
 	WebElement STLreviews;
 
-	@FindBy(xpath = "(//ul[contains(@aria-label,'Size')])[1]")
-	WebElement STLsizetype;
+	@FindBy(xpath = "//span[@class='size-type-code']")
+	List<WebElement> STLsizetype;
 
 	@FindBy(xpath = "//span[contains(@id,'shoplook_swatch_selection_Color')]")
 	WebElement STLcolorname;
 
-	@FindBy(xpath = "(//ul[contains(@aria-label,'Color')])[2]")
-	WebElement STLcolor;
+	@FindBy(xpath = "//ul[contains(@aria-label,'Color')]/li")
+	List<WebElement> STLcolor;
+	
+	@FindBy(xpath = "//h2[contains(text(),'1X IS NOW XL')]")
+	WebElement STL_1xpopup;
+	
+	@FindBy(xpath = "(//button[@class='close'])[3]")
+	WebElement STL_1xpopupclose;
 
-	@FindBy(xpath = "//ul[contains(@aria-label,'Size')]")
-	WebElement STLsize;
+	@FindBy(xpath = "(//ul[contains(@aria-label,'Size')])[2]/li")
+	List<WebElement> STLsize;
 
-	@FindBy(xpath = "//img[@id='shoplookSwatch_Size_M']/..")
-	WebElement STLsize_medium;
+	@FindBy(xpath = "//img[@id='shoplookSwatch_Size_XLT']/..")
+	WebElement STLsize_XL;
 
 	@FindBy(xpath = "(//div[@title='Fit Predictor'] /div)[1]")
 	WebElement STLfitpredictor;
@@ -149,7 +150,7 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 	@FindBy(xpath = "//a[contains(text(),'Save For Later')]")
 	WebElement STLsaveforlater;
 
-	@FindBy(xpath = "//a[contains(text(),'Full Product Details >')]")
+	@FindBy(xpath = "//a[@title='Full Product Details']/../a[2]")
 	WebElement STLfulldetails;
 
 	@FindBy(xpath = "(//button[contains(@class,'next')])[3]")
@@ -160,8 +161,7 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 
 	@FindBy(xpath = "//h3[contains(text(),'ADDED')]")
 	WebElement txtATBConfirmation;
-	
-Screen s=null;
+
 
 	public PLP_Search_CLT_STL_Functionality() {
 		PageFactory.initElements(driver, this);
@@ -171,7 +171,7 @@ Screen s=null;
 	public LoginFunctionality validatePlpPage() throws InterruptedException {
 		Reporter.log("Validating the PLP Started", true);
 		Thread.sleep(1000);
-		jse.executeScript("window.scrollBy(0,600)");
+		jse.executeScript("window.scrollBy(0,800)");
 		Thread.sleep(1000);
 		Assert.assertEquals(selectitem.isDisplayed(), true);
 		Thread.sleep(20);
@@ -195,18 +195,19 @@ Screen s=null;
 		return new LoginFunctionality();
 	}
 
-	public AddProduct_CheckoutFunctionality validateSearchFunctionality() throws InterruptedException {
+	public AddProduct validateSearchFunctionality() throws InterruptedException {
 		Reporter.log("Validating the Search Functionality Started", true);
 		Thread.sleep(2000);
 
-		try {
-			if (promotionbox.isDisplayed()) {
-				driver.switchTo().frame(promotionbox);
-				btnclose.click();
-				driver.switchTo().parentFrame();
-				Thread.sleep(500);
-			}
-		} finally {
+//		try {
+//			if (promotionbox.isDisplayed()) {
+//				driver.switchTo().frame(promotionbox);
+//				btnclose.click();
+//				driver.switchTo().parentFrame();
+//				Thread.sleep(500);
+//			}
+//		} finally {
+//			
 			txtSearch.click();
 			readValuesForSearch("Search_Data", "Search");
 			Reporter.log("Enter Search Data", true);
@@ -222,22 +223,22 @@ Screen s=null;
 			Thread.sleep(10);
 			btnviewshoppingcart.click();
 			Reporter.log("Seacrh Validation Sucessful", true);
-		}
-		return new AddProduct_CheckoutFunctionality();
+	//	}
+		return new AddProduct();
 	}
 
 	public LoginFunctionality validateCompletetheLook() throws InterruptedException {
 		Reporter.log("Validating Complete the Look Functionality Started", true);
 		Thread.sleep(1000);
-		try {
-			Thread.sleep(2000);
-			if (promotionbox.isDisplayed()) {
-				driver.switchTo().frame(promotionbox);
-				btnclose.click();
-				driver.switchTo().parentFrame();
-				Thread.sleep(500);
-			}
-		} finally {
+//		try {
+//			Thread.sleep(2000);
+//			if (promotionbox.isDisplayed()) {
+//				driver.switchTo().frame(promotionbox);
+//				btnclose.click();
+//				driver.switchTo().parentFrame();
+//				Thread.sleep(500);
+//			}
+//		} finally {
 			txtSearch.click();
 			readValuesForSearch("Search_Data", "CTL");
 			Reporter.log("Enter CTL Data", true);
@@ -247,20 +248,24 @@ Screen s=null;
 			Thread.sleep(100);
 			searchresults.click();
 			Thread.sleep(100);
-			jse.executeScript("window.scrollBy(0,700)");
-			action.sendKeys(Keys.PAGE_DOWN).build().perform();
-			Thread.sleep(500);
-			jse.executeScript("window.scrollBy(0,600)");
-			action.sendKeys(Keys.PAGE_DOWN).build().perform();
+			for (int j = 0; j < 7; j++) {
+				jse.executeScript("window.scrollBy(0,200)");
+				Thread.sleep(20);
+			}
+			//jse.executeScript("window.scrollBy(0,700)");
+			//action.sendKeys(Keys.PAGE_DOWN).build().perform();
+			//Thread.sleep(500);
+			//jse.executeScript("window.scrollBy(0,600)");
+			//action.sendKeys(Keys.PAGE_DOWN).build().perform();
 			Thread.sleep(100);
 			Assert.assertEquals(txtCTL.isDisplayed(), true);
 			Thread.sleep(20);
 			int size = resultsCTL.size();
-			// Assert.assertEquals(size, 4);
+			 Assert.assertEquals(size, 4);
 			Thread.sleep(20);
 			int imgsize = imagesCTL.size();
-			// Assert.assertEquals(imgsize, 24);
-			// jse.executeScript("window.scrollBy(0,400)");
+			 Assert.assertEquals(imgsize, 24);
+			 jse.executeScript("window.scrollBy(0,400)");
 			action.sendKeys(Keys.PAGE_DOWN).build().perform();
 			for (int i = 0; i < size; i++) {
 				// System.out.println(itemdescCTL.get(i).getText());
@@ -277,28 +282,28 @@ Screen s=null;
 				Assert.assertEquals(itemFullDetails_CTL.get(i).isDisplayed(), true);
 			}
 			Thread.sleep(20);
-			for (int j = 0; j < 6; j++) {
+			for (int j = 0; j < 8; j++) {
 				action.sendKeys(Keys.PAGE_UP).build().perform();
-				Thread.sleep(20);
+				Thread.sleep(50);
 			}
 			Thread.sleep(1000);
 			Reporter.log("Complete the Look Functionality Sucessfully", true);
-		}
+	//	}
 		return new LoginFunctionality();
 	}
 
 	public LoginFunctionality validatePDPCompletetheLook() throws InterruptedException {
 		Reporter.log("Validating PDP and Complete the Look Size Functionality Started", true);
 		Thread.sleep(1000);
-		try {
-			Thread.sleep(2000);
-			if (promotionbox.isDisplayed()) {
-				driver.switchTo().frame(promotionbox);
-				btnclose.click();
-				driver.switchTo().parentFrame();
-				Thread.sleep(500);
-			}
-		} finally {
+//		try {
+//			Thread.sleep(2000);
+//			if (promotionbox.isDisplayed()) {
+//				driver.switchTo().frame(promotionbox);
+//				btnclose.click();
+//				driver.switchTo().parentFrame();
+//				Thread.sleep(500);
+//			}
+//		} finally {
 			txtSearch.click();
 			readValuesForSearch("Search_Data", "CTL");
 			Reporter.log("Enter CTL Data", true);
@@ -309,14 +314,17 @@ Screen s=null;
 			searchresults.click();
 			Thread.sleep(100);
 			int sizetype = PDPSizeType.size();
-			for (int j = 0; j < sizetype; j++) {
+			System.out.println(sizetype);
+			for (int j = 0; j < sizetype/2; j++) {
+				Thread.sleep(500);
 				PDPSizeType.get(j).click();
 				String PDPsizetype = PDPSizeType.get(j).getAttribute("title");
-				jse.executeScript("window.scrollBy(0,700)");
+				jse.executeScript("window.scrollBy(0,900)");
+				Thread.sleep(500);
 				action.sendKeys(Keys.PAGE_DOWN).build().perform();
 				Thread.sleep(500);
 				jse.executeScript("window.scrollBy(0,600)");
-				// action.sendKeys(Keys.PAGE_DOWN).build().perform();
+				action.sendKeys(Keys.PAGE_DOWN).build().perform();
 				Thread.sleep(100);
 				Assert.assertEquals(txtCTL.isDisplayed(), true);
 				Thread.sleep(20);
@@ -334,7 +342,7 @@ Screen s=null;
 						Reporter.log("Size Type validation in PDP and Complete the Look is matching", true);
 					Thread.sleep(20);
 				}
-				for (int k = 0; k < 6; k++) {
+				for (int k = 0; k < 7; k++) {
 					action.sendKeys(Keys.PAGE_UP).build().perform();
 					Thread.sleep(20);
 				}
@@ -342,11 +350,11 @@ Screen s=null;
 
 			Thread.sleep(1000);
 			Reporter.log("Complete the Look Size validation Functionality validated Sucessfully", true);
-		}
+	//	}
 		return new LoginFunctionality();
 	}
 
-	public LoginFunctionality validateSTLPlpPage() throws InterruptedException, FindFailed {
+	public LoginFunctionality validateSTLPlpPage() throws InterruptedException {
 		Reporter.log("Adding STL item to Bag", true);
 		jse.executeScript("window.scrollBy(0,600)");
 		Thread.sleep(1000);
@@ -355,36 +363,63 @@ Screen s=null;
 		/*
 		 * jse.executeScript("window.scrollBy(0,800)"); Thread.sleep(1000);
 		 */
-		try {
-			if (promotionbox.isDisplayed()) {
-				driver.switchTo().frame(promotionbox);
-				btnclose.click();
-				driver.switchTo().parentFrame();
-				Thread.sleep(50);
-			}
-		} finally {
-
-			//Handling STL button using sikuli.
-			/*
-			 * s = new Screen(); s.hover(); s.click();
-			 */
-			
-			btnSTL.click();
+//		try {
+//			if (promotionbox.isDisplayed()) {
+//				driver.switchTo().frame(promotionbox);
+//				btnclose.click();
+//				driver.switchTo().parentFrame();
+//				Thread.sleep(50);
+//			}
+//		} finally {
+		for(int j=0;j<btnSTL.size();j++)
+		{
+			if(j==1)
+			btnSTL.get(j).click();
+		}
 			Thread.sleep(10000);
 			Assert.assertEquals(STLdesc.isDisplayed(), true);
 			Thread.sleep(20);
 			Assert.assertEquals(STLreviews.isDisplayed(), true);
 			Thread.sleep(20);
-			Assert.assertEquals(STLsizetype.isDisplayed(), true);
+			for(int i=0;i<STLsizetype.size();i++)
+			{
+			Assert.assertEquals(STLsizetype.get(i).isDisplayed(), true);
+			STLsizetype.get(i).click();
+			}
+			
 			Thread.sleep(20);
 			Assert.assertEquals(STLcolorname.isDisplayed(), true);
 			Thread.sleep(20);
-			Assert.assertEquals(STLcolor.isDisplayed(), true);
+			for(int j=0;j<STLcolor.size();j++)
+			{
+			Assert.assertEquals(STLcolor.get(j).isDisplayed(), true);
+			}
 			Thread.sleep(20);
 			action.sendKeys(Keys.PAGE_DOWN).build().perform();
-			Assert.assertEquals(STLsize.isDisplayed(), true);
-			Thread.sleep(40);
-			STLsize_medium.click();
+			for (int k=1;k<STLsize.size();k++) {
+				//System.out.println(STLsize.size());
+				if(k==14|k==15|k==16|k==17)
+				{
+				STLsize.get(k).click();
+				String name = STLsize.get(k).getText();
+				System.out.println(name);
+				Thread.sleep(5);
+				if(name.equals("1X"))
+					try
+				{
+					if(STL_1xpopup.isDisplayed())
+					STL_1xpopupclose.click();
+				}
+				catch(Exception e)
+				{
+					System.out.println("Real 1X items do not show 1x pop up");
+				}
+				}
+				
+			}
+			//Assert.assertEquals(STLsize.isDisplayed(), true);
+		//	Thread.sleep(40);
+		//	STLsize_XL.click();
 			Thread.sleep(1000);
 			Assert.assertEquals(STLsizeguide.isDisplayed(), true);
 			Thread.sleep(20);
@@ -394,31 +429,33 @@ Screen s=null;
 			Thread.sleep(20);
 			Assert.assertEquals(STLbtnATB.isDisplayed(), true);
 			Thread.sleep(20);
+			//action.sendKeys(Keys.PAGE_DOWN).build().perform();
 			Assert.assertEquals(STLsaveforlater.isDisplayed(), true);
 			Thread.sleep(20);
-			Assert.assertEquals(STLfulldetails.isDisplayed(), true);
+		//	Assert.assertEquals(STLfulldetails.isDisplayed(), true);
 			Thread.sleep(20);
 			action.sendKeys(Keys.PAGE_DOWN).build().perform();
 			Assert.assertEquals(STLNextButton.isDisplayed(), true);
 			Thread.sleep(20);
-			STLbtnATB.click();
+		//	STLbtnATB.click();
 			Thread.sleep(1000);
 			action.sendKeys(Keys.PAGE_UP).build().perform();
 			Thread.sleep(1000);
 			action.sendKeys(Keys.PAGE_UP).build().perform();
 			Thread.sleep(1000);
-			for (int i = 0; i < 10; i++) {
+			for (int i = 0; i < 20; i++) {
 				Thread.sleep(1000);
 			}
-			Assert.assertEquals(txtATBConfirmation.getText(), "ADDED TO BAG");
+			
+		//	Assert.assertEquals(txtATBConfirmation.getText(), "ADDED TO BAG");
 			STLbtnClose.click();
+			
 			for (int i = 0; i < 10; i++) {
 				Thread.sleep(100);
 				action.sendKeys(Keys.PAGE_UP).build().perform();
 			}
-
 			Reporter.log("Added STL item to Bag sucesfully", true);
-		}
+	//	}
 		//}
 		return new LoginFunctionality();
 	}

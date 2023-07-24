@@ -7,24 +7,27 @@
     <test name="Test for the JJill application">
     <groups>
     <run>
- <!--  <include name='SmokeTest'/>  -->
+<!-- <include name='Production'/> -->
 <!-- <include name='h'/> -->
     </run>
     </groups>
          <classes>
              <class name="com.JJill.testcases.TestCases">
               <methods> 
+               <include name="verifySearchFunctionality"/>
            <!--   <include name="verifyForgotPasswordFunctionality"/>   --> 
-                <include name="verifyPaginationFunctionality"/>  
-            <!--     <include name="verifyPLPFunctionality"/>   -->
-   <!--    	  <include name="verifySearchFunctionality"/> -->
-       <!--   <include name="verifyCompletetheLook"/>  -->  
-  <!--  <include name="verifyShoptheLook"/> -->
-	<!--      <include name="verifyHeaderFunctionality"/>   -->                                             
-     <!--      <include name="verifyMonetateBadging"/>       -->     
-     <!--         <include name="verifyFooterFunctionality"/>  -->
-          <!--  <include name="verifyPDPFunctionality"/>  -->
-    <!--    <include name="verifyQuickLookFunctionality"/> -->
+            <!--     <include name="verifyPaginationFunctionality"/>    Fixed-->
+           <!--     <include name="verifyPLPFunctionality"/>   Fixed-->
+	<!--   <include name="verifySearchFunctionality"/> Fixed -->
+  <!--   <include name="verifyCompletetheLook"/> Fixed-->
+  <!--	<include name="verifyInventoryData"/> Fixed -->
+  <!--		<include name="verifyPDP_CompletetheLook"/>   Fixed -->
+	<!--		 <include name="verifyShoptheLook"/>  Fixed But Added to Bag message not showing up in chrome-->  
+	<!--      <include name="verifyHeaderFunctionality"/>     Fixed-->                                           
+    <!--	      <include name="verifyMonetateBadging"/>       Fixed-->    
+      <!--        <include name="verifyFooterFunctionality"/>  Fixed--> 
+      <!--     <include name="verifyPDPFunctionality"/> Fixed-->
+ <!--   <include name="verifyQuickLookFunctionality"/> -->
       <!--      Works with staging Environment only
      <include name="verifyCheckoutFunctionality"/>  -->
               </methods> 

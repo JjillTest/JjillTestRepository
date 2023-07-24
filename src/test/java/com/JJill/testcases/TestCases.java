@@ -1,8 +1,6 @@
 package com.JJill.testcases;
 
 import java.awt.AWTException;
-
-import org.sikuli.script.FindFailed;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -27,30 +25,19 @@ public class TestCases extends TestBase{
 	
 	@Test() 
 	public void verifyLoginInFunctionality() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.ConnectingMethod()
 		.JJill_Logout();
 	}
 //	
-	@Test(groups= {"Staging"})
-	public void verifyCheckoutFunctionality() throws InterruptedException, AWTException{
-		loginpage.JJill_Login()
-		.selectClothingDepartment()
-		.selectItemDetails()
-		.checkoutProcess()
-		.savedaddress_paymentPage_addnewJjillCC()
-		//.addnewAddress()
-		//.newaddress_paymentPage_addnewJjillCC()
-		.orderReview_PlaceOrder()
-		.ReviewOrderDetails()
-		.navigateToHomePage()
-		.JJill_Logout();
-	}
+
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
 	public void verifyPDPFunctionality() throws InterruptedException, AWTException{
-		loginpage.JJill_Login()
-		.selectClothingDepartment()
+		loginpage.JJill_Registered_Login()
+		.selectFinalSaleDepartment()
+		//.selectSaleDepartment()
+		//.selectClothingDepartment()
 		.ConnectingMethodLogin_PDP()
 		.validatePdpPage()
 		.navigateToHomePage()
@@ -59,7 +46,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
 	public void verifyPLPFunctionality() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.selectSaleDepartment()
 		.ConnectingMethodLogin_PLP()
 		.validatePlpPage()
@@ -68,7 +55,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"})
 	public void verifySearchFunctionality() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_PLP()
 		.validateSearchFunctionality()
 		.navigateToHomePage()
@@ -77,7 +64,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"})
 	public void verifyCompletetheLook() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_PLP()
 		.validateCompletetheLook()
 		.JJill_Logout();
@@ -85,15 +72,15 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"})
 	public void verifyPDP_CompletetheLook() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_PLP()
 		.validatePDPCompletetheLook()
 		.JJill_Logout();
 	}
 	
 	@Test(groups={"SmokeTest","Production"}) 
-	public void verifyShoptheLook() throws InterruptedException, FindFailed{
-		loginpage.JJill_Login()
+	public void verifyShoptheLook() throws InterruptedException{
+		loginpage.JJill_Registered_Login()
 		.selectSTLDepartment()
 		.ConnectingMethodLogin_PLP()
 		.validateSTLPlpPage()
@@ -102,7 +89,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
 	public void verifyMonetateBadging() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.selectSaleDepartment()
 		.ConnectingMethodLogin_Pagination()
 		.validateMonetateBadging()
@@ -111,7 +98,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest"}) 
 	public void verifyremoveProductsShoppingbag() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.selectshoppingbag()
 		.removeProductsShoppingbag()
 		.navigateToHomePage()
@@ -120,7 +107,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
 	public void verifyPaginationFunctionality() throws InterruptedException, AWTException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.selectClothingDepartment()
 		.ConnectingMethodLogin_Pagination()
 		.selectPaginationOption()
@@ -129,7 +116,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
 	public void verifyHeaderFunctionality() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_Header()
 		.validateHeader()
 		.JJill_Logout();
@@ -137,7 +124,7 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 
 	public void verifyFooterFunctionality() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_Header()
 		.validateFooter()
 		.JJill_Logout();
@@ -145,7 +132,8 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production"},priority=10) 
 	public void verifyInventoryData() throws InterruptedException{
-		loginpage.JJill_Login()
+		loginpage.JJill_Registered_Login()
+		.selectSaleDepartment()
 		.ConnectingMethodLogin_PDP()
 		.validateOOSFunctionality()
 		.validateLowInventoryFunctionality()
@@ -155,20 +143,225 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"},priority=11) 
 	public void verifyQuickLookFunctionality() throws InterruptedException, AWTException{
-		loginpage.JJill_Login()
-		.selectClothingDepartment()
+		loginpage.JJill_Registered_Login()
+		.selectSaleDepartment()
+		//.selectClothingDepartment()
 		.ConnectingMethodLogin_PDP()
 		.validateQuickLookScreen()
 		.navigateToHomePage()
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production"},priority=12) 
+	@Test(groups={"SmokeTest"},priority=12) 
 	public void verifyForgotPasswordFunctionality() throws InterruptedException{
 		loginpage.
 		JJillLogin_ForgotPassword()
 		.JJill_ValidateForgotPassword_Yahoo();
 	}
+	
+	//Staging
+//	@Test(groups= {"Staging"})
+//	public void verifyCheckoutFunctionality() throws InterruptedException, AWTException{
+//		loginpage.JJill_Login()
+//		.selectClothingDepartment()
+//		.selectItemDetails()
+//		.checkoutProcess()
+//		.savedaddress_paymentPage_addnewJjillCC()
+//		//.addnewAddress()
+//		//.newaddress_paymentPage_addnewJjillCC()
+//		.orderReview_PlaceOrder()
+//		.ReviewOrderDetails()
+//		.navigateToHomePage()
+//		.JJill_Logout();
+//	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Guest_MajorCC_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_GuestLogin()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.checkoutProcess()
+		.proceedtocheckoutasGuest()
+		.addAddress()
+		.enterMajorCCPaymentDetails()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_GuestLogout();
+	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_Registered_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.Registered_checkoutProcess()
+		.savedaddress_paymentPage()
+//		.proceedtocheckoutasGuest()
+	//	.addAddress()
+		.existingSavedCard_clickAddnewCreditCardLink()
+		.Registered_enterMajorCCPaymentDetails()
+		.clickProceedOrderReview()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_Logout();
+	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_Registered_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.Registered_checkoutProcess()
+		.savedaddress_paymentPage()
+//		.proceedtocheckoutasGuest()
+	//	.addAddress()
+		.existingSavedCard_clickAddnewCreditCardLink()
+		.Registered_enterJJCCPaymentDetails()
+		.clickProceedOrderReview()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_Logout();
+	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_Registered_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.Registered_checkoutProcess()
+		.savedaddress_paymentPage()
+//		.proceedtocheckoutasGuest()
+	//	.addAddress()
+		.registered_enterFullGiftcardasPaymentDetails()
+		.clickProceedOrderReview()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_Logout();
+	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_Registered_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.Registered_checkoutProcess()
+		.savedaddress_paymentPage()
+		.registered_enterPartialGiftcardasPaymentDetails()
+		.existingSavedCard_clickAddnewCreditCardLink()
+		.Registered_enterJJCCPaymentDetails()
+		.clickProceedOrderReview()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_Logout();
+	}
+	
+
+	
+	@Test(groups= {"Staging"})
+	public void verify_Guest_GiftcardasPayment_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_GuestLogin()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.checkoutProcess()
+		.proceedtocheckoutasGuest()
+		.addAddress()
+		.enterFullGiftcardasPaymentDetails()
+		//.newaddress_paymentPage_addnewJjillCC()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_GuestLogout();
+	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_GuestLogin()
+//		loginpage.JJill_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.checkoutProcess()
+		.proceedtocheckoutasGuest()
+		//.savedaddress_paymentPage_addnewJjillCC();
+		.addAddress()
+		.enterPartialGiftcardasPaymentDetails()
+		.enterMajorCCPaymentDetails()
+//		//.newaddress_paymentPage_addnewJjillCC()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_GuestLogout();
+	}
+	
+	
+	@Test(groups= {"Staging"})
+	public void verify_Guest_JJCCPayment_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_GuestLogin()
+//		loginpage.JJill_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.checkoutProcess()
+		.proceedtocheckoutasGuest()
+		//.savedaddress_paymentPage_addnewJjillCC();
+		.addAddress()
+	//	.enterGiftcardasPaymentDetails()
+		.enterJJCCPaymentDetails()
+		//.enterMajorCCPaymentDetails()
+//		//.newaddress_paymentPage_addnewJjillCC()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_GuestLogout();
+	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_GuestLogin()
+//		loginpage.JJill_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.checkoutProcess()
+		.proceedtocheckoutasGuest()
+		//.savedaddress_paymentPage_addnewJjillCC();
+		.addAddress()
+	//	.enterGiftcardasPaymentDetails()
+		.enterPaypalfromPaymentpage()
+		//.enterMajorCCPaymentDetails()
+//		//.newaddress_paymentPage_addnewJjillCC()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_GuestLogout();
+	}
+	
+	@Test(groups= {"Staging"})
+	public void verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality() throws InterruptedException, AWTException{
+		loginpage.JJill_GuestLogin()
+//		loginpage.JJill_Login()
+		.selectClothingDepartment()
+		.selectItemDetails()
+		.paypalfromShoppingBag()
+		//.checkoutProcess()
+		.proceedtocheckoutasGuest()
+		//.savedaddress_paymentPage_addnewJjillCC();
+		.addAddress()
+	//	.enterGiftcardasPaymentDetails()
+		.enterPaypalfromPaymentpage()
+		//.enterMajorCCPaymentDetails()
+//		//.newaddress_paymentPage_addnewJjillCC()
+		.orderReview_PlaceOrder()
+		.ReviewOrderDetails()
+		.navigateToHomePage()
+		.JJill_GuestLogout();
+	}
+	
+	
+	
+	
 	
 	@AfterMethod(alwaysRun=true)
 	public void tearDown() {

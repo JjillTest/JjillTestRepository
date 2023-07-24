@@ -11,7 +11,7 @@
           <include name="setup"/>
           <include name="closeAll"/>
           <include name="tearDown"/>
-          <include name="verifyPaginationFunctionality"/>
+          <include name="verifySearchFunctionality"/>
         </methods>
       </class> <!-- com.JJill.testcases.TestCases -->
     </classes>

@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Testing_JJill_Application">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Testing_JJill_Application" title="com.JJill.testcases.TestCases" class="method navigator-link" hash-for-method="verifyPaginationFunctionality">verifyPaginationFunctionality</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Testing_JJill_Application" title="com.JJill.testcases.TestCases" class="method navigator-link" hash-for-method="verifySearchFunctionality">verifySearchFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Testing_JJill_Application -->
@@ -125,73 +125,29 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyPaginationFunctionality">
-                  </a> <!-- verifyPaginationFunctionality -->
-                  <span class="method-name">verifyPaginationFunctionality</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+                  <a name="verifySearchFunctionality">
+                  </a> <!-- verifySearchFunctionality -->
+                  <span class="method-name">verifySearchFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-outlined jss486 jss298 jss297 jss301 undefined jss490&quot; tabindex=&quot;0&quot; type=&quot;button&quot; title=&quot;L&quot;&gt;...&lt;/button&gt; is not clickable at point (995, 527). Other element would receive the click: &lt;iframe id=&quot;fcopt-offer-78164-content&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;100%&quot; scrolling=&quot;no&quot; title=&quot;Click here to sign up for J.Jill emails and take $50 off your first purchase of $150&quot; src=&quot;https://api.securedvisit.com/lightbox/client/0043_00511/?fp=42a72dbe9936c1f5ccce1aa8e4951f08&amp;amp;m=form&amp;amp;form_id=78164&amp;amp;promo_id=6766&amp;amp;v=1689772370679&quot; style=&quot;overflow: hidden;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=114.0.5735.199)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QU1980&apos;, ip: &apos;192.168.68.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-	at pages.AddProduct_CheckoutFunctionality.selectClothingDepartment(AddProduct_CheckoutFunctionality.java:179)
-	at com.JJill.testcases.TestCases.verifyPaginationFunctionality(TestCases.java:124)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QU1980&apos;, ip: &apos;192.168.68.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-		at org.openqa.selenium.json.Json.toJson(Json.java:44)
-		... 35 more
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-	... 47 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[class= &apos;toplevel main-menu-link&apos;][href=&apos;/shop/womens-clothing&apos;]&quot;}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QU1980&apos;, ip: &apos;192.168.68.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+System info: host: &apos;QU1980&apos;, ip: &apos;192.168.254.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\NITKHI~1.KUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3c4bcd43c03f844c9d4e30a77f4dbbe
-*** Element info: {Using=css selector, value=a[class= &apos;toplevel main-menu-link&apos;][href=&apos;/shop/womens-clothing&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\NITKHI~1.KUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 791900798b11203e807d07aca1b71018
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-	... 52 more
-... Removed 35 stack frames
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.PLP_Search_CLT_STL_Functionality.validateSearchFunctionality(PLP_Search_CLT_STL_Functionality.java:219)
+	at com.JJill.testcases.TestCases.verifySearchFunctionality(TestCases.java:60)
+... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -214,7 +170,7 @@ Session ID: c3c4bcd43c03f844c9d4e30a77f4dbbe
     &lt;classes&gt;
       &lt;class name=&quot;com.JJill.testcases.TestCases&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;verifyPaginationFunctionality&quot;/&gt;
+          &lt;include name=&quot;verifySearchFunctionality&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.JJill.testcases.TestCases --&gt;
     &lt;/classes&gt;
@@ -244,7 +200,7 @@ Session ID: c3c4bcd43c03f844c9d4e30a77f4dbbe
               <span class="test-group-name">Production</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyPaginationFunctionality</span>
+                <span class="method-in-group-name">verifySearchFunctionality</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -252,7 +208,7 @@ Session ID: c3c4bcd43c03f844c9d4e30a77f4dbbe
               <span class="test-group-name">SmokeTest</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyPaginationFunctionality</span>
+                <span class="method-in-group-name">verifySearchFunctionality</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -260,7 +216,7 @@ Session ID: c3c4bcd43c03f844c9d4e30a77f4dbbe
               <span class="test-group-name">V9-16X</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyPaginationFunctionality</span>
+                <span class="method-in-group-name">verifySearchFunctionality</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -282,14 +238,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPaginationFunctionality')
+data.setCell(0, 1, 'verifySearchFunctionality')
 data.setCell(0, 2, 'com.JJill.testcases.TestCases')
-data.setCell(0, 3, 34578);
+data.setCell(0, 3, 54718);
 window.suiteTableData['Testing_JJill_Application']= { tableData: data, tableDiv: 'times-div-Testing_JJill_Application'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
               <div id="times-div-Testing_JJill_Application">
               </div> <!-- times-div-Testing_JJill_Application -->
             </div> <!-- times-div -->
@@ -301,38 +257,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPaginationFunctionality</span>
+              <span class="reporter-method-name">verifySearchFunctionality</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Fetch the useremail and password from the test data sheet and set it</span>
                 <span class="reporter-method-output">Fetched the useremail and password from the test data sheet successfully</span>
                 <span class="reporter-method-output">Enter Username and Password</span>
                 <span class="reporter-method-output">Login Successful</span>
-                <span class="reporter-method-output">Select the department</span>
+                <span class="reporter-method-output">Validating the Search Functionality Started</span>
+                <span class="reporter-method-output">Fetch the search data</span>
+                <span class="reporter-method-output">Fetched search data from the test data sheet successfully</span>
+                <span class="reporter-method-output">Enter Search Data</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Testing_JJill_Application" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">15 ignored methods</span>
+            <span class="header-content">24 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.JJill.testcases.TestCases</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_Guest_GiftcardasPayment_CheckoutFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verify_Guest_JJCCPayment_CheckoutFunctionality</span>
+                <br/>
                 <span class="ignored-method-name">verifyPLPFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyShoptheLook</span>
-                <br/>
-                <span class="ignored-method-name">verifySearchFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyFooterFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyLoginInFunctionality</span>
                 <br/>
-                <span class="ignored-method-name">verifyCheckoutFunctionality</span>
+                <span class="ignored-method-name">verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyPDP_CompletetheLook</span>
+                <br/>
+                <span class="ignored-method-name">verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyHeaderFunctionality</span>
                 <br/>
@@ -342,13 +315,17 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyForgotPasswordFunctionality</span>
                 <br/>
+                <span class="ignored-method-name">verifyInventoryData</span>
+                <br/>
                 <span class="ignored-method-name">verifyPDPFunctionality</span>
                 <br/>
-                <span class="ignored-method-name">verifyInventoryData</span>
+                <span class="ignored-method-name">verify_Guest_MajorCC_CheckoutFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyCompletetheLook</span>
                 <br/>
                 <span class="ignored-method-name">verifyremoveProductsShoppingbag</span>
+                <br/>
+                <span class="ignored-method-name">verifyPaginationFunctionality</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -368,16 +345,16 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyPaginationFunctionality</span>
-                <span class="method-start">7138 ms</span>
+                <span class="method-name">verifySearchFunctionality</span>
+                <span class="method-start">15796 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41729 ms</span>
+                <span class="method-start">70536 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">closeAll</span>
-                <span class="method-start">42163 ms</span>
+                <span class="method-start">71267 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

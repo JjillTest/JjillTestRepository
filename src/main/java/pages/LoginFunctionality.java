@@ -23,8 +23,7 @@ public class LoginFunctionality extends ElementOperations {
 
 	WebDriverWait expwait = new WebDriverWait(driver, sleephigh);
 	static Utility util = new Utility();
-	TestBase testbase= new TestBase();
-	
+	TestBase testbase = new TestBase();
 
 	// Object Repository
 	@FindBy(xpath = "(//button[@type='button'])[3]//span[contains(text(),'my account')]")
@@ -38,13 +37,13 @@ public class LoginFunctionality extends ElementOperations {
 
 	@FindBy(xpath = "//a[contains(@href,'forget')]")
 	WebElement btnforgotpassword;
-	
+
 	@FindBy(xpath = "//button[@data-provider='google']")
 	WebElement btn_slackgoogle;
 
 	@FindBy(xpath = "//a[@alt='Sign in']")
 	WebElement yahoo_signin;
-	
+
 	@FindBy(xpath = "//input[@name='username']")
 	WebElement yahoo_username;
 
@@ -53,25 +52,25 @@ public class LoginFunctionality extends ElementOperations {
 
 	@FindBy(xpath = "//input[@value='Next']")
 	WebElement yahoo_nextbtnemail;
-	
+
 	@FindBy(xpath = "//button[@value='Next']")
 	WebElement yahoo_nextbtnpwd;
 
 	@FindBy(xpath = "(//span[@data-test-id='message-subject'])[1]")
 	WebElement yahoo_subject;
-	
+
 	@FindBy(xpath = "//a[contains(@href,'ResetPasswordForm')]")
 	WebElement yahoo_Resetlink;
-	
+
 	@FindBy(xpath = "//input[@id='logonPassword']")
 	WebElement newpassword;
-	
+
 	@FindBy(xpath = "//input[@id='logonPasswordVerify']")
 	WebElement confirmpassword;
 
 	@FindBy(xpath = "//div[contains(text(),'Submit')]")
 	WebElement btnSubmit;
-	
+
 	@FindBy(xpath = "//b[contains(text(),'reset')]")
 	WebElement txtresetsucessful;
 
@@ -81,7 +80,7 @@ public class LoginFunctionality extends ElementOperations {
 	@FindBy(xpath = "//p[@id='logonPassword_error']")
 	WebElement msgerror;
 
-	//span[@class="error_msg"]
+	// span[@class="error_msg"]
 	@FindBy(css = "p#successMessagePara")
 	WebElement resetlinkmessage;
 
@@ -91,7 +90,7 @@ public class LoginFunctionality extends ElementOperations {
 	@FindBy(xpath = "//button[@type='submit']//span[contains(text(),'Sign In')]")
 	WebElement btnsignin;
 
-	@FindBy(xpath = "//button[@name='profile-button']")
+	@FindBy(xpath = "//button[@name='profile-button']/span")
 	WebElement btnaccount;
 
 	@FindBy(xpath = "//span[@class='signin-user']")
@@ -106,9 +105,9 @@ public class LoginFunctionality extends ElementOperations {
 	@FindBy(xpath = "//iframe[@frameborder='0']")
 	WebElement promotionbox;
 
-	@FindBy(xpath = "//span[contains(text(),'x')]")
+	@FindBy(xpath = "//span[contains(text(),'X')]")
 	WebElement btnclose;
-	
+
 	@FindBy(xpath = "//span[contains(text(),'✖')]")
 	WebElement btnfeedbackclose;
 
@@ -117,37 +116,67 @@ public class LoginFunctionality extends ElementOperations {
 
 	private int sleeplow;
 	Actions action = new Actions(driver);
-	JavascriptExecutor jse = (JavascriptExecutor)driver;
+	JavascriptExecutor jse = (JavascriptExecutor) driver;
 
 	public LoginFunctionality() {
 		PageFactory.initElements(driver, this);
 	}
 
-	public AddProduct_CheckoutFunctionality JJill_Login() throws InterruptedException {
+	public AddProduct JJill_Registered_Login() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		waitforElementVisiblility(btnmyaccount, sleeplow).click();
 		readValuesForLogin("Login_Data", "Login");
 		Reporter.log("Enter Username and Password", true);
+		Thread.sleep(1000);
+		try {
+			driver.switchTo().frame(promotionbox);
+			btnclose.click();
+			driver.switchTo().parentFrame();
+			Thread.sleep(1000);			
+		}		
+		 catch (Exception e) 
+		{}
+		finally {
+			
+			username.sendKeys(TestBase.testData.get().getUserEmail());
+			waitforElementVisiblility(password, sleeplow);
+			password.sendKeys(TestBase.testData.get().getUserPassword());
+			waitforElementVisiblility(btnsignin, sleeplow);
+			btnsignin.click();
+			Reporter.log("Login Successful", true);
+			Thread.sleep(500);
+			String title = driver.getTitle();
+			Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
+			}	
+		return new AddProduct();
+	}
+
+	public AddProduct JJill_GuestLogin() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//		waitforElementVisiblility(btnmyaccount, sleeplow).click();
+//		readValuesForLogin("Login_Data", "Login");
+//		Reporter.log("Enter Username and Password", true);
+		
 		try {
 			driver.switchTo().frame(promotionbox);
 			btnclose.click();
 			driver.switchTo().parentFrame();
 			Thread.sleep(1000);
-		} 
-		finally {
-		username.sendKeys(TestBase.testData.get().getUserEmail());
-		waitforElementVisiblility(password, sleeplow);
-		password.sendKeys(TestBase.testData.get().getUserPassword());
-		waitforElementVisiblility(btnsignin, sleeplow);
-		btnsignin.click();
-		Reporter.log("Login Successful", true);
-		Thread.sleep(500);
-		String title = driver.getTitle();
-		Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
-			}
-		return new AddProduct_CheckoutFunctionality();
+		} finally {
+//			username.sendKeys(TestBase.testData.get().getUserEmail());
+//			waitforElementVisiblility(password, sleeplow);
+//			password.sendKeys(TestBase.testData.get().getUserPassword());
+//			waitforElementVisiblility(btnsignin, sleeplow);
+//			btnsignin.click();
+//			Reporter.log("Login Successful", true);
+//			Thread.sleep(500);
+			String title = driver.getTitle();
+			Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
+		}
+		return new AddProduct();
 	}
 
+	
 	public LoginFunctionality JJillLogin_ForgotPassword() {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		waitforElementVisiblility(btnmyaccount, sleeplow).click();
@@ -166,86 +195,75 @@ public class LoginFunctionality extends ElementOperations {
 		return new LoginFunctionality();
 	}
 
-	
-	  public LoginFunctionality JJill_ValidateForgotPassword_Yahoo() throws
-	  InterruptedException { driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-	  Reporter.log("Logging into Yahoo mail to check the Forgot Password email",true);
-	  Thread.sleep(500000); 
-	  driver.get("https://login.yahoo.com/?.src=ym&pspid=1197806870&activity=header-signin&.lang=en-US&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2Fd");
-	 // yahoo_signin.click();
-	  readValuesForLogin("Login_Data", "ForgotPassword");
-	  Reporter.log("Enter Username and Password",true);
-	  yahoo_username.sendKeys(TestBase.testData.get().getUserEmail());
-	  yahoo_nextbtnemail.click();
-	  Thread.sleep(300);
-	  yahoo_password.sendKeys(TestBase.testData.get().getUserPassword());
-	  yahoo_nextbtnpwd.click(); 
-	  Thread.sleep(20);	  
-	  Reporter.log("Logged into yahoo mail sucessfully",true);
-	 String subject= yahoo_subject.getText();
-	 for(int i=0;1<3;i++)
-	 {
-	  if(subject.contentEquals("MyAccount Forgot Password"))
-	  {
-		  yahoo_subject.click();
-		  break;
-	  }
-	  else
-	  {
-		  Thread.sleep(500000);
-	  }
-	 }
-	 action.sendKeys(Keys.PAGE_DOWN).build().perform();
-	 Thread.sleep(200);
-	 yahoo_Resetlink.click();
-	 String parentwindow= driver.getWindowHandle();
-		Set<String> allWindowHandles = driver.getWindowHandles(); 
-		for(String wh:allWindowHandles)
-		{
+	public LoginFunctionality JJill_ValidateForgotPassword_Yahoo() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		Reporter.log("Logging into Yahoo mail to check the Forgot Password email", true);
+		Thread.sleep(500000);
+		driver.get(
+				"https://login.yahoo.com/?.src=ym&pspid=1197806870&activity=header-signin&.lang=en-US&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2Fd");
+		// yahoo_signin.click();
+		readValuesForLogin("Login_Data", "ForgotPassword");
+		Reporter.log("Enter Username and Password", true);
+		yahoo_username.sendKeys(TestBase.testData.get().getUserEmail());
+		yahoo_nextbtnemail.click();
+		Thread.sleep(300);
+		yahoo_password.sendKeys(TestBase.testData.get().getUserPassword());
+		yahoo_nextbtnpwd.click();
+		Thread.sleep(20);
+		Reporter.log("Logged into yahoo mail sucessfully", true);
+		String subject = yahoo_subject.getText();
+		for (int i = 0; 1 < 3; i++) {
+			if (subject.contentEquals("MyAccount Forgot Password")) {
+				yahoo_subject.click();
+				break;
+			} else {
+				Thread.sleep(500000);
+			}
+		}
+		action.sendKeys(Keys.PAGE_DOWN).build().perform();
+		Thread.sleep(200);
+		yahoo_Resetlink.click();
+		String parentwindow = driver.getWindowHandle();
+		Set<String> allWindowHandles = driver.getWindowHandles();
+		for (String wh : allWindowHandles) {
 			driver.switchTo().window(wh);
-			String title= driver.getTitle();
+			String title = driver.getTitle();
 			System.out.println(title);
-			
-			if(title.contentEquals("Password"))
-			{
-				String random= testbase.generateRandomPassword(14); 
+
+			if (title.contentEquals("Password")) {
+				String random = testbase.generateRandomPassword(14);
 				System.out.println(random);
 				newpassword.sendKeys(random);
 				confirmpassword.sendKeys(random);
 				btnSubmit.click();
-				try 
-				{
-				if(msgerror.isDisplayed())
-				{
-					String random1= testbase.generateRandomPassword(14); 
-					System.out.println(random1);
-					newpassword.clear();
-					newpassword.sendKeys(random1);
-					confirmpassword.clear();
-					confirmpassword.sendKeys(random1);
-					btnSubmit.click();
-				}
-				}
-				catch(Exception e)
-				{
+				try {
+					if (msgerror.isDisplayed()) {
+						String random1 = testbase.generateRandomPassword(14);
+						System.out.println(random1);
+						newpassword.clear();
+						newpassword.sendKeys(random1);
+						confirmpassword.clear();
+						confirmpassword.sendKeys(random1);
+						btnSubmit.click();
+					}
+				} catch (Exception e) {
 					break;
 				}
 			}
-			
+
 		}
 		Assert.assertEquals(txtresetsucessful.isDisplayed(), true);
 		Thread.sleep(20);
 		driver.close();
 		driver.switchTo().window(parentwindow);
 		Thread.sleep(20);
-	  return new LoginFunctionality(); 
-	  }
-	 
+		return new LoginFunctionality();
+	}
 
 	public LoginFunctionality JJill_Logout() throws InterruptedException {
 		Reporter.log("Logging out of application", true);
 		Thread.sleep(1000);
-		/*try {
+	try {
 				btnfeedbackclose.click();
 		}
 		catch(Exception e)
@@ -253,13 +271,20 @@ public class LoginFunctionality extends ElementOperations {
 		System.out.println(e);
 		}
 		finally
-		{*/
+		{
 		btnaccount.click();
 		Thread.sleep(500);
 		btnLogout.click();
 		Reporter.log("Logout successful", true);
-		//}
-		return new LoginFunctionality();
+		}
+	return new LoginFunctionality();
+
+	}
+	
+	public LoginFunctionality JJill_GuestLogout() throws InterruptedException {
+		Reporter.log("Logging out of application", true);
+		Reporter.log("Logout successful", true);
+	return new LoginFunctionality();
 	}
 
 	public LoginFunctionality JJill_STLLogout() throws InterruptedException {
@@ -273,6 +298,7 @@ public class LoginFunctionality extends ElementOperations {
 		Reporter.log("Logout of STL is successful", true);
 		return new LoginFunctionality();
 	}
+	
 
 	public static void readValuesForLogin(String sheetName, String scenario) {
 		Reporter.log("Fetch the useremail and password from the test data sheet and set it", true);
@@ -281,8 +307,5 @@ public class LoginFunctionality extends ElementOperations {
 		Reporter.log("Fetched the useremail and password from the test data sheet successfully", true);
 
 	}
-	
-	
-	
 
 }

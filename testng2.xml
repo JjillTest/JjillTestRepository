@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing JJill Application">
+<listeners>
+<listener class-name="extentReportListener.ExtentReportNG"/>
+</listeners>
+    <test name="Test for the JJill application">
+    <groups>
+    <run>
+ <!-- <include name='Production'/> -->
+<!-- <include name='h'/> -->
+    </run>
+    </groups>
+         <classes>
+             <class name="com.JJill.testcases.TestCases">
+              <methods> 
+ <!-- Working -->
+<!--  <include name="verify_Guest_MajorCC_CheckoutFunctionality"/> -->
+  <!--  <include name="verify_Guest_GiftcardasPayment_CheckoutFunctionality"/> -->
+   <!--   <include name="verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality"/> -->
+ <!--  <include name="verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality"/>  -->
+ <!--  <include name="verify_Guest_JJCCPayment_CheckoutFunctionality"/> -->
+   <!--  <include name="verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality"/>  -->
+ <!--  <include name="verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality"/> -->
+<!--  <include name="verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality"/> -->
+
+<include name="verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality"/> 
+
+ <!-- 
+  <include name="verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality"/> 
+Guest – buying E-Gift Card + PayPal from Shopping bag
+Guest – buying E-Gift Card + PayPal from the Payment Page
+Guest – Split Tender: PayPal (payment page) + Gift Card
+Registered- Paypal from shopping bag
+Registered- Paypal from Payment
+Registered- Split tender Gift Card+JJCC
+
+-->
+      
+     
+              </methods> 
+             </class>
+          </classes>
+     </test>
+	</suite>

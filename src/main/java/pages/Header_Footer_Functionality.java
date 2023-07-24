@@ -52,7 +52,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 	@FindBy(xpath = "(//div[contains(@id,'Collections')] /div/a)[1]")
 		WebElement btn_headerinspiration;
 
-		@FindBy(xpath = "//li[contains(text(),'Inspiration')]")
+		@FindBy(xpath = "//li[contains(text(),'Community Hub')]")
 		WebElement inspirationbreadcrumbs;
 
 		@FindBy(xpath = "(//div[contains(@id,'Sale')] /div/a)[1]")
@@ -96,7 +96,16 @@ public class Header_Footer_Functionality extends ElementOperations {
 
 		@FindBy(xpath = "//a[contains(text(),'email')]")
 		WebElement btn_FooterEmailus;
+		
+		@FindBy(xpath = "//button[@aria-label='Send Message']")
+		WebElement btn_emailIcon;
+		
+		@FindBy(xpath = "//button[@aria-label='Chat Now']")
+		WebElement btn_ChatIcon;
 
+		@FindBy(xpath = "//button[@aria-label='CXone Guide']")
+		WebElement btn_BellIcon;
+				
 		@FindBy(xpath = "//button[@type='button'][@aria-label='Send Message']")
 		WebElement btn_emailus;
 
@@ -151,10 +160,10 @@ public class Header_Footer_Functionality extends ElementOperations {
 		@FindBy(xpath = "//h1[contains(text(),'Returns')]")
 		WebElement FooterReturnspage;
 
-		@FindBy(xpath = "(//a[contains(@href,'perfect-fit')])[1]")
+		@FindBy(xpath = "(//a[contains(@href,'perfect-fit')])[2]")
 		WebElement btn_FooterSizeGuide;
 
-		@FindBy(xpath = "(//h1[contains(text(),'FIT')])[1]")
+		@FindBy(xpath = "//h2[contains(text(),'Style')]")
 		WebElement FooterSizeGuidepage;
 
 		@FindBy(xpath = "(//a[contains(@href,'coupons')])[1]")
@@ -184,7 +193,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 		@FindBy(xpath = "(//h1[contains(text(),'Compassion')])[1]")
 		WebElement Footercompassionfundpage;
 
-		@FindBy(xpath = "(//a[contains(@href,'perfect-fit')])[2]")
+		@FindBy(xpath = "(//a[contains(@href,'perfect-fit')])[3]")
 		WebElement btn_Footerperfectfit;
 
 		@FindBy(xpath = "(//a[contains(@href,'jobs')])[1]")
@@ -229,7 +238,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 		@FindBy(xpath = "(//h1[contains(text(),'Card')])[1]")
 		WebElement Footergiftservicespage;
 
-		@FindBy(xpath = "(//a[contains(@href,'creditcard')])[1]")
+		@FindBy(xpath = "(//a[contains(@href,'credit-card')])[1]")
 		WebElement btn_Footerlearnmore;
 
 		@FindBy(xpath = "(//a[contains(@href,'applynow')])[1]")
@@ -248,12 +257,12 @@ public class Header_Footer_Functionality extends ElementOperations {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Reporter.log("Validate Header Functioanality", true);
 		Thread.sleep(1000);
-		try {
-			driver.switchTo().frame(promotionbox);
-			btnclose.click();
-			driver.switchTo().parentFrame();
-			Thread.sleep(1000);
-		} finally {
+//		try {
+//			driver.switchTo().frame(promotionbox);
+//			btnclose.click();
+//			driver.switchTo().parentFrame();
+//			Thread.sleep(1000);
+//		} finally {
 			if (btn_headernewarrivals.isDisplayed()) {
 				Thread.sleep(20);
 				btn_headernewarrivals.click();
@@ -298,7 +307,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 			Assert.assertEquals(btn_headerprofilebutton.isDisplayed(), true);
 			Thread.sleep(20);
 			Reporter.log("Validated Header Functionality successfully", true);
-		}
+		//}
 		return new LoginFunctionality();
 	}
 
@@ -319,23 +328,28 @@ public class Header_Footer_Functionality extends ElementOperations {
 		Thread.sleep(20);
 		Assert.assertEquals(txt_FooterCreditCard.isDisplayed(), true);
 		Thread.sleep(20);
-		try {
-			driver.switchTo().frame(promotionbox);
-			btnclose.click();
-			driver.switchTo().parentFrame();
-			Thread.sleep(1000);
-		} finally {
-			Thread.sleep(20);
-		}
+//		try {
+//			driver.switchTo().frame(promotionbox);
+//			btnclose.click();
+//			driver.switchTo().parentFrame();
+//			Thread.sleep(1000);
+//		} finally {
+			//Thread.sleep(20);
+		//}
 		if (btn_FooterEmailus.isDisplayed()) {
 			Thread.sleep(20);
 			btn_FooterEmailus.click();
-			btn_emailus.click();
+			//btn_emailus.click();
+			Thread.sleep(20);
+			btn_emailIcon.click();
 		}
 		if (btn_FooterChat.isDisplayed()) {
 			Thread.sleep(20);
 			btn_FooterChat.click();
 			Footerchatpopupbutton.click();
+			btn_ChatIcon.click();
+			Thread.sleep(20);
+			//btn_BellIcon.click();
 		}
 		if (btn_FooterContactUs.isDisplayed()) {
 			Thread.sleep(20);
@@ -359,7 +373,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 				Thread.sleep(20);
 			}		}
 		if (btn_FooterOrderStatus.isDisplayed()) {
-			Thread.sleep(20);
+			Thread.sleep(40);
 			btn_FooterOrderStatus.click();
 			Thread.sleep(20);
 			Assert.assertEquals(FooterOrderStatuspage.isDisplayed(), true);
@@ -403,13 +417,14 @@ public class Header_Footer_Functionality extends ElementOperations {
 				Thread.sleep(20);
 			}
 		}
-		if (btn_FooterSpecialOffer.isDisplayed()) {
-			Thread.sleep(20);
-			btn_FooterSpecialOffer.click();
-			Assert.assertEquals(FooterSpecialOfferpage.isDisplayed(), true);
-			driver.navigate().back();
-			
-		}
+		//in prod only 
+//		if (btn_FooterSpecialOffer.isDisplayed()) {
+//			Thread.sleep(20);
+//			btn_FooterSpecialOffer.click();
+//			Assert.assertEquals(FooterSpecialOfferpage.isDisplayed(), true);
+//			driver.navigate().back();
+//			
+//		}
 		if (btn_Footerwhoweare.isDisplayed()) {
 			Thread.sleep(20);
 			btn_Footerwhoweare.click();

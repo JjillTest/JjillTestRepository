@@ -25,7 +25,7 @@ public class Pagination_Monetate  extends ElementOperations {
 		Select select;
 
 		// Object Repository
-		@FindBy(xpath = "//nav[contains(@aria-label,'pagination')]/ul/li[1]")
+		@FindBy(xpath = "//nav[contains(@aria-label,'pagination')]/ul/li")
 		List<WebElement> pagenavigation;
 
 		@FindBy(xpath = "(//div[contains(@class,'MuiGrid-item')] //ul)[6] //li")
@@ -58,24 +58,25 @@ public class Pagination_Monetate  extends ElementOperations {
 	}
 
 	public LoginFunctionality selectPaginationOption() throws InterruptedException {
-		int i = pagenavigation.size();
-		System.out.println(i);
+		
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		jse.executeScript("window.scrollBy(0,450)");
+		int i = (pagenavigation.size())/2;
+	//	System.out.println(i);
 		/*
 		 * try { if(btnClose.isDisplayed()) btnClose.click(); } finally {
 		 */
-		for (int j = 0; j < i; j++) {
+		for (int j = 0; j < i+1; j++) {
 			try {
 			//	System.out.println("Hi");
-				if (pagecontent.isDisplayed()) {
-					Thread.sleep(5000);
+//				if (pagecontent.isDisplayed()) {
+//					Thread.sleep(5000);
 					if (btnnexttop.isDisplayed()) {
 						Thread.sleep(5000);
 						btnnexttop.click();
 						System.out.println("NextButton is sucessfully clicked on page " + (Integer.valueOf(j) + 1));
 					}
-				}
+				//}
 				Thread.sleep(2000);
 			} catch (Exception e) {
 				break;

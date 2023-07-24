@@ -60,8 +60,13 @@ public class TestBase {
 			options.addArguments("--disable-infobars");
 			options.addArguments("--disable-save-password-bubble");
 			options.addArguments("--test-type");
+			options.addArguments("--disable-blink-features=AutomationControlled");
+			// options.add_argument("--disable-extensions")
+			 //options.add_experimental_option("useAutomationExtension", false);
+			// options.add_experimental_option("excludeSwitches", ["enable-automation"])
+			// chrome_driver = webdriver.Chrome(options=options)
 			//options.addArguments("--headless");
-			//options.addArguments("--start-maximized");
+			options.addArguments("--start-maximized");
 		//	options.addArguments("--window-size=1920,1080");
     //options.addArguments("--headless", "--disable-gpu", "--window-size=1936,1056");		
 
@@ -112,6 +117,26 @@ public class TestBase {
     {
         // ASCII range – alphanumeric (0-9, a-z, A-Z)
         final String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$^&*()";
+ 
+        SecureRandom random = new SecureRandom();
+        StringBuilder sb = new StringBuilder();
+ 
+        // each iteration of the loop randomly chooses a character from the given
+        // ASCII range and appends it to the `StringBuilder` instance
+ 
+        for (int i = 0; i < len; i++)
+        {
+            int randomIndex = random.nextInt(chars.length());
+            sb.append(chars.charAt(randomIndex));
+        }
+ 
+        return sb.toString();
+    }
+	
+	public String generateRandomnumber(int len)
+    {
+        // ASCII range – alphanumeric (0-9, a-z, A-Z)
+        final String chars = "0123456789";
  
         SecureRandom random = new SecureRandom();
         StringBuilder sb = new StringBuilder();

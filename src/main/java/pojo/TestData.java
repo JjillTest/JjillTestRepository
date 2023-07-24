@@ -33,7 +33,19 @@ public @Data class TestData {
 	private String city;
 	
 	private String JJILLCC;
+
+	private String VISACC;
+
+	private String MASTERCC;
+
+	private String AMERICANEXPRESSCC;
+
+	private String DISCOVERCC;
 	
+	private String GiftcardasFullPayment;
+	
+	private String GiftcardasPartialPayment;
+
 	private String searchData;
 	
 	private String SizeType;
@@ -41,6 +53,8 @@ public @Data class TestData {
 	private String Color;
 	
 	private String Size;
+	
+	private String email;
 
 	public String getFirstName() {
 		return firstName;
@@ -50,8 +64,6 @@ public @Data class TestData {
 		this.firstName = firstName;
 	}
 	
-	
-
 	public String getLastName() {
 		return lastName;
 	}
@@ -155,12 +167,66 @@ public @Data class TestData {
 		this.city = city;
 	}
 	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
 	public String getJJILLCC() {
 		return JJILLCC;
 	}
 
 	public void setJJILLCC(String JJILLCC) {
 		this.JJILLCC = JJILLCC;
+	}
+	
+	public String getVISACC() {
+		return VISACC;
+	}
+
+	public void setVISACC(String VISACC) {
+		this.VISACC = VISACC;
+	}
+	public String getMASTERCC() {
+		return MASTERCC;
+	}
+
+	public void setMASTERCC(String MASTERCC) {
+		this.MASTERCC = MASTERCC;
+	}
+	public String getAMERICANEXPRESSCC() {
+		return AMERICANEXPRESSCC;
+	}
+
+	public void setAMERICANEXPRESSCC(String AMERICANEXPRESSCC) {
+		this.AMERICANEXPRESSCC = AMERICANEXPRESSCC;
+	}
+	
+	public String getGiftcardasFullPayment() {
+		return GiftcardasFullPayment;
+	}
+	
+	public void setGiftcardasFullPayment(String GiftcardasFullPayment) {
+		this.GiftcardasFullPayment = GiftcardasFullPayment;
+	}
+	
+	public String getGiftcardasPartialPayment() {
+		return GiftcardasPartialPayment;
+	}
+	
+	public void setGiftcardasPartialPayment(String GiftcardasPartialPayment) {
+		this.GiftcardasPartialPayment = GiftcardasPartialPayment;
+	}
+	
+	public String getDISCOVERCC() {
+		return DISCOVERCC;
+	}
+	
+	public void setDISCOVERCC(String DISCOVERCC) {
+		this.DISCOVERCC = DISCOVERCC;
 	}
 	
 	public String getSearchData() {
