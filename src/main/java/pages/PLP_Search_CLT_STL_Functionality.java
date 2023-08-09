@@ -360,9 +360,9 @@ public class PLP_Search_CLT_STL_Functionality extends ElementOperations {
 		Thread.sleep(1000);
 		jse.executeScript("window.scrollBy(0,810)");
 		Thread.sleep(1000);
-		/*
-		 * jse.executeScript("window.scrollBy(0,800)"); Thread.sleep(1000);
-		 */
+		
+		  jse.executeScript("window.scrollBy(0,800)"); Thread.sleep(1000);
+		 
 //		try {
 //			if (promotionbox.isDisplayed()) {
 //				driver.switchTo().frame(promotionbox);

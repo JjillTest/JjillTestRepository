@@ -107,6 +107,13 @@ public class LoginFunctionality extends ElementOperations {
 
 	@FindBy(xpath = "//span[contains(text(),'X')]")
 	WebElement btnclose;
+	
+	@FindBy(xpath = "//input[@value='Submit']")
+	WebElement btnsubmit;
+	
+	
+	@FindBy(xpath = "//input[@value='EMAIL ADDRESS']")
+	WebElement txtemail;
 
 	@FindBy(xpath = "//span[contains(text(),'✖')]")
 	WebElement btnfeedbackclose;
@@ -121,7 +128,7 @@ public class LoginFunctionality extends ElementOperations {
 	public LoginFunctionality() {
 		PageFactory.initElements(driver, this);
 	}
-
+	
 	public AddProduct JJill_Registered_Login() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		waitforElementVisiblility(btnmyaccount, sleeplow).click();
@@ -131,6 +138,50 @@ public class LoginFunctionality extends ElementOperations {
 		try {
 			driver.switchTo().frame(promotionbox);
 			btnclose.click();
+			driver.switchTo().parentFrame();
+			Thread.sleep(1000);			
+		}		
+		 catch (Exception e) 
+		{}
+		finally {
+			
+			username.sendKeys(TestBase.testData.get().getUserEmail());
+			waitforElementVisiblility(password, sleeplow);
+			password.sendKeys(TestBase.testData.get().getUserPassword());
+			waitforElementVisiblility(btnsignin, sleeplow);
+			btnsignin.click();
+			Reporter.log("Login Successful", true);
+			Thread.sleep(500);
+			String title = driver.getTitle();
+			Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
+			}	
+		return new AddProduct();
+	}
+
+	public AddProduct JJill_Registered_Login_QL() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		waitforElementVisiblility(btnmyaccount, sleeplow).click();
+		readValuesForLogin("Login_Data", "Login");
+		Reporter.log("Enter Username and Password", true);
+		Thread.sleep(1000);
+		try {
+			driver.switchTo().frame(promotionbox);
+			Thread.sleep(1500);
+			String test = TestBase.testData.get().getUserEmail();
+			String[] emailID = test.split("");
+			System.out.print(TestBase.testData.get().getUserEmail());
+			for(int i=0;i<emailID.length;i++)
+			{
+				txtemail.sendKeys(emailID[i]);
+				Thread.sleep(100);
+			}
+			//
+			//txtemail.sendKeys(TestBase.testData.get().getUserEmail());
+			Thread.sleep(500);
+			btnsubmit.click();
+			Thread.sleep(500);
+			btnclose.click();
+			Thread.sleep(500);
 			driver.switchTo().parentFrame();
 			Thread.sleep(1000);			
 		}		

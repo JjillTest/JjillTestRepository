@@ -42,6 +42,9 @@ public class Header_Footer_Functionality extends ElementOperations {
 	
 	   @FindBy(xpath = "//span[contains(text(),'Clothing')]")
 		WebElement clothingbreadcrumbs;
+	   
+	   @FindBy(xpath = "//span[contains(text(),'✖')]")
+		WebElement feedbackclose;
 
 	@FindBy(xpath = "(//div[contains(@id,'Shoes')] /div/a)[1]")
 		WebElement btn_headershoes;
@@ -274,14 +277,17 @@ public class Header_Footer_Functionality extends ElementOperations {
 				btn_headerclothing.click();
 				Thread.sleep(20);
 				Assert.assertEquals(clothingbreadcrumbs.isDisplayed(), true);
-
 			}
+		
 			if (btn_headershoes.isDisplayed()) {
 				Thread.sleep(100);
 				btn_headershoes.click();
 				Thread.sleep(2000);
 				Assert.assertEquals(shoesbreadcrumbs.isDisplayed(), true);
 			}
+			    Thread.sleep(30);
+				feedbackclose.click();
+				Thread.sleep(30);
 			if (btn_headerinspiration.isDisplayed()) {
 				btn_headerinspiration.click();
 				Thread.sleep(20);
@@ -300,6 +306,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 				Assert.assertEquals(storebreadcrumbs.isDisplayed(), true);
 				Storestologo.click();
 			}
+			
 			Assert.assertEquals(headerlogo.isDisplayed(), true);
 			Thread.sleep(20);
 			Assert.assertEquals(btn_headershoppingbag.isDisplayed(), true);
@@ -307,7 +314,7 @@ public class Header_Footer_Functionality extends ElementOperations {
 			Assert.assertEquals(btn_headerprofilebutton.isDisplayed(), true);
 			Thread.sleep(20);
 			Reporter.log("Validated Header Functionality successfully", true);
-		//}
+		
 		return new LoginFunctionality();
 	}
 
@@ -362,6 +369,9 @@ public class Header_Footer_Functionality extends ElementOperations {
 				jse.executeScript("window.scrollBy(0,1200)");
 			}
 		}
+		
+		btn_BellIcon.click();
+		Thread.sleep(30);
 		if (btn_FooterFAQ.isDisplayed()) {
 
 			Thread.sleep(20);

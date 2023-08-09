@@ -12,6 +12,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.Reporter;
 import testbase.TestBase;
 import utilities.ElementOperations;
@@ -71,6 +72,10 @@ public class AddProduct extends ElementOperations {
 	@FindBy(xpath = "(//a[contains(@href,'/sale/final')])[3]")
 	WebElement link_finalSale;
 	
+
+	@FindBy(xpath = "//span[contains(text(),'SHOP THIS LOOK')]")
+	List<WebElement> link_STL;
+	
 	@FindBy(xpath = "//span[contains(text(),'Final Sale')]")
 	WebElement finalsale_breadcrumb;
 	
@@ -97,7 +102,23 @@ public class AddProduct extends ElementOperations {
 
 	@FindBy(xpath = "//span[@id='totalPrice']")
 	WebElement txtEstimatedTotalchkout;
+	
+	@FindBy(xpath = "//input[@name='searchTerm']")
+	WebElement txtSearch;
 
+	@FindBy(xpath = "//ul[@data-ui='thumbnails'] /li[1]")
+	WebElement searchresults;
+	
+
+	@FindBy(css = "img#stylitics-jumplink")
+	WebElement btnstylitics;
+	
+	@FindBy(xpath = "//h6[contains(text(),'SHOP THE LOOK')]")
+	WebElement STLtitle;
+	
+	@FindBy(xpath = "//img[@alt='shopTheLookProduct3']")
+	WebElement STLproduct;
+	
 	@FindBy(xpath = "(//span[contains(text(),'View Shopping Bag')])[1]")
 	WebElement btnviewshoppingcart;
 	
@@ -217,14 +238,6 @@ public class AddProduct extends ElementOperations {
 	public AddProduct selectSTLDepartment() throws InterruptedException {
 		Reporter.log("Select the department", true);
 		Thread.sleep(5000);
-//		try {
-//			if (promotionbox.isDisplayed()) {
-//				driver.switchTo().frame(promotionbox);
-//				btnclose.click();
-//				driver.switchTo().parentFrame();
-//				Thread.sleep(100);
-//			}
-//		} finally {
 		for(int i=0;i<drpNewArrivals.size();i++)
 		{
 			if(i==0)
@@ -237,15 +250,43 @@ public class AddProduct extends ElementOperations {
 		{
 			jse.executeScript("window.scrollBy(0,400)");
 		}
-		//action.moveToElement(drpNewArrivals).perform();
+		
 			department_STL.click();
-		//	action.click(department_STL).release().perform();
+		
 			Reporter.log("Selected the department sucessfully", true);
-		//}
+		return new AddProduct();
+	}
+	
+	public AddProduct selectSTLProduct() throws InterruptedException {
+		Reporter.log("Select the PDP with STL items", true);
+		Thread.sleep(5000);
+		txtSearch.click();
+		readValuesForSearch("Search_Data", "STL");
+		Reporter.log("Enter STL Data", true);
+		txtSearch.sendKeys(TestBase.testData.get().getSearchData());
+		Thread.sleep(500);
+		searchresults.click();
+		Thread.sleep(2000);
+		btnstylitics.click();
+		Thread.sleep(100);
+		jse.executeScript("window.scrollBy(0,300)");
+		//btnsize.click();
+		int count=link_STL.size();
+		if(count<=6)
+		{
+			Reporter.log("STL count is not greater than 6");
+		}
+		link_STL.get(1).click();
+		Thread.sleep(500);
+		if(STLtitle.isDisplayed())
+		{
+			STLproduct.click();
+			Thread.sleep(5000);
+			
+		}
 		return new AddProduct();
 	}
 
-	// Select Department
 
 	public Checkout selectItemDetails() throws InterruptedException {
 		Reporter.log("Select the Item", true);
@@ -365,5 +406,10 @@ public class AddProduct extends ElementOperations {
 				return this;
 			}
 
+		public static void readValuesForSearch(String sheetName, String scenario) {
+			Reporter.log("Fetch the search data", true);
+			TestBase.testData.get().setSearchData(util.readCellValue(sheetName, scenario, "SearchData"));
+			Reporter.log("Fetched search data from the test data sheet successfully", true);
+		}
 
 }

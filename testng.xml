@@ -9,12 +9,13 @@
     <run>
 <!-- <include name='Production'/> -->
 <!-- <include name='h'/> -->
+<!-- <include name='SmokeTest'/> -->
     </run>
     </groups>
          <classes>
              <class name="com.JJill.testcases.TestCases">
               <methods> 
-               <include name="verifySearchFunctionality"/>
+      <include name="verifyShoptheLook"/> 
            <!--   <include name="verifyForgotPasswordFunctionality"/>   --> 
             <!--     <include name="verifyPaginationFunctionality"/>    Fixed-->
            <!--     <include name="verifyPLPFunctionality"/>   Fixed-->

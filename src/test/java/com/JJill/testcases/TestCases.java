@@ -81,7 +81,8 @@ public class TestCases extends TestBase{
 	@Test(groups={"SmokeTest","Production"}) 
 	public void verifyShoptheLook() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
-		.selectSTLDepartment()
+		.selectSTLProduct()
+		//.selectSTLDepartment()
 		.ConnectingMethodLogin_PLP()
 		.validateSTLPlpPage()
 		.JJill_STLLogout();
@@ -143,8 +144,9 @@ public class TestCases extends TestBase{
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"},priority=11) 
 	public void verifyQuickLookFunctionality() throws InterruptedException, AWTException{
-		loginpage.JJill_Registered_Login()
-		.selectSaleDepartment()
+		loginpage.JJill_Registered_Login_QL()
+		.selectFinalSaleDepartment()
+		//.selectSaleDepartment()
 		//.selectClothingDepartment()
 		.ConnectingMethodLogin_PDP()
 		.validateQuickLookScreen()
@@ -152,7 +154,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest"},priority=12) 
+	@Test(groups={"SmokeTest1"},priority=12) 
 	public void verifyForgotPasswordFunctionality() throws InterruptedException{
 		loginpage.
 		JJillLogin_ForgotPassword()

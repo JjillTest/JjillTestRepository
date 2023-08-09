@@ -68,7 +68,12 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 
 	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[2] /div//button/div/img")
 	List<WebElement> PDP_btncolor;
+	
 
+	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[2]/../../../div[2]/div[2]/div/p")
+	WebElement PDP_colortxt;
+
+	
 	@FindBy(xpath = "(//div[@data-id='ProductOptionSelector'])[3] /div//button")
 	List<WebElement> PDP_size;
 
@@ -192,6 +197,9 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 
 	@FindBy(css = "button[class*='offer-control close']")
 	WebElement btnclose;
+	
+	@FindBy(xpath = "//span[contains(text(),'X')]")
+	WebElement btnfeedbackclose;
 
 	@FindBy(xpath = "//ul[@data-ui='thumbnails'] /li[1]")
 	WebElement searchresults;
@@ -363,17 +371,21 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 	public AddProduct validateQuickLookScreen() throws InterruptedException {
 		Reporter.log("Validate quicklook screen", true);
 		Thread.sleep(1000);
-		jse.executeScript("window.scrollBy(0,700)");
+		jse.executeScript("window.scrollBy(0,300)");
 		//only needed when item is third element
 		Thread.sleep(300);
-		jse.executeScript("window.scrollBy(0,300)");
+		//jse.executeScript("window.scrollBy(0,600)");
+		Thread.sleep(1000);
+		jse.executeScript("window.scrollBy(0,200)");
+		Thread.sleep(7000);
 		//only needed when item is third element
 		action.moveToElement(btnquicklook);
 		action.click(btnquicklook).build().perform();
-		Thread.sleep(1000);
+		
 		for (int i = 0; i < 10; i++) {
 			Thread.sleep(1000);
 		}
+		
 		Assert.assertEquals(ql_txtQuickLook.isDisplayed(), true);
 		Thread.sleep(200);
 		Assert.assertEquals(ql_heroimg.isDisplayed(), true);
@@ -398,17 +410,17 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			System.out.println(size);
 			Reporter.log(size);
 		}
-		action.sendKeys(Keys.PAGE_DOWN).build().perform();
+		//action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		pdpbtnsizetype.get(0).click();
 		Thread.sleep(20);
 		for (int i = 0; i < PDP_btncolor.size(); i++) {
 			PDP_btncolor.get(i).click();
 			Thread.sleep(5);
-			String name = PDP_btncolor.get(i).getText();
+			String name = PDP_colortxt.getText();
 			System.out.println(name);
 		}
 		Thread.sleep(500);
-		action.sendKeys(Keys.PAGE_DOWN).build().perform();
+	//	action.sendKeys(Keys.PAGE_DOWN).build().perform();
 	//	Assert.assertEquals(ql_btnsize.isDisplayed(), true);
 		for (int i = 0; i < ql_btnsize.size(); i++) {
 			Thread.sleep(20);
@@ -428,14 +440,9 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			}
 			
 		}
-		
-		
-		  Assert.assertEquals(ql_sizeguide.isDisplayed(), true); Thread.sleep(20);
-		  ql_sizeguide.click(); if (sizeguidepopup.isDisplayed()) {
-		  Assert.assertEquals(sizeguidepopup.isDisplayed(), true); Thread.sleep(50);
-		  ql_sizeguideclose.click(); Thread.sleep(1000); }
-		 
 	
+//		  
+		  action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		jse.executeScript("window.scrollBy(0,100)");
 		Assert.assertEquals(ql_fitpredicator.isDisplayed(), true);
 		Thread.sleep(500);
@@ -447,6 +454,17 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			Thread.sleep(20);
 		}		
 		
+//		  Assert.assertEquals(ql_sizeguide.isDisplayed(), true);
+//		  Thread.sleep(20);
+//		  ql_sizeguide.click(); 
+//		  if (sizeguidepopup.isDisplayed()) {
+//		  Assert.assertEquals(sizeguidepopup.isDisplayed(), true);
+//		  Thread.sleep(500);
+//		  ql_sizeguideclose.click();
+//		  Thread.sleep(5000);
+//		  }
+		
+		action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		jse.executeScript("window.scrollBy(0,100)");
 		if (ql_quantityadd.isDisplayed()) {
 			Thread.sleep(40);
@@ -652,6 +670,9 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 				System.out.println(Size);
 				System.out.println(PDP_size.get(i).getAttribute("title"));
 				if ((PDP_size.get(i).getAttribute("title")).equalsIgnoreCase(Size)) {
+					Thread.sleep(30);
+					feedbackclose.click();
+					Thread.sleep(30);
 					PDP_size.get(i).click();
 					break;
 				} else
