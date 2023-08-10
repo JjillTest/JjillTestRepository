@@ -268,7 +268,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 //		Assert.assertEquals(btnsize.isDisplayed(), true);
 //		Thread.sleep(20);
 	//	jse.executeScript("window.scrollBy(0,100)");
-	//	btnsize.click();
 		Thread.sleep(50);
 		Assert.assertEquals(ql_sizeguide.isDisplayed(), true);
 		Thread.sleep(20);
