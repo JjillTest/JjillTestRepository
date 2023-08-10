@@ -246,7 +246,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			Reporter.log(name);
 			System.out.println(name);
 		}
-		//jse.executeScript("window.scrollBy(0,100)");
 		for (int i = 0; i < PDP_size.size(); i++) {
 			PDP_size.get(i).click();
 			Thread.sleep(5);
