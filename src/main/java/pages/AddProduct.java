@@ -352,10 +352,7 @@ public class AddProduct extends ElementOperations {
 		return new Pagination_Monetate();
 	}
 
-	
 
-	
-	// select shopping bag
 		public AddProduct selectshoppingbag() throws InterruptedException {
 			Reporter.log("Select the shoppingbag", true);
 			Thread.sleep(4000);
