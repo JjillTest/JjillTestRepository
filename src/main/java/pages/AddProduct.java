@@ -270,7 +270,6 @@ public class AddProduct extends ElementOperations {
 		btnstylitics.click();
 		Thread.sleep(100);
 		jse.executeScript("window.scrollBy(0,300)");
-		//btnsize.click();
 		int count=link_STL.size();
 		if(count<=6)
 		{
