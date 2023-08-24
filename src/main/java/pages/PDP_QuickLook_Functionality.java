@@ -408,7 +408,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			System.out.println(size);
 			Reporter.log(size);
 		}
-		//action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		pdpbtnsizetype.get(0).click();
 		Thread.sleep(20);
 		for (int i = 0; i < PDP_btncolor.size(); i++) {
