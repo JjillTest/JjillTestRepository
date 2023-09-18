@@ -246,7 +246,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			Reporter.log(name);
 			System.out.println(name);
 		}
-		//jse.executeScript("window.scrollBy(0,100)");
 		for (int i = 0; i < PDP_size.size(); i++) {
 			PDP_size.get(i).click();
 			Thread.sleep(5);
@@ -269,7 +268,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 //		Assert.assertEquals(btnsize.isDisplayed(), true);
 //		Thread.sleep(20);
 	//	jse.executeScript("window.scrollBy(0,100)");
-	//	btnsize.click();
 		Thread.sleep(50);
 		Assert.assertEquals(ql_sizeguide.isDisplayed(), true);
 		Thread.sleep(20);
@@ -410,7 +408,6 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 			System.out.println(size);
 			Reporter.log(size);
 		}
-		//action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		pdpbtnsizetype.get(0).click();
 		Thread.sleep(20);
 		for (int i = 0; i < PDP_btncolor.size(); i++) {

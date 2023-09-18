@@ -8,8 +8,6 @@
     <groups>
     <run>
 <!-- <include name='Production'/> -->
-<!-- <include name='h'/> -->
-<!-- <include name='SmokeTest'/> -->
     </run>
     </groups>
          <classes>
