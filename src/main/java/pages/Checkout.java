@@ -533,7 +533,6 @@ public class Checkout extends ElementOperations{
 		Giftcardnumber.sendKeys(TestBase.testData.get().getGiftcardasFullPayment());
 		Thread.sleep(3000);
 		btnredeem.click();
-		//Thread.sleep(4000);
 	//	btnredeem.click();
 	//	cardname.sendKeys(TestBase.testData.get().getFirstName());
 		Thread.sleep(500);
