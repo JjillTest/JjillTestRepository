@@ -1,6 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="24" total="25" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="25" passed="9" failed="16" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Validating Complete the Look Functionality Started]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the search data]]>
+    </line>
+    <line>
+      <![CDATA[Fetched search data from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter CTL Data]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Validate Footer Functioanality]]>
+    </line>
+    <line>
+      <![CDATA[Validated Footer Functionality successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Validate Header Functioanality]]>
+    </line>
+    <line>
+      <![CDATA[Validated Header Functionality successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Validate the Monetate Badging]]>
+    </line>
+    <line>
+      <![CDATA[Monetate Badging validated sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the Final sale department]]>
+    </line>
+    <line>
+      <![CDATA[Validating the PDP Started]]>
+    </line>
+    <line>
+      <![CDATA[Regular]]>
+    </line>
+    <line>
+      <![CDATA[Petite]]>
+    </line>
+    <line>
+      <![CDATA[Tall]]>
+    </line>
+    <line>
+      <![CDATA[grey morning]]>
+    </line>
+    <line>
+      <![CDATA[kalamata heather]]>
+    </line>
+    <line>
+      <![CDATA[XS]]>
+    </line>
+    <line>
+      <![CDATA[S]]>
+    </line>
+    <line>
+      <![CDATA[M]]>
+    </line>
+    <line>
+      <![CDATA[L]]>
+    </line>
+    <line>
+      <![CDATA[XL]]>
+    </line>
+    <line>
+      <![CDATA[2X]]>
+    </line>
+    <line>
+      <![CDATA[3X]]>
+    </line>
+    <line>
+      <![CDATA[4X]]>
+    </line>
+    <line>
+      <![CDATA[PDP Validation Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Validating PDP and Complete the Look Size Functionality Started]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the search data]]>
+    </line>
+    <line>
+      <![CDATA[Fetched search data from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter CTL Data]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Validating the PLP Started]]>
+    </line>
+    <line>
+      <![CDATA[PLP Validation Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Validating the Search Functionality Started]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the search data]]>
+    </line>
+    <line>
+      <![CDATA[Fetched search data from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Search Data]]>
+    </line>
+    <line>
+      <![CDATA[Seacrh Validation Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
     <line>
       <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
     </line>
@@ -25,43 +322,365 @@
     <line>
       <![CDATA[Enter STL Data]]>
     </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Select the Item]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the shoppingbag]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the department]]>
+    </line>
+    <line>
+      <![CDATA[Selected the department sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Validating the Out of Stock Functionality Started]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the search data]]>
+    </line>
+    <line>
+      <![CDATA[Fetched search data from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Sku Data]]>
+    </line>
+    <line>
+      <![CDATA[OOS Validation Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Validating the LowInventory Functionality Started]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the search data]]>
+    </line>
+    <line>
+      <![CDATA[Fetched search data from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Sku Data]]>
+    </line>
+    <line>
+      <![CDATA[LowInventory Validation Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Validating the Backordered Functionality Started]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the search data]]>
+    </line>
+    <line>
+      <![CDATA[Fetched search data from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Sku Data]]>
+    </line>
+    <line>
+      <![CDATA[Backordered Validation Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username and Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Select the Final sale department]]>
+    </line>
+    <line>
+      <![CDATA[Validate quicklook screen]]>
+    </line>
+    <line>
+      <![CDATA[QL Bazaarvoice is not clickable]]>
+    </line>
+    <line>
+      <![CDATA[Regular]]>
+    </line>
+    <line>
+      <![CDATA[Petite]]>
+    </line>
+    <line>
+      <![CDATA[quicklook validation successful]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Logging out of application]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-09-18T13:08:30Z" name="Testing JJill Application" finished-at="2023-09-18T13:09:18Z" duration-ms="47668">
+  <suite started-at="2023-09-19T22:04:22Z" name="Testing JJill Application" finished-at="2023-09-19T22:32:15Z" duration-ms="1672695">
     <groups>
       <group name="SmokeTest">
-        <method signature="TestCases.verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@3943a2be]" name="verifyShoptheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyCompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyCompletetheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyFooterFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyFooterFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyHeaderFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyHeaderFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyInventoryData()[pri:10, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyInventoryData" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyMonetateBadging()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyMonetateBadging" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPDPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPDPFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPDP_CompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPDP_CompletetheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPLPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPLPFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPaginationFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyQuickLookFunctionality()[pri:11, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyQuickLookFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifySearchFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifySearchFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyShoptheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyremoveProductsShoppingbag()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyremoveProductsShoppingbag" class="com.JJill.testcases.TestCases"/>
       </group> <!-- SmokeTest -->
+      <group name="V9-16X">
+        <method signature="TestCases.verifyCompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyCompletetheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyFooterFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyFooterFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyHeaderFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyHeaderFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyMonetateBadging()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyMonetateBadging" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPDPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPDPFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPDP_CompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPDP_CompletetheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPLPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPLPFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPaginationFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyQuickLookFunctionality()[pri:11, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyQuickLookFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifySearchFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifySearchFunctionality" class="com.JJill.testcases.TestCases"/>
+      </group> <!-- V9-16X -->
+      <group name="Staging">
+        <method signature="TestCases.verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Guest_GiftcardasPayment_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Guest_GiftcardasPayment_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Guest_JJCCPayment_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Guest_JJCCPayment_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Guest_MajorCC_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Guest_MajorCC_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality" class="com.JJill.testcases.TestCases"/>
+      </group> <!-- Staging -->
       <group name="Production">
-        <method signature="TestCases.verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@3943a2be]" name="verifyShoptheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyCompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyCompletetheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyFooterFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyFooterFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyHeaderFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyHeaderFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyInventoryData()[pri:10, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyInventoryData" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyMonetateBadging()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyMonetateBadging" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPDPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPDPFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPDP_CompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPDP_CompletetheLook" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPLPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPLPFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyPaginationFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyQuickLookFunctionality()[pri:11, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyQuickLookFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifySearchFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifySearchFunctionality" class="com.JJill.testcases.TestCases"/>
+        <method signature="TestCases.verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyShoptheLook" class="com.JJill.testcases.TestCases"/>
       </group> <!-- Production -->
+      <group name="SmokeTest1">
+        <method signature="TestCases.verifyForgotPasswordFunctionality()[pri:12, instance:com.JJill.testcases.TestCases@5ab9e72c]" name="verifyForgotPasswordFunctionality" class="com.JJill.testcases.TestCases"/>
+      </group> <!-- SmokeTest1 -->
     </groups>
-    <test started-at="2023-09-18T13:08:30Z" name="Test for the JJill application" finished-at="2023-09-18T13:09:18Z" duration-ms="47668">
+    <test started-at="2023-09-19T22:04:22Z" name="Test for the JJill application" finished-at="2023-09-19T22:32:15Z" duration-ms="1672695">
       <class name="com.JJill.testcases.TestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@3943a2be]" started-at="2023-09-18T09:08:30Z" name="setup" finished-at="2023-09-18T09:08:46Z" duration-ms="15848" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:04:22Z" name="setup" finished-at="2023-09-19T18:04:27Z" duration-ms="4448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@3943a2be]" started-at="2023-09-18T09:08:46Z" name="verifyShoptheLook" finished-at="2023-09-18T09:09:17Z" duration-ms="31000" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="verifyCompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:04:27Z" name="verifyCompletetheLook" finished-at="2023-09-19T18:05:02Z" duration-ms="35865" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'complete the look')]"}
   (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e7bfee99b8ec29710511262ef22fe05]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc7269694780d9c97d78a4efc5e84905
+*** Element info: {Using=xpath, value=//p[contains(text(),'complete the look')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'complete the look')]"}
   (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e7bfee99b8ec29710511262ef22fe05
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc7269694780d9c97d78a4efc5e84905
+*** Element info: {Using=xpath, value=//p[contains(text(),'complete the look')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -73,8 +692,633 @@ Session ID: 0e7bfee99b8ec29710511262ef22fe05
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
-	at pages.AddProduct.selectSTLProduct(AddProduct.java:272)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at pages.PLP_Search_CLT_STL_Functionality.validateCompletetheLook(PLP_Search_CLT_STL_Functionality.java:261)
+	at com.JJill.testcases.TestCases.verifyCompletetheLook(TestCases.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Validating Complete the Look Functionality Started]]>
+            </line>
+            <line>
+              <![CDATA[Fetch the search data]]>
+            </line>
+            <line>
+              <![CDATA[Fetched search data from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter CTL Data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompletetheLook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:05:02Z" name="tearDown" finished-at="2023-09-19T18:05:03Z" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:05:03Z" name="setup" finished-at="2023-09-19T18:05:06Z" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFooterFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:05:06Z" name="verifyFooterFunctionality" finished-at="2023-09-19T18:07:16Z" duration-ms="130690" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Validate Footer Functioanality]]>
+            </line>
+            <line>
+              <![CDATA[Validated Footer Functionality successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFooterFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:07:16Z" name="tearDown" finished-at="2023-09-19T18:07:17Z" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:07:17Z" name="setup" finished-at="2023-09-19T18:07:21Z" duration-ms="4477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHeaderFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:07:21Z" name="verifyHeaderFunctionality" finished-at="2023-09-19T18:08:23Z" duration-ms="62282" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Validate Header Functioanality]]>
+            </line>
+            <line>
+              <![CDATA[Validated Header Functionality successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:08:23Z" name="tearDown" finished-at="2023-09-19T18:08:24Z" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:08:24Z" name="setup" finished-at="2023-09-19T18:08:27Z" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginInFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:08:27Z" name="verifyLoginInFunctionality" finished-at="2023-09-19T18:08:34Z" duration-ms="7518" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9fa22d3ebdc8ce5db49adba9df6391d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9fa22d3ebdc8ce5db49adba9df6391d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.ConnectingMethod(AddProduct.java:325)
+	at com.JJill.testcases.TestCases.verifyLoginInFunctionality(TestCases.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:08:34Z" name="tearDown" finished-at="2023-09-19T18:08:35Z" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:08:35Z" name="setup" finished-at="2023-09-19T18:08:38Z" duration-ms="2923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMonetateBadging()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:08:38Z" name="verifyMonetateBadging" finished-at="2023-09-19T18:15:17Z" duration-ms="399276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Validate the Monetate Badging]]>
+            </line>
+            <line>
+              <![CDATA[Monetate Badging validated sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMonetateBadging -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:15:17Z" name="tearDown" finished-at="2023-09-19T18:15:18Z" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:15:18Z" name="setup" finished-at="2023-09-19T18:15:21Z" duration-ms="3367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPDPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:15:21Z" name="verifyPDPFunctionality" finished-at="2023-09-19T18:19:30Z" duration-ms="248449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the Final sale department]]>
+            </line>
+            <line>
+              <![CDATA[Validating the PDP Started]]>
+            </line>
+            <line>
+              <![CDATA[Regular]]>
+            </line>
+            <line>
+              <![CDATA[Petite]]>
+            </line>
+            <line>
+              <![CDATA[Tall]]>
+            </line>
+            <line>
+              <![CDATA[grey morning]]>
+            </line>
+            <line>
+              <![CDATA[kalamata heather]]>
+            </line>
+            <line>
+              <![CDATA[XS]]>
+            </line>
+            <line>
+              <![CDATA[S]]>
+            </line>
+            <line>
+              <![CDATA[M]]>
+            </line>
+            <line>
+              <![CDATA[L]]>
+            </line>
+            <line>
+              <![CDATA[XL]]>
+            </line>
+            <line>
+              <![CDATA[2X]]>
+            </line>
+            <line>
+              <![CDATA[3X]]>
+            </line>
+            <line>
+              <![CDATA[4X]]>
+            </line>
+            <line>
+              <![CDATA[PDP Validation Sucessful]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to Home Page]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPDPFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:19:30Z" name="tearDown" finished-at="2023-09-19T18:19:30Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:19:30Z" name="setup" finished-at="2023-09-19T18:19:33Z" duration-ms="2949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPDP_CompletetheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:19:33Z" name="verifyPDP_CompletetheLook" finished-at="2023-09-19T18:20:04Z" duration-ms="31119" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'complete the look')]"}
+  (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ca90cac001709486b4925e7157ccac9
+*** Element info: {Using=xpath, value=//p[contains(text(),'complete the look')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'complete the look')]"}
+  (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ca90cac001709486b4925e7157ccac9
+*** Element info: {Using=xpath, value=//p[contains(text(),'complete the look')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at pages.PLP_Search_CLT_STL_Functionality.validatePDPCompletetheLook(PLP_Search_CLT_STL_Functionality.java:329)
+	at com.JJill.testcases.TestCases.verifyPDP_CompletetheLook(TestCases.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Validating PDP and Complete the Look Size Functionality Started]]>
+            </line>
+            <line>
+              <![CDATA[Fetch the search data]]>
+            </line>
+            <line>
+              <![CDATA[Fetched search data from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter CTL Data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPDP_CompletetheLook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:20:04Z" name="tearDown" finished-at="2023-09-19T18:20:04Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:20:04Z" name="setup" finished-at="2023-09-19T18:20:07Z" duration-ms="2790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPLPFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:20:07Z" name="verifyPLPFunctionality" finished-at="2023-09-19T18:20:46Z" duration-ms="39266" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Validating the PLP Started]]>
+            </line>
+            <line>
+              <![CDATA[PLP Validation Sucessful]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPLPFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:20:46Z" name="tearDown" finished-at="2023-09-19T18:20:47Z" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:20:47Z" name="setup" finished-at="2023-09-19T18:20:50Z" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPaginationFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:20:50Z" name="verifyPaginationFunctionality" finished-at="2023-09-19T18:22:01Z" duration-ms="70710" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPaginationFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:22:01Z" name="tearDown" finished-at="2023-09-19T18:22:01Z" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:22:01Z" name="setup" finished-at="2023-09-19T18:22:04Z" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:22:04Z" name="verifySearchFunctionality" finished-at="2023-09-19T18:22:34Z" duration-ms="29649" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Validating the Search Functionality Started]]>
+            </line>
+            <line>
+              <![CDATA[Fetch the search data]]>
+            </line>
+            <line>
+              <![CDATA[Fetched search data from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Search Data]]>
+            </line>
+            <line>
+              <![CDATA[Seacrh Validation Sucessful]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to Home Page]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:22:34Z" name="tearDown" finished-at="2023-09-19T18:22:34Z" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:22:34Z" name="setup" finished-at="2023-09-19T18:22:38Z" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyShoptheLook()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:22:38Z" name="verifyShoptheLook" finished-at="2023-09-19T18:23:12Z" duration-ms="33575" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 275bebe22fdcf0168dbb0b98f46d8704]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 275bebe22fdcf0168dbb0b98f46d8704
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectSTLProduct(AddProduct.java:270)
 	at com.JJill.testcases.TestCases.verifyShoptheLook(TestCases.java:84)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -103,7 +1347,7 @@ Session ID: 0e7bfee99b8ec29710511262ef22fe05
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
             <line>
               <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
@@ -131,27 +1375,33 @@ Session ID: 0e7bfee99b8ec29710511262ef22fe05
             </line>
           </reporter-output>
         </test-method> <!-- verifyShoptheLook -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@3943a2be]" started-at="2023-09-18T09:09:17Z" name="tearDown" finished-at="2023-09-18T09:09:17Z" duration-ms="0" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:23:12Z" name="tearDown" finished-at="2023-09-19T18:23:12Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:23:12Z" name="setup" finished-at="2023-09-19T18:23:15Z" duration-ms="2958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:23:15Z" name="verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality" finished-at="2023-09-19T18:25:14Z" duration-ms="119123" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
+              <![CDATA[element not interactable
   (Session info: chrome=117.0.5938.89)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e7bfee99b8ec29710511262ef22fe05]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ed7bee3dfc0100853bde11bab78488b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=117.0.5938.89)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e7bfee99b8ec29710511262ef22fe05
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ed7bee3dfc0100853bde11bab78488b
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -163,17 +1413,21 @@ Session ID: 0e7bfee99b8ec29710511262ef22fe05
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-	at com.JJill.testcases.TestCases.tearDown(TestCases.java:370)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:303)
+	at com.JJill.testcases.TestCases.verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality(TestCases.java:288)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -195,11 +1449,1171 @@ Session ID: 0e7bfee99b8ec29710511262ef22fe05
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:14Z" name="tearDown" finished-at="2023-09-19T18:25:14Z" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@3943a2be]" started-at="2023-09-18T09:09:17Z" name="closeAll" finished-at="2023-09-18T09:09:18Z" duration-ms="780" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:14Z" name="setup" finished-at="2023-09-19T18:25:18Z" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Guest_GiftcardasPayment_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:18Z" name="verify_Guest_GiftcardasPayment_CheckoutFunctionality" finished-at="2023-09-19T18:25:34Z" duration-ms="16580" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss559 jss278 jss277 jss281 undefined jss560 jss563" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=bedd330f9b31bce7b6ec78f62be9ad41&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162333293" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b2e92456f4698f406cabe45aa50d556]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss559 jss278 jss277 jss281 undefined jss560 jss563" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=bedd330f9b31bce7b6ec78f62be9ad41&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162333293" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b2e92456f4698f406cabe45aa50d556
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Guest_GiftcardasPayment_CheckoutFunctionality(TestCases.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Guest_GiftcardasPayment_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:34Z" name="tearDown" finished-at="2023-09-19T18:25:34Z" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:34Z" name="setup" finished-at="2023-09-19T18:25:37Z" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Guest_JJCCPayment_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:37Z" name="verify_Guest_JJCCPayment_CheckoutFunctionality" finished-at="2023-09-19T18:25:55Z" duration-ms="18494" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss654 jss278 jss277 jss281 undefined jss655 jss660" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=34c7e9d9b03ce7ec490e0dcd61bf5abc&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162354236" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64987}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b12ce57246cd6111fba690996ed954]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss654 jss278 jss277 jss281 undefined jss655 jss660" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=34c7e9d9b03ce7ec490e0dcd61bf5abc&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162354236" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64987}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b12ce57246cd6111fba690996ed954
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Guest_JJCCPayment_CheckoutFunctionality(TestCases.java:308)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Guest_JJCCPayment_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:55Z" name="tearDown" finished-at="2023-09-19T18:25:55Z" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:55Z" name="setup" finished-at="2023-09-19T18:25:59Z" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Guest_MajorCC_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:25:59Z" name="verify_Guest_MajorCC_CheckoutFunctionality" finished-at="2023-09-19T18:26:16Z" duration-ms="17864" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss654 jss278 jss277 jss281 undefined jss655 jss660" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=f20811c1dc2748c97ef36cb33fb89aad&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162375255" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1eb8243b2e56920b044f39430c45348]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss654 jss278 jss277 jss281 undefined jss655 jss660" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=f20811c1dc2748c97ef36cb33fb89aad&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162375255" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1eb8243b2e56920b044f39430c45348
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Guest_MajorCC_CheckoutFunctionality(TestCases.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Guest_MajorCC_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:26:16Z" name="tearDown" finished-at="2023-09-19T18:26:17Z" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:26:17Z" name="setup" finished-at="2023-09-19T18:26:20Z" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:26:20Z" name="verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality" finished-at="2023-09-19T18:26:39Z" duration-ms="19172" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss650 jss408 jss407 jss411 undefined jss651 jss656" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=b06e9832a97f07f0c0ed4e3eeb79bfd5&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162397990" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0342503840654b12ab97a436981e4b8d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss650 jss408 jss407 jss411 undefined jss651 jss656" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=b06e9832a97f07f0c0ed4e3eeb79bfd5&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162397990" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0342503840654b12ab97a436981e4b8d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality(TestCases.java:328)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:26:39Z" name="tearDown" finished-at="2023-09-19T18:26:39Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:26:39Z" name="setup" finished-at="2023-09-19T18:26:43Z" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:26:43Z" name="verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality" finished-at="2023-09-19T18:27:01Z" duration-ms="18422" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss654 jss278 jss277 jss281 undefined jss655 jss660" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=9835e535d76dc02bd45d72cd88fd4e38&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162420368" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0176ead25a3ef0d6723ebfa2c58f9866]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss654 jss278 jss277 jss281 undefined jss655 jss660" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=9835e535d76dc02bd45d72cd88fd4e38&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162420368" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0176ead25a3ef0d6723ebfa2c58f9866
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality(TestCases.java:348)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:27:01Z" name="tearDown" finished-at="2023-09-19T18:27:01Z" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:27:01Z" name="setup" finished-at="2023-09-19T18:27:04Z" duration-ms="2958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:27:04Z" name="verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality" finished-at="2023-09-19T18:27:30Z" duration-ms="25739" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss692 jss316 jss315 jss319 undefined jss693 jss698" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=8545c02271e0c01f73bfd3e4d4e84972&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162448322" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e314711056c13591cf760994e47dec5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss692 jss316 jss315 jss319 undefined jss693 jss698" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=8545c02271e0c01f73bfd3e4d4e84972&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162448322" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e314711056c13591cf760994e47dec5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality(TestCases.java:217)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:27:30Z" name="tearDown" finished-at="2023-09-19T18:27:30Z" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:27:30Z" name="setup" finished-at="2023-09-19T18:27:34Z" duration-ms="3672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:27:34Z" name="verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality" finished-at="2023-09-19T18:28:00Z" duration-ms="26274" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss688 jss446 jss445 jss449 undefined jss689 jss694" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=442a0a8d9323f9ad22acf5431ed417ce&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162479459" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5856dd2f398703ffc24ce99ea506d89f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss688 jss446 jss445 jss449 undefined jss689 jss694" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=442a0a8d9323f9ad22acf5431ed417ce&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162479459" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5856dd2f398703ffc24ce99ea506d89f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality(TestCases.java:199)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:00Z" name="tearDown" finished-at="2023-09-19T18:28:01Z" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:01Z" name="setup" finished-at="2023-09-19T18:28:04Z" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:04Z" name="verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality" finished-at="2023-09-19T18:28:26Z" duration-ms="22660" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss688 jss446 jss445 jss449 undefined jss689 jss694" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=fe4db0f4c87b2cdf534d3d7692b569ec&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162504422" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6608e9b582e9ad4e5fa079d8126780d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss688 jss446 jss445 jss449 undefined jss689 jss694" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=fe4db0f4c87b2cdf534d3d7692b569ec&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162504422" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6608e9b582e9ad4e5fa079d8126780d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality(TestCases.java:235)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:26Z" name="tearDown" finished-at="2023-09-19T18:28:27Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:27Z" name="setup" finished-at="2023-09-19T18:28:30Z" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:30Z" name="verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality" finished-at="2023-09-19T18:28:53Z" duration-ms="22421" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss688 jss446 jss445 jss449 undefined jss689 jss694" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=dffdb87e60f56d0aa81271d9527536f4&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162531501" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a095205c82bd1d86d97d04da5483f5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss688 jss446 jss445 jss449 undefined jss689 jss694" tabindex="0" type="button" title="L">...</button> is not clickable at point (1123, 623). Other element would receive the click: <iframe id="fcopt-offer-78164-content" frameborder="0" width="100%" height="100%" scrolling="no" title="Click here to sign up for J.Jill emails and take $50 off your first purchase of $150" src="https://api.securedvisit.com/lightbox/client/0043_00511/?fp=dffdb87e60f56d0aa81271d9527536f4&amp;m=form&amp;form_id=78164&amp;promo_id=6766&amp;v=1695162531501" style="overflow: hidden;"></iframe>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a095205c82bd1d86d97d04da5483f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectItemDetails(AddProduct.java:299)
+	at com.JJill.testcases.TestCases.verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality(TestCases.java:252)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Select the Item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:53Z" name="tearDown" finished-at="2023-09-19T18:28:53Z" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:53Z" name="setup" finished-at="2023-09-19T18:28:56Z" duration-ms="3489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyremoveProductsShoppingbag()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:28:56Z" name="verifyremoveProductsShoppingbag" finished-at="2023-09-19T18:29:28Z" duration-ms="31167" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='bag']"}
+  (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c21c488b221f514107925f949c67a111
+*** Element info: {Using=xpath, value=//div[text()='bag']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='bag']"}
+  (Session info: chrome=117.0.5938.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c21c488b221f514107925f949c67a111
+*** Element info: {Using=xpath, value=//div[text()='bag']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.AddProduct.selectshoppingbag(AddProduct.java:368)
+	at com.JJill.testcases.TestCases.verifyremoveProductsShoppingbag(TestCases.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the shoppingbag]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyremoveProductsShoppingbag -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:29:28Z" name="tearDown" finished-at="2023-09-19T18:29:28Z" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:29:28Z" name="setup" finished-at="2023-09-19T18:29:31Z" duration-ms="3295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInventoryData()[pri:10, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:29:31Z" name="verifyInventoryData" finished-at="2023-09-19T18:30:37Z" duration-ms="66173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the department]]>
+            </line>
+            <line>
+              <![CDATA[Selected the department sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Validating the Out of Stock Functionality Started]]>
+            </line>
+            <line>
+              <![CDATA[Fetch the search data]]>
+            </line>
+            <line>
+              <![CDATA[Fetched search data from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Sku Data]]>
+            </line>
+            <line>
+              <![CDATA[OOS Validation Sucessful]]>
+            </line>
+            <line>
+              <![CDATA[Validating the LowInventory Functionality Started]]>
+            </line>
+            <line>
+              <![CDATA[Fetch the search data]]>
+            </line>
+            <line>
+              <![CDATA[Fetched search data from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Sku Data]]>
+            </line>
+            <line>
+              <![CDATA[LowInventory Validation Sucessful]]>
+            </line>
+            <line>
+              <![CDATA[Validating the Backordered Functionality Started]]>
+            </line>
+            <line>
+              <![CDATA[Fetch the search data]]>
+            </line>
+            <line>
+              <![CDATA[Fetched search data from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Sku Data]]>
+            </line>
+            <line>
+              <![CDATA[Backordered Validation Sucessful]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:30:37Z" name="tearDown" finished-at="2023-09-19T18:30:38Z" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:30:38Z" name="setup" finished-at="2023-09-19T18:30:41Z" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyQuickLookFunctionality()[pri:11, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:30:41Z" name="verifyQuickLookFunctionality" finished-at="2023-09-19T18:32:04Z" duration-ms="83324" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username and Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Select the Final sale department]]>
+            </line>
+            <line>
+              <![CDATA[Validate quicklook screen]]>
+            </line>
+            <line>
+              <![CDATA[QL Bazaarvoice is not clickable]]>
+            </line>
+            <line>
+              <![CDATA[Regular]]>
+            </line>
+            <line>
+              <![CDATA[Petite]]>
+            </line>
+            <line>
+              <![CDATA[quicklook validation successful]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to Home Page]]>
+            </line>
+            <line>
+              <![CDATA[Logging out of application]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyQuickLookFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:32:04Z" name="tearDown" finished-at="2023-09-19T18:32:04Z" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:32:04Z" name="setup" finished-at="2023-09-19T18:32:09Z" duration-ms="5101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgotPasswordFunctionality()[pri:12, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:32:09Z" name="verifyForgotPasswordFunctionality" finished-at="2023-09-19T18:32:14Z" duration-ms="4961" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="jss220" href="/ResetPasswordGuestErrorView?catalogId=10051&amp;state=forgetpassword&amp;langId=-1&amp;storeId=10101">...</a> is not clickable at point (1165, 347). Other element would receive the click: <div id="fcopt-onsite-app-55248_modal" class="fcopt_modal"></div>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a90f548d363e525c89d966241379e250]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="jss220" href="/ResetPasswordGuestErrorView?catalogId=10051&amp;state=forgetpassword&amp;langId=-1&amp;storeId=10101">...</a> is not clickable at point (1165, 347). Other element would receive the click: <div id="fcopt-onsite-app-55248_modal" class="fcopt_modal"></div>
+  (Session info: chrome=117.0.5938.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QU2301', ip: '192.168.254.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a90f548d363e525c89d966241379e250
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at pages.LoginFunctionality.JJillLogin_ForgotPassword(LoginFunctionality.java:237)
+	at com.JJill.testcases.TestCases.verifyForgotPasswordFunctionality(TestCases.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the useremail and password from the test data sheet successfully]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:32:14Z" name="tearDown" finished-at="2023-09-19T18:32:15Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@5ab9e72c]" started-at="2023-09-19T18:32:15Z" name="closeAll" finished-at="2023-09-19T18:32:15Z" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAll -->
