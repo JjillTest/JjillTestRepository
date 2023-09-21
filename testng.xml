@@ -14,7 +14,7 @@
          <classes>
              <class name="com.JJill.testcases.TestCases">
               <methods> 
-      <include name="verifyShoptheLook"/> 
+  <!--    <include name="verifyShoptheLook"/> -->
            <!--   <include name="verifyForgotPasswordFunctionality"/>   --> 
             <!--     <include name="verifyPaginationFunctionality"/>    Fixed-->
            <!--     <include name="verifyPLPFunctionality"/>   Fixed-->

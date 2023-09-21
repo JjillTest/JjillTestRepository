@@ -8,7 +8,6 @@
     <groups>
     <run>
  <!-- <include name='Production'/> -->
-<!-- <include name='h'/> -->
     </run>
     </groups>
          <classes>
@@ -26,7 +25,7 @@
 
 <include name="verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality"/> 
 
- <!-- 
+ <!-- git 
   <include name="verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality"/> 
 Guest – buying E-Gift Card + PayPal from Shopping bag
 Guest – buying E-Gift Card + PayPal from the Payment Page
