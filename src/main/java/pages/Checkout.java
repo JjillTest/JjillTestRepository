@@ -541,7 +541,7 @@ public class Checkout extends ElementOperations{
 		Thread.sleep(2000);
 	//	jse.executeScript("window.scrollBy(0,400)");
 		btnReview.click();
-		Thread.sleep(1000);
+		Thread.sleep(1200);
 		Reporter.log("GiftcardasPaymentDetails Payment Process Completed", true);
 		return new Checkout();
 	}	
