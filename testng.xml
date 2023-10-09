@@ -7,7 +7,7 @@
     <test name="Test for the JJill application">
     <groups>
     <run>
-<!-- <include name='Production'/> -->
+ <include name='Production'/> 
     </run>
     </groups>
          <classes>
