@@ -15,7 +15,12 @@
               <methods> 
     <include name="verifyShoptheLook"/> 
            <!--   <include name="verifyForgotPasswordFunctionality"/>   --> 
+<<<<<<< HEAD
            <include name="verifyPaginationFunctionality"/> 
+=======
+           <include name="verifyPaginationFunctionality"/>  
+		      <include name="verifyLoginInFunctionality"/>
+>>>>>>> 039c31e2603ea5c5e553aecf787bea6b271c5160
            <!--     <include  name="verifyPLPFunctionality"/>   Fixed-->
 	<!--   <include name="verifySearchFunctionality"/> Fixed -->
   <!--   <include name="verifyCompletetheLook"/> Fixed-->
