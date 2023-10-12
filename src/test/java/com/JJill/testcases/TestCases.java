@@ -29,7 +29,6 @@ public class TestCases extends TestBase{
 		.ConnectingMethod()
 		.JJill_Logout();
 	}
-//	
 
 	
 	@Test(groups={"SmokeTest","Production","V9-16X"}) 

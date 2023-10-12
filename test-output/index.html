@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Testing_JJill_Application" class="navigator-link">
-              <span class="suite-name border-passed">Testing JJill Application</span>
+              <span class="suite-name border-failed">Testing JJill Application</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Testing_JJill_Application" class="hide-methods failed suite-Testing_JJill_Application"> (hide)</a> <!-- hide-methods failed suite-Testing_JJill_Application -->
+                      <a href="#" panel-name="suite-Testing_JJill_Application" class="show-methods failed suite-Testing_JJill_Application"> (show)</a> <!-- show-methods failed suite-Testing_JJill_Application -->
+                    </span>
+                    <div class="method-list-content failed suite-Testing_JJill_Application">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_JJill_Application" title="com.JJill.testcases.TestCases" class="method navigator-link" hash-for-method="verifyShoptheLook">verifyShoptheLook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Testing_JJill_Application -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,6 +131,47 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Testing_JJill_Application" class="panel Testing_JJill_Application">
+          <div class="suite-Testing_JJill_Application-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.JJill.testcases.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShoptheLook">
+                  </a> <!-- verifyShoptheLook -->
+                  <span class="method-name">verifyShoptheLook</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//h3[contains(@class,&apos;sub-head marT0&apos;)])[2]&quot;}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;QU2301&apos;, ip: &apos;192.168.254.66&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\NIKHIT~1.MUT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8100b7ec3ebf2eeb954105de2e21436b
+*** Element info: {Using=xpath, value=(//h3[contains(@class,&apos;sub-head marT0&apos;)])[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at pages.PLP_Search_CLT_STL_Functionality.validateSTLPlpPage(PLP_Search_CLT_STL_Functionality.java:380)
+	at com.JJill.testcases.TestCases.verifyShoptheLook(TestCases.java:86)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_JJill_Application-class-failed -->
           <div class="suite-Testing_JJill_Application-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -149,6 +204,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.JJill.testcases.TestCases&quot;&gt;
         &lt;methods&gt;
+          &lt;include name=&quot;verifyShoptheLook&quot;/&gt;
           &lt;include name=&quot;verifyPaginationFunctionality&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.JJill.testcases.TestCases --&gt;
@@ -182,12 +238,20 @@
                 <span class="method-in-group-name">verifyPaginationFunctionality</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyShoptheLook</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">SmokeTest</span>
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">verifyPaginationFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyShoptheLook</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -215,16 +279,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPaginationFunctionality')
+data.setCell(0, 1, 'verifyShoptheLook')
 data.setCell(0, 2, 'com.JJill.testcases.TestCases')
-data.setCell(0, 3, 74002);
+data.setCell(0, 3, 83802);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyPaginationFunctionality')
+data.setCell(1, 2, 'com.JJill.testcases.TestCases')
+data.setCell(1, 3, 75147);
 window.suiteTableData['Testing_JJill_Application']= { tableData: data, tableDiv: 'times-div-Testing_JJill_Application'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Testing_JJill_Application">
               </div> <!-- times-div-Testing_JJill_Application -->
             </div> <!-- times-div -->
@@ -248,11 +316,26 @@ return data;
                 <span class="reporter-method-output">Logout successful</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyShoptheLook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Fetch the useremail and password from the test data sheet and set it</span>
+                <span class="reporter-method-output">Fetched the useremail and password from the test data sheet successfully</span>
+                <span class="reporter-method-output">Enter Username and Password</span>
+                <span class="reporter-method-output">Login Successful</span>
+                <span class="reporter-method-output">Select the PDP with STL items</span>
+                <span class="reporter-method-output">Fetch the search data</span>
+                <span class="reporter-method-output">Fetched search data from the test data sheet successfully</span>
+                <span class="reporter-method-output">Enter STL Data</span>
+                <span class="reporter-method-output">STL count is not greater than 6</span>
+                <span class="reporter-method-output">Adding STL item to Bag</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Testing_JJill_Application" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">24 ignored methods</span>
+            <span class="header-content">23 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -263,8 +346,6 @@ return data;
                 <span class="ignored-method-name">verify_Guest_JJCCPayment_CheckoutFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyPLPFunctionality</span>
-                <br/>
-                <span class="ignored-method-name">verifyShoptheLook</span>
                 <br/>
                 <span class="ignored-method-name">verifySearchFunctionality</span>
                 <br/>
@@ -298,9 +379,9 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyInventoryData</span>
                 <br/>
-                <span class="ignored-method-name">verifyPDPFunctionality</span>
-                <br/>
                 <span class="ignored-method-name">verify_Guest_MajorCC_CheckoutFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyPDPFunctionality</span>
                 <br/>
                 <span class="ignored-method-name">verifyCompletetheLook</span>
                 <br/>
@@ -322,16 +403,30 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyPaginationFunctionality</span>
-                <span class="method-start">5385 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyShoptheLook</span>
+                <span class="method-start">6893 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">79389 ms</span>
+                <span class="method-start">90701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">90991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPaginationFunctionality</span>
+                <span class="method-start">95696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">170845 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">closeAll</span>
-                <span class="method-start">79758 ms</span>
+                <span class="method-start">171331 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
