@@ -32,7 +32,7 @@ public class PDP_QuickLook_Functionality extends ElementOperations {
 	@FindBy(xpath = "(//div[contains(@id,'product')])[1] /div /div[2] /a")
 	WebElement selectitemdescription;
 
-	@FindBy(xpath = "(//button/span[contains(text(),'Quick Look')])[3]")
+	@FindBy(xpath = "(//button/span[contains(text(),'Quick Look')])[2]")
 	WebElement btnquicklook;
 
 	@FindBy(xpath = "//h6[text()='Quick Look']")

@@ -5,16 +5,19 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import jdk.internal.org.objectweb.asm.commons.Method;
 import pages.LoginFunctionality;
 import pojo.TestData;
 import testbase.TestBase;
 import utilities.Utility;
 
 public class TestCases extends TestBase{
-	private static Utility util; 
 	private static LoginFunctionality loginpage;
-
-
+	private  static Utility util; 
+	
+	
+	
 	@BeforeMethod(alwaysRun=true)
 	public void setup() {
 		TestBase.testData.set(new TestData());
@@ -22,6 +25,7 @@ public class TestCases extends TestBase{
 		util = new Utility();
 		loginpage=new LoginFunctionality();
 	}
+	
 	
 	@Test() 
 	public void verifyLoginInFunctionality() throws InterruptedException{
@@ -31,7 +35,7 @@ public class TestCases extends TestBase{
 	}
 
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"}) 
+	@Test(groups={"Preprod_SmokeTest"}) 
 	public void verifyPDPFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Registered_Login()
 		.selectFinalSaleDepartment()
@@ -43,7 +47,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"}) 
+	@Test(groups={"Preprod_SmokeTest"}) 
 	public void verifyPLPFunctionality() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.selectSaleDepartment()
@@ -52,7 +56,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"})
+	@Test(groups={"Preprod_SmokeTest"})
 	public void verifySearchFunctionality() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_PLP()
@@ -61,7 +65,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"})
+	@Test(groups={"OOS"})
 	public void verifyCompletetheLook() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_PLP()
@@ -69,7 +73,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"})
+	@Test(groups={"OOS"})
 	public void verifyPDP_CompletetheLook() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_PLP()
@@ -77,7 +81,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production"}) 
+	@Test(groups={"Preprod_SmokeTest"}) 
 	public void verifyShoptheLook() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.selectSTLProduct()
@@ -87,7 +91,7 @@ public class TestCases extends TestBase{
 		.JJill_STLLogout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"}) 
+	@Test(groups={"Preprod_SmokeTest"}) 
 	public void verifyMonetateBadging() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.selectSaleDepartment()
@@ -105,7 +109,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"}) 
+	@Test(groups={"Preprod_SmokeTest"}) 
 	public void verifyPaginationFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Registered_Login()
 		.selectClothingDepartment()
@@ -114,7 +118,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"}) 
+	@Test(groups={"Preprod_SmokeTest"}) 
 	public void verifyHeaderFunctionality() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_Header()
@@ -122,7 +126,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"}) 
+	@Test(groups={"Preprod_SmokeTest"}) 
 	public void verifyFooterFunctionality() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.ConnectingMethodLogin_Header()
@@ -130,7 +134,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production"},priority=10) 
+	@Test(groups={"Preprod_SmokeTest"},priority=10) 
 	public void verifyInventoryData() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
 		.selectSaleDepartment()
@@ -141,7 +145,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest","Production","V9-16X"},priority=11) 
+	@Test(groups={"Preprod_SmokeTest"},priority=11) 
 	public void verifyQuickLookFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Registered_Login_QL()
 		.selectFinalSaleDepartment()
@@ -153,7 +157,17 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"SmokeTest1"},priority=12) 
+	@Test(groups={"Preprod_SmokeTest"}) 
+	public void verifyPLP_PDP_navigation() throws InterruptedException{
+		loginpage.JJill_Registered_Login()
+		.selectNewArrivalsDepartment()
+		.ConnectingMethodLogin_Pagination()
+		.navigatefrom_PDPtoPLP()
+		.navigatefromPLPToHomePage()
+		.JJill_Logout();
+	}
+	
+	@Test(groups={"SmokeTest"},priority=12) 
 	public void verifyForgotPasswordFunctionality() throws InterruptedException{
 		loginpage.
 		JJillLogin_ForgotPassword()
@@ -176,7 +190,7 @@ public class TestCases extends TestBase{
 //		.JJill_Logout();
 //	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout", "Fixed"})
 	public void verify_Guest_MajorCC_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_GuestLogin()
 		.selectClothingDepartment()
@@ -191,7 +205,7 @@ public class TestCases extends TestBase{
 		.JJill_GuestLogout();
 	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout", "Fixed"})
 	public void verify_Registered_AddnewMajorCC_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Registered_Login()
 		.selectClothingDepartment()
@@ -209,7 +223,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout1"})
 	public void verify_Registered_AddnewJJCC_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Registered_Login()
 		.selectClothingDepartment()
@@ -227,7 +241,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout"})
 	public void verify_Registered_GiftCard_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Registered_Login()
 		.selectClothingDepartment()
@@ -244,7 +258,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout"})
 	public void verify_Registered_GiftCardandJJCC_ExistingPaymentcard_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_Registered_Login()
 		.selectClothingDepartment()
@@ -263,7 +277,7 @@ public class TestCases extends TestBase{
 	
 
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout"})
 	public void verify_Guest_GiftcardasPayment_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_GuestLogin()
 		.selectClothingDepartment()
@@ -279,7 +293,7 @@ public class TestCases extends TestBase{
 		.JJill_GuestLogout();
 	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout"})
 	public void verify_Guest_GiftcardandMajorCCasPayment_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_GuestLogin()
 //		loginpage.JJill_Login()
@@ -299,7 +313,7 @@ public class TestCases extends TestBase{
 	}
 	
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout", "Fixed"})
 	public void verify_Guest_JJCCPayment_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_GuestLogin()
 //		loginpage.JJill_Login()
@@ -319,7 +333,7 @@ public class TestCases extends TestBase{
 		.JJill_GuestLogout();
 	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout"})
 	public void verify_Guest_PayPalfromPaymentpage_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_GuestLogin()
 //		loginpage.JJill_Login()
@@ -339,7 +353,7 @@ public class TestCases extends TestBase{
 		.JJill_GuestLogout();
 	}
 	
-	@Test(groups= {"Staging"})
+	@Test(groups= {"Checkout"})
 	public void verify_Guest_PaypalfromShoppingBagPage_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_GuestLogin()
 //		loginpage.JJill_Login()
@@ -358,11 +372,7 @@ public class TestCases extends TestBase{
 		.ReviewOrderDetails()
 		.navigateToHomePage()
 		.JJill_GuestLogout();
-	}
-	
-	
-	
-	
+	}	
 	
 	@AfterMethod(alwaysRun=true)
 	public void tearDown() {

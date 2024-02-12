@@ -1,0 +1,176 @@
+TEST CASE: 
+GuestloginMajor CCOrderNumber ->40779002.
+
+TEST CASE: 
+GuestloginJJill CCOrderNumber ->40783002.
+
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin        OrderNumber ->40770009.
+
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin        OrderNumber ->40784008.
+
+TEST CASE: 
+RegisteredLogin        OrderNumber ->40814003.
+
+TEST CASE: 
+RegisteredLogin       Major CC        OrderNumber ->40813002.
+
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin           JJCC        OrderNumber ->40846001.
+
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin           JJCC
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin           JJCC        OrderNumber ->40837007.
+
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin
+TEST CASE: 
+RegisteredLogin

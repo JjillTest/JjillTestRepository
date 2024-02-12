@@ -28,7 +28,7 @@ public class Utility extends TestBase{
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 	}
-	
+
 	
 	public String readCellValue(String Sheetname, String Scenario, String Readcolumnname) {
 

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -53,10 +54,21 @@ public class Pagination_Monetate  extends ElementOperations {
 		@FindBy(xpath = "(//div[contains(@id,'product')]) /div /div[1] /div[1]/img /../../../div[2]/a/h6")
 		List<WebElement> txt_itemdesc;
 		
+		@FindBy(xpath = "(//div[contains(@id,'product')])")
+		List<WebElement> item;
+		
+		@FindBy(xpath = "//span[contains(text(),'✖')]")
+		WebElement feedbackclose;
+		
+		@FindBy(xpath = "//a[contains(text(),'Home')]/../../span[2]/a")
+		WebElement breadcrumb;
+		
+		
 	public Pagination_Monetate() {
 		PageFactory.initElements(driver, this);
 	}
 
+	
 	public LoginFunctionality selectPaginationOption() throws InterruptedException {
 		
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
@@ -88,6 +100,36 @@ public class Pagination_Monetate  extends ElementOperations {
 		Thread.sleep(5000);
 		jse.executeScript("window.scrollBy(0,-500)");
 		return new LoginFunctionality();
+	}
+	
+	public AddProduct navigatefrom_PDPtoPLP() throws InterruptedException {
+		
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		jse.executeScript("window.scrollBy(0,200)");
+		for(int i=0;i<item.size();i++)
+		{
+		item.get(i).click();
+		//System.out.println(item.get(i).getText());
+		ElementOperations.waitforElementVisiblility(breadcrumb, 200);
+		driver.navigate().back();
+		try {
+			if(feedbackclose.isDisplayed())
+
+			feedbackclose.click();	
+			}
+
+			finally 
+			{}
+		}
+		for(int j=0;j<10;j++)
+		{
+			Thread.sleep(300);
+			jse.executeScript("window.scrollBy(0,-800)");
+			Thread.sleep(300);
+		}
+		
+
+			return new AddProduct();
 	}
 	
 	public LoginFunctionality validateMonetateBadging() throws InterruptedException {

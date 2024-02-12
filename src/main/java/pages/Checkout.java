@@ -1,6 +1,9 @@
 package pages;
 
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -97,6 +100,16 @@ public class Checkout extends ElementOperations{
 	@FindBy(css = "input[aria-label*='security']")
 	WebElement securitycode;
 	
+	@FindBy(xpath = "//div[@class='sameasshipping show']/div/label/span")
+	WebElement chkbox_billingaddress;
+	
+	@FindBy(xpath = "//button[@id='addCardButton']")
+	WebElement btnAdd;
+	
+	@FindBy(xpath = "//input[@id='defaultPayment_card']/../span")
+	WebElement btn_defaultcheckbox;
+	
+	
 	@FindBy(xpath = "(//iframe[@frameborder='0'])[4]")
 	WebElement promotionbox;
 	
@@ -126,6 +139,11 @@ public class Checkout extends ElementOperations{
 	
 	@FindBy(xpath = "//h3[text()='CREDIT CARDS']/../div[4]/div")
 	WebElement btnpaypal;
+	
+	@FindBy(xpath = "(//a[contains(text(),'Edit')])[2]")
+	WebElement btnEdit;
+	
+	
 	
 	@FindBy(xpath = "//button[@id='payment-submit-btn']")
 	WebElement btnpaypalrevieworder;
@@ -229,13 +247,19 @@ public class Checkout extends ElementOperations{
 	
 	
 	public Checkout existingSavedCard_clickAddnewCreditCardLink() throws InterruptedException {
-		Thread.sleep(10);
-		jse.executeScript("window.scrollBy(0,400)");
+		Thread.sleep(1000);
+		jse.executeScript("window.scrollBy(0,100)");
 		Thread.sleep(100);
 		jse.executeScript("window.scrollBy(0,400)");
-		Thread.sleep(50);
+		btnEdit.click();
+		Thread.sleep(500);
+		jse.executeScript("window.scrollBy(0,400)");
+		Thread.sleep(150);
+		jse.executeScript("window.scrollBy(0,400)");
+		Thread.sleep(500);
 		linkAddNewCard.click();
 		driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);
+		//appendStrToFile("OrderNumber.txt","    Existingsavedcard in the account , Addnewcc");
 		return new Checkout();
 	}
 	
@@ -307,7 +331,15 @@ public class Checkout extends ElementOperations{
 		Thread.sleep(500);
 		jse.executeScript("window.scrollBy(0,400)");
 		Thread.sleep(500);
+		try {
 		btnPayment.click();
+		}
+		catch (Exception e)
+		{}
+		finally
+		{
+		btnPayment.click();
+		}
 		Thread.sleep(1000);		
 		Reporter.log("Address added sucessfully", true);
 		return new Checkout();
@@ -344,6 +376,7 @@ public class Checkout extends ElementOperations{
 		btnReview.click();
 		Thread.sleep(500);
 		Reporter.log("Major CC Payment Process Completed", true);
+		appendStrToFile("OrderNumber.txt","       Major CC");
 		return new Checkout();
 	}
 	
@@ -369,24 +402,34 @@ public class Checkout extends ElementOperations{
 		action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		securitycode.sendKeys(generateRandomnumber(4));
 		Thread.sleep(200);
-		action.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Thread.sleep(200);
-		action.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Thread.sleep(200);
-		for(int i=0;i<6;i++)
+		chkbox_billingaddress.click();
+		Thread.sleep(500);
+		btnAdd.click();
+		Thread.sleep(100);
+		for(int i=0;i<10;i++)
 		{
-			action.sendKeys(Keys.TAB).build().perform();
+			Thread.sleep(500);
 		}
-		action.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(5000);
-		for(int i=0;i<4;i++)
-		{
-			Thread.sleep(300);
-			action.sendKeys(Keys.TAB).build().perform();
-		}
-		action.sendKeys(Keys.SPACE).build().perform();
+		Thread.sleep(200);
+//		action.sendKeys(Keys.PAGE_DOWN).build().perform();
+//		Thread.sleep(200);
+//		action.sendKeys(Keys.PAGE_DOWN).build().perform();
+//		Thread.sleep(200);
+//		for(int i=0;i<6;i++)
+//		{
+//			action.sendKeys(Keys.TAB).build().perform();
+//		}
+//		action.sendKeys(Keys.ENTER).build().perform();
+//		Thread.sleep(5000);
+//		for(int i=0;i<4;i++)
+//		{
+//			Thread.sleep(300);
+//			action.sendKeys(Keys.TAB).build().perform();
+//		}
+//		action.sendKeys(Keys.SPACE).build().perform();
 		Thread.sleep(100);
 		Reporter.log("Major CC Payment Process Completed", true);
+		appendStrToFile("OrderNumber.txt","       Major CC");
 		return new Checkout();
 		
 	}
@@ -420,20 +463,32 @@ public class Checkout extends ElementOperations{
 	//	Thread.sleep(200);
 		action.sendKeys(Keys.PAGE_DOWN).build().perform();
 		Thread.sleep(200);
-		for(int i=0;i<5;i++)
-		{
-			action.sendKeys(Keys.TAB).build().perform();
-		}
-		action.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(5000);
-//		for(int i=0;i<1;i++)
-//		{
-//			Thread.sleep(300);
-			action.sendKeys(Keys.TAB).build().perform();
-	//	}
-		action.sendKeys(Keys.SPACE).build().perform();
+		chkbox_billingaddress.click();
+		Thread.sleep(500);
+		btn_defaultcheckbox.click();
+		Thread.sleep(500);
+		btnAdd.click();
 		Thread.sleep(100);
+		for(int i=0;i<10;i++)
+		{
+			Thread.sleep(1000);
+		}
+		Thread.sleep(200);
+//		for(int i=0;i<5;i++)
+//		{
+//			action.sendKeys(Keys.TAB).build().perform();
+//		}
+//		action.sendKeys(Keys.ENTER).build().perform();
+//		Thread.sleep(5000);
+////		for(int i=0;i<1;i++)
+////		{
+////			Thread.sleep(300);
+//			action.sendKeys(Keys.TAB).build().perform();
+//	//	}
+//		action.sendKeys(Keys.SPACE).build().perform();
+//		Thread.sleep(100);
 		Reporter.log("JJCC Payment Process Completed", true);
+		appendStrToFile("OrderNumber.txt","           JJCC");
 		return new Checkout();
 		
 	}
@@ -467,6 +522,7 @@ public class Checkout extends ElementOperations{
 		btnReview.click();
 		Thread.sleep(800);
 		Reporter.log("JJCC Payment Process Completed", true);
+		appendStrToFile("OrderNumber.txt","        JJill CC");
 		return new Checkout();
 	}
 	
@@ -708,6 +764,9 @@ public class Checkout extends ElementOperations{
 		if (txtorder.isDisplayed()) {
 			String ordernumber = txtOrderNumber.getText();
 			System.out.println(ordernumber);
+			appendStrToFile("OrderNumber.txt","        OrderNumber ->");
+			appendStrToFile("OrderNumber.txt",ordernumber);
+			appendStrToFile("OrderNumber.txt","\n");
 		}
 		Reporter.log("Order Placed Sucessfully ", true);
 		return new AddProduct();
@@ -743,6 +802,19 @@ public class Checkout extends ElementOperations{
 		TestBase.testData.get().setUserPassword(util.readCellValue(sheetName, scenario, "Password"));
 		Reporter.log("Fetched the useremail and password from the test data sheet successfully", true);
 
+	}
+	
+	 public static void appendStrToFile(String fileName, String str)
+	{
+	try {
+	BufferedWriter out = new BufferedWriter(
+	new FileWriter(fileName, true));
+	out.write(str);
+	out.close();
+	}
+	catch (IOException e) {
+	System.out.println("exception occurred" + e);
+	}
 	}
 	
 }
