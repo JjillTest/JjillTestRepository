@@ -9,8 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import testbase.TestBase;
 
-public class ElementOperations extends TestBase{
-	
+public class ElementOperations extends TestBase{ 
+
 	public static int sleepmin = 5;
 	public static int sleepmid = 10;
 	public static int sleephigh = 20;
@@ -48,7 +48,8 @@ public class ElementOperations extends TestBase{
 	public static void scrollIntoView(WebElement elementfocus) {		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", elementfocus);				
-	}
+	}    
+	
 	
 	public static boolean checkVisibility(WebElement element, int waitTime) {
 		try {
@@ -63,7 +64,8 @@ public class ElementOperations extends TestBase{
 			System.err.println("Unable to return the webelement for the locator");
 		    return false;
 		}
-	}
+	}    
+	
 	
 	public static WebElement waitforElementVisiblility(WebElement element, int waitTime) {
 		try {
@@ -73,6 +75,9 @@ public class ElementOperations extends TestBase{
 			System.err.println("Unable to return the webelement for the locator");
 		    return null;
 		}
-	}	
+	}	  
+	
+
+
 
 }

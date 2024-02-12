@@ -24,9 +24,12 @@ public class TestBase {
 	
 	public static Properties prop;
 	public static FileInputStream fis;
-	public static WebDriver driver;
+	public static WebDriver driver;           
 	
-	public static final ThreadLocal<TestData> testData = new ThreadLocal<TestData>();
+
+	
+	public static final ThreadLocal<TestData> testData = new ThreadLocal<TestData>(); 
+
 	Random random= new Random();
 	
 	public TestBase() 

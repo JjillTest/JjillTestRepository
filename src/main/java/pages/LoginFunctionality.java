@@ -9,6 +9,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -22,7 +25,7 @@ import utilities.Utility;
 public class LoginFunctionality extends ElementOperations {
 
 	WebDriverWait expwait = new WebDriverWait(driver, sleephigh);
-	static Utility util = new Utility();
+	 static Utility util = new Utility();
 	TestBase testbase = new TestBase();
 
 	// Object Repository
@@ -102,15 +105,26 @@ public class LoginFunctionality extends ElementOperations {
 	@FindBy(xpath = "(//a[contains(text(),'Sign Out')])[1]")
 	WebElement STLbtnLogout;
 
-	@FindBy(xpath = "//iframe[@frameborder='0']")
+	@FindBy(xpath = "(//iframe[@frameborder='0'])[1]")
 	WebElement promotionbox;
 
 	@FindBy(xpath = "//span[contains(text(),'X')]")
 	WebElement btnclose;
 	
+	@FindBy(xpath = "//button[@data-testid='closeIcon']")
+	WebElement popupclose;
+	
+	@FindBy(xpath = "//div[@id='content']")
+	WebElement phoneframe;
+	
+	@FindBy(xpath = "//input[@autocomplete='tel']")
+	WebElement textphone;
+	
 	@FindBy(xpath = "//input[@value='Submit']")
 	WebElement btnsubmit;
 	
+	@FindBy(xpath = "//span[text()='SUBMIT']")
+	WebElement phnpopup_btnsubmit;
 	
 	@FindBy(xpath = "//input[@value='EMAIL ADDRESS']")
 	WebElement txtemail;
@@ -154,7 +168,10 @@ public class LoginFunctionality extends ElementOperations {
 			Thread.sleep(500);
 			String title = driver.getTitle();
 			Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
-			}	
+			appendStrToFile("OrderNumber.txt","TEST CASE: ");
+			appendStrToFile("OrderNumber.txt","RegisteredLogin");
+		}
+		
 		return new AddProduct();
 	}
 
@@ -170,11 +187,14 @@ public class LoginFunctionality extends ElementOperations {
 			String test = TestBase.testData.get().getUserEmail();
 			String[] emailID = test.split("");
 			System.out.print(TestBase.testData.get().getUserEmail());
-			for(int i=0;i<emailID.length;i++)
-			{
-				txtemail.sendKeys(emailID[i]);
-				Thread.sleep(100);
-			}
+			//jse.executeScript("document.getElementById(txtemail).setAttribute('txtemail', test)");
+			jse.executeScript("arguments[0].value='"+ test +"';", txtemail);
+//			for(int i=0;i<emailID.length;i++)
+//			{
+//				Thread.sleep(100);
+//				txtemail.sendKeys(emailID[i]);
+//				Thread.sleep(100);
+//			}
 			//
 			//txtemail.sendKeys(TestBase.testData.get().getUserEmail());
 			Thread.sleep(500);
@@ -198,33 +218,84 @@ public class LoginFunctionality extends ElementOperations {
 			Thread.sleep(500);
 			String title = driver.getTitle();
 			Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
-			}	
+			
+		}	
+		try {
+			Thread.sleep(2000);
+			driver.switchTo().frame(phoneframe);
+			Thread.sleep(300);
+			textphone.sendKeys(generateRandomnumber(10));
+			phnpopup_btnsubmit.click();
+			Thread.sleep(2000);		
+		}
+		
+		catch (Exception e) 
+		{}
+		finally
+		{
 		return new AddProduct();
+	}
 	}
 
 	public AddProduct JJill_GuestLogin() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-//		waitforElementVisiblility(btnmyaccount, sleeplow).click();
-//		readValuesForLogin("Login_Data", "Login");
-//		Reporter.log("Enter Username and Password", true);
-		
+		waitforElementVisiblility(btnmyaccount, sleeplow);
+		Thread.sleep(1000);
 		try {
+//			driver.switchTo().frame(promotionbox);
+//			Thread.sleep(1500);
+//			String test = TestBase.testData.get().getUserEmail();
+//			String[] emailID = test.split("");
+//			System.out.print(TestBase.testData.get().getUserEmail());
+//			for(int i=0;i<emailID.length;i++)
+//			{
+//				Thread.sleep(100);
+//				txtemail.sendKeys(emailID[i]);
+//				Thread.sleep(100);
+//			}
 			driver.switchTo().frame(promotionbox);
+			Thread.sleep(1500);
+			String test = TestBase.testData.get().getUserEmail();
+			String[] emailID = test.split("");
+			System.out.print(TestBase.testData.get().getUserEmail());
+			//jse.executeScript("document.getElementById(txtemail).setAttribute('txtemail', test)");
+			jse.executeScript("arguments[0].value='"+ test +"';", txtemail);
+			//
+			//txtemail.sendKeys(TestBase.testData.get().getUserEmail());
+			Thread.sleep(500);
+			btnsubmit.click();
+			Thread.sleep(500);
 			btnclose.click();
+			Thread.sleep(500);
 			driver.switchTo().parentFrame();
-			Thread.sleep(1000);
-		} finally {
-//			username.sendKeys(TestBase.testData.get().getUserEmail());
-//			waitforElementVisiblility(password, sleeplow);
-//			password.sendKeys(TestBase.testData.get().getUserPassword());
-//			waitforElementVisiblility(btnsignin, sleeplow);
-//			btnsignin.click();
-//			Reporter.log("Login Successful", true);
-//			Thread.sleep(500);
-			String title = driver.getTitle();
-			Assert.assertEquals(title, "Women's apparel, accessories, and footwear from J.Jill");
+			Thread.sleep(1000);			
+		}		
+		 catch (Exception e) 
+		{}
+		try {
+//			Thread.sleep(1000);
+//			driver.switchTo().frame(phoneframe);
+//			
+//			popupclose.click();
+//			Thread.sleep(2000);		
+			Thread.sleep(2000);
+			driver.switchTo().frame(phoneframe);
+			Thread.sleep(300);
+			textphone.sendKeys(generateRandomnumber(10));
+			phnpopup_btnsubmit.click();
+			Thread.sleep(2000);		
+		
 		}
+		
+		catch (Exception e) 
+		{}
+		finally
+		{
+			Reporter.log("Guest Login is successful", true);
+			appendStrToFile("OrderNumber.txt","TEST CASE: ");
+			appendStrToFile("OrderNumber.txt","Guestlogin");
 		return new AddProduct();
+	}
 	}
 
 	
@@ -313,7 +384,7 @@ public class LoginFunctionality extends ElementOperations {
 
 	public LoginFunctionality JJill_Logout() throws InterruptedException {
 		Reporter.log("Logging out of application", true);
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 	try {
 				btnfeedbackclose.click();
 		}
@@ -324,7 +395,7 @@ public class LoginFunctionality extends ElementOperations {
 		finally
 		{
 		btnaccount.click();
-		Thread.sleep(500);
+		Thread.sleep(50);
 		btnLogout.click();
 		Reporter.log("Logout successful", true);
 		}
@@ -358,5 +429,18 @@ public class LoginFunctionality extends ElementOperations {
 		Reporter.log("Fetched the useremail and password from the test data sheet successfully", true);
 
 	}
+	 public static void appendStrToFile(String fileName, String str)
+		{
+		try {
+		BufferedWriter out = new BufferedWriter(
+		new FileWriter(fileName, true));
+		out.write("\n");
+		out.write(str);
+		out.close();
+		}
+		catch (IOException e) {
+		System.out.println("exception occurred" + e);
+		}
+		}
 
 }

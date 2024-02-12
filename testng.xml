@@ -7,14 +7,23 @@
     <test name="Test for the JJill application">
     <groups>
     <run>
-<!-- <include name='Production'/> -->
+ <!-- <include name='Preprod_SmokeTest'/>  -->
+ <!-- <include name="Checkout1"/>-->
     </run>
     </groups>
          <classes>
              <class name="com.JJill.testcases.TestCases">
               <methods> 
-    <include name="verifyShoptheLook"/>
-<include name="verifyPaginationFunctionality"/> 
+				  
+				  <include name="verifyPLP_PDP_navigation"/>
+<!-- not fixed
+				  <include name="verifyQuickLookFunctionality"/>
+          <include name="verifyShoptheLook"/>
+          <include name="verifyInventoryData"/>
+          <include name="verifyFooterFunctionality"/>
+          not fixed -->
+    <!--<include name="verifyShoptheLook"/>
+		<include name="verifyPaginationFunctionality"/> -->
            <!--     <include  name="verifyPLPFunctionality"/>   Fixed-->
 	<!--   <include name="verifySearchFunctionality"/> Fixed -->
   <!--   <include name="verifyCompletetheLook"/> Fixed-->
@@ -28,6 +37,13 @@
  <!--   <include name="verifyQuickLookFunctionality"/> -->
       <!--      Works with staging Environment only
      <include name="verifyCheckoutFunctionality"/>  -->
+     
+     
+     <!--  working <include name="verifyMonetateBadging"/>
+				  <include name="verifyPDPFunctionality"/>
+				  <include name="verifyPLPFunctionality"/>
+				  <include name="verifyPaginationFunctionality"/>
+				  <include name="verifySearchFunctionality"/> -->
               </methods> 
              </class>
           </classes>

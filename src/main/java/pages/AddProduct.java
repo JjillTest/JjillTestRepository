@@ -90,8 +90,11 @@ public class AddProduct extends ElementOperations {
 
 	@FindBy(xpath = "(//div[contains(@id,'product')])[2] /div /div[1]")
 	WebElement selectitem;
+	
+	@FindBy(xpath = "//span[contains(text(),'✖')]")
+	WebElement feedbackclose;
 
-	@FindBy(xpath = "//button[@title='L']")
+	@FindBy(xpath = "//button[@title='XL']")
 	WebElement btnsize;
 
 	@FindBy(xpath = "//button[@type='submit'][@data-th='add-to-cart']")
@@ -128,6 +131,11 @@ public class AddProduct extends ElementOperations {
 	@FindBy(css = "img[alt*='logo']")
 	WebElement btnLogo;
 
+
+	@FindBy(css = "a[aria-label='logo']")
+	WebElement btnLogo_PLP;
+	
+	
 	Robot robot;
 
 	public AddProduct() {
@@ -209,6 +217,24 @@ public class AddProduct extends ElementOperations {
 	//	}
 		return this;
 	}
+		
+		public AddProduct selectNewArrivalsDepartment() throws InterruptedException {
+			Reporter.log("Select the department", true);
+			Thread.sleep(3000);
+				Thread.sleep(2000);
+				for(int i=0;i<drpNewArrivals.size();i++)
+				{
+					if(i==0)
+					{
+						action.click(drpNewArrivals.get(i)).perform();
+					}
+						
+				}
+				Reporter.log("Selected the department sucessfully", true);
+		
+			return this;
+		}
+
 
 		public AddProduct selectFinalSaleDepartment() throws InterruptedException {
 			Reporter.log("Select the Final sale department", true);
@@ -289,15 +315,24 @@ public class AddProduct extends ElementOperations {
 
 	public Checkout selectItemDetails() throws InterruptedException {
 		Reporter.log("Select the Item", true);
+		Thread.sleep(3000);
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		jse.executeScript("window.scrollBy(0,600)");
 		Thread.sleep(1000);
 		action.click(selectitem).perform();
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		jse.executeScript("window.scrollBy(0,550)");
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-		btnsize.click();
+		Thread.sleep(3000);
 		jse.executeScript("window.scrollBy(0,600)");
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+//		try {
+//			Thread.sleep(1000);
+//			feedbackclose.click();
+//		}
+//		catch (Exception e) 
+//		{}
+//		finally {
+		btnsize.click();
+		jse.executeScript("window.scrollBy(0,450)");
 		btnaddtobag.click();
 		String total = txtEstimatedTotal.getText();
 		btnviewshoppingcart.click();
@@ -307,6 +342,7 @@ public class AddProduct extends ElementOperations {
 		Reporter.log("Selected the Item sucessfully", true);
 		return new Checkout();
 	}
+	//}
 
 
 	public LoginFunctionality navigateToHomePage() {
@@ -316,6 +352,16 @@ public class AddProduct extends ElementOperations {
 		driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 		return new LoginFunctionality();
 	}
+	
+
+	public LoginFunctionality navigatefromPLPToHomePage() {
+		Reporter.log("Navigate to Home Page from PLP", true);
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+		btnLogo_PLP.click();
+		driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+		return new LoginFunctionality();
+	}
+	
 	public LoginFunctionality ConnectingMethod() throws InterruptedException {
 
 		try {

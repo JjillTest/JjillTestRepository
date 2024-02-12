@@ -10,8 +10,8 @@
         <methods>
           <include name="setup"/>
           <include name="closeAll"/>
-          <include name="verifyShoptheLook"/>
           <include name="tearDown"/>
+          <include name="verifyPLP_PDP_navigation"/>
         </methods>
       </class> <!-- com.JJill.testcases.TestCases -->
     </classes>
