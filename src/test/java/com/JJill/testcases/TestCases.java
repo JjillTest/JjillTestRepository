@@ -1,6 +1,8 @@
 package com.JJill.testcases;
 
 import java.awt.AWTException;
+import java.net.URL;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -134,6 +136,12 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
+	@Test() 
+	public void launchURL() throws InterruptedException{
+		loginpage.JJill_Registered_Login()
+		.ConnectingMethodLogin_URL()
+		.launch_PDP_URL();
+	}
 	@Test(groups={"Preprod_SmokeTest"},priority=10) 
 	public void verifyInventoryData() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
@@ -162,9 +170,19 @@ public class TestCases extends TestBase{
 		loginpage.JJill_Registered_Login()
 		.selectNewArrivalsDepartment()
 		.ConnectingMethodLogin_Pagination()
-		.navigatefrom_PDPtoPLP()
+		.navigatefrom_PLPtoPDP()
 		.navigatefromPLPToHomePage()
-		.JJill_Logout();
+		.JJill_LogoutPLP_PDP();
+	}
+	
+	@Test(groups={"Preprod_SmokeTest"}) 
+	public void verifyPLP_PDP_allpages_navigation() throws InterruptedException{
+		loginpage.JJill_Registered_Login()
+		.selectNewArrivalsDepartment()
+		.ConnectingMethodLogin_Pagination()
+		.navigatefrom_PLPtoPDP_allpages()
+		.navigatefromPLPToHomePage()
+		.JJill_Logout();	
 	}
 	
 	@Test(groups={"SmokeTest"},priority=12) 

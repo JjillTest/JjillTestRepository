@@ -56,6 +56,8 @@ public @Data class TestData {
 	
 	private String email;
 
+	private String URLNAME;
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -263,4 +265,10 @@ public @Data class TestData {
 		this.Size = Size;
 	}
 	
+	public String getURL() {
+		return URLNAME;
+	}
+	public void setURL(String URLNAME) {
+		this.URLNAME = URLNAME;
+	}
 }
