@@ -22,26 +22,17 @@
     <line>
       <![CDATA[Fetched the url successfully]]>
     </line>
-    <line>
-      <![CDATA[Navigate to Home Page from PLP]]>
-    </line>
-    <line>
-      <![CDATA[Logging out of application]]>
-    </line>
-    <line>
-      <![CDATA[Logout successful]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-02-15T17:06:54Z" name="Testing JJill Application" finished-at="2024-02-15T17:37:48Z" duration-ms="1853799">
+  <suite started-at="2024-02-19T20:51:16Z" name="Testing JJill Application" finished-at="2024-02-19T21:13:55Z" duration-ms="1359750">
     <groups>
     </groups>
-    <test started-at="2024-02-15T17:06:54Z" name="Test for the JJill application" finished-at="2024-02-15T17:37:48Z" duration-ms="1853799">
+    <test started-at="2024-02-19T20:51:16Z" name="Test for the JJill application" finished-at="2024-02-19T21:13:55Z" duration-ms="1359750">
       <class name="com.JJill.testcases.TestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:06:54Z" name="setup" finished-at="2024-02-15T12:06:57Z" duration-ms="3122" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-19T15:51:16Z" name="setup" finished-at="2024-02-19T15:51:21Z" duration-ms="5357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="launchURL()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:06:57Z" name="launchURL" finished-at="2024-02-15T12:37:46Z" duration-ms="1848384" status="PASS">
+        <test-method signature="launchURL()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-19T15:51:21Z" name="launchURL" finished-at="2024-02-19T16:13:54Z" duration-ms="1353068" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
@@ -64,22 +55,13 @@
             <line>
               <![CDATA[Fetched the url successfully]]>
             </line>
-            <line>
-              <![CDATA[Navigate to Home Page from PLP]]>
-            </line>
-            <line>
-              <![CDATA[Logging out of application]]>
-            </line>
-            <line>
-              <![CDATA[Logout successful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:37:46Z" name="tearDown" finished-at="2024-02-15T12:37:46Z" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-19T16:13:54Z" name="tearDown" finished-at="2024-02-19T16:13:54Z" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:37:46Z" name="closeAll" finished-at="2024-02-15T12:37:48Z" duration-ms="1992" status="PASS">
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-19T16:13:54Z" name="closeAll" finished-at="2024-02-19T16:13:55Z" duration-ms="1048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAll -->
