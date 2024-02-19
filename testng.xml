@@ -14,9 +14,10 @@
          <classes>
              <class name="com.JJill.testcases.TestCases">
               <methods> 
+				 <!--<include name="verifyPLP_PDP_allpages_navigation"/>--> 
+				  <include name="launchURL"/>
 				  
-				  <include name="verifyPLP_PDP_navigation"/>
-<!-- not fixed
+			<!-- not fixed
 				  <include name="verifyQuickLookFunctionality"/>
           <include name="verifyShoptheLook"/>
           <include name="verifyInventoryData"/>

@@ -454,4 +454,8 @@ public class AddProduct extends ElementOperations {
 			Reporter.log("Fetched search data from the test data sheet successfully", true);
 		}
 
+		public URL ConnectingMethodLogin_URL() throws InterruptedException {
+			Thread.sleep(1000);
+			return new URL();
+		}
 }

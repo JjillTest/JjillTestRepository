@@ -9,12 +9,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import testbase.TestBase;
 
+
 public class ElementOperations extends TestBase{ 
 
 	public static int sleepmin = 5;
 	public static int sleepmid = 10;
 	public static int sleephigh = 20;
-	
+
 	/*
 	 * To select the dropdown by visible text
 	 * @param driver - specifies the webdriver object
@@ -66,7 +67,21 @@ public class ElementOperations extends TestBase{
 		}
 	}    
 	
-	
+
+//	
+//	public static void scrollforElementVisiblility(WebElement element) {
+//		JavascriptExecutor js = (JavascriptExecutor) driver;
+//	
+//		try 
+//		{
+//			if(element.isDisplayed())
+//				System.out.print("Element is displayed");
+//			else
+//				js.executeScript("window.scrollBy(0,900)");
+//		}finally {
+//			
+//		}
+//	}
 	public static WebElement waitforElementVisiblility(WebElement element, int waitTime) {
 		try {
 			WebElement ele = new WebDriverWait(driver, waitTime).until(ExpectedConditions.visibilityOf(element));

@@ -403,6 +403,16 @@ public class LoginFunctionality extends ElementOperations {
 
 	}
 	
+	public LoginFunctionality JJill_LogoutPLP_PDP() throws InterruptedException {
+		Reporter.log("Logging out of application", true);
+		btnaccount.click();
+		Thread.sleep(50);
+		btnLogout.click();
+		Reporter.log("Logout successful", true);
+		
+	return new LoginFunctionality();
+
+	}
 	public LoginFunctionality JJill_GuestLogout() throws InterruptedException {
 		Reporter.log("Logging out of application", true);
 		Reporter.log("Logout successful", true);
@@ -442,5 +452,7 @@ public class LoginFunctionality extends ElementOperations {
 		System.out.println("exception occurred" + e);
 		}
 		}
-
+	 
+	 
+		
 }

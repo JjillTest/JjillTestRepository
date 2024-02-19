@@ -35,6 +35,7 @@ public class Pagination_Monetate  extends ElementOperations {
 		@FindBy(xpath = "(//button[contains(@aria-label,'next')])[1]")
 		WebElement btnnexttop;
 
+		
 		@FindBy(xpath = "//div[contains(@class,'MuiGrid-root MuiGrid-item MuiGrid-grid')] /ul/li")
 		List<WebElement> imgPLP;
 		
@@ -102,7 +103,7 @@ public class Pagination_Monetate  extends ElementOperations {
 		return new LoginFunctionality();
 	}
 	
-	public AddProduct navigatefrom_PDPtoPLP() throws InterruptedException {
+	public AddProduct navigatefrom_PLPtoPDP() throws InterruptedException {
 		
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		jse.executeScript("window.scrollBy(0,200)");
@@ -131,7 +132,43 @@ public class Pagination_Monetate  extends ElementOperations {
 
 			return new AddProduct();
 	}
-	
+
+	public AddProduct navigatefrom_PLPtoPDP_allpages() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		int i = (pagenavigation.size())/2;
+		for (int j = 0; j < i+1; j++) {
+				jse.executeScript("window.scrollBy(0,200)");
+				for(int x=0;x<item.size();x++)
+				{
+					System.out.println(x);
+				item.get(x).click();
+				ElementOperations.waitforElementVisiblility(breadcrumb, 200);
+				driver.navigate().back();
+				try {
+					if(feedbackclose.isDisplayed())
+					{
+					feedbackclose.click();	
+					}
+				}
+					finally 
+					{}
+				}
+//				for(int k=0;k<10;k++)
+//				{
+//				//	Thread.sleep(300);
+//					jse.executeScript("window.scrollBy(0,-800)");
+//			//		Thread.sleep(300);
+////				}
+				jse.executeScript("window.scrollBy(0,150)");
+				if (btnnextbottom.isDisplayed()) {
+				Thread.sleep(5000);
+				btnnextbottom.click();
+			}
+			}
+				
+			return new AddProduct();
+	}
+
 	public LoginFunctionality validateMonetateBadging() throws InterruptedException {
 		Reporter.log("Validate the Monetate Badging", true);
 		int count = 1;

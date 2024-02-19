@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="25" total="26" passed="1" failed="0" skipped="0">
+<testng-results ignored="27" total="28" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
@@ -14,10 +14,13 @@
       <![CDATA[Login Successful]]>
     </line>
     <line>
-      <![CDATA[Select the department]]>
+      <![CDATA[Launch URL's]]>
     </line>
     <line>
-      <![CDATA[Selected the department sucessfully]]>
+      <![CDATA[Fetch URL]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the url successfully]]>
     </line>
     <line>
       <![CDATA[Navigate to Home Page from PLP]]>
@@ -29,19 +32,16 @@
       <![CDATA[Logout successful]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-02-12T14:20:52Z" name="Testing JJill Application" finished-at="2024-02-12T14:27:31Z" duration-ms="398948">
+  <suite started-at="2024-02-15T17:06:54Z" name="Testing JJill Application" finished-at="2024-02-15T17:37:48Z" duration-ms="1853799">
     <groups>
-      <group name="Preprod_SmokeTest">
-        <method signature="TestCases.verifyPLP_PDP_navigation()[pri:0, instance:com.JJill.testcases.TestCases@343570b7]" name="verifyPLP_PDP_navigation" class="com.JJill.testcases.TestCases"/>
-      </group> <!-- Preprod_SmokeTest -->
     </groups>
-    <test started-at="2024-02-12T14:20:52Z" name="Test for the JJill application" finished-at="2024-02-12T14:27:31Z" duration-ms="398948">
+    <test started-at="2024-02-15T17:06:54Z" name="Test for the JJill application" finished-at="2024-02-15T17:37:48Z" duration-ms="1853799">
       <class name="com.JJill.testcases.TestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@343570b7]" started-at="2024-02-12T09:20:52Z" name="setup" finished-at="2024-02-12T09:20:54Z" duration-ms="2824" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:06:54Z" name="setup" finished-at="2024-02-15T12:06:57Z" duration-ms="3122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPLP_PDP_navigation()[pri:0, instance:com.JJill.testcases.TestCases@343570b7]" started-at="2024-02-12T09:20:54Z" name="verifyPLP_PDP_navigation" finished-at="2024-02-12T09:27:29Z" duration-ms="394619" status="PASS">
+        <test-method signature="launchURL()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:06:57Z" name="launchURL" finished-at="2024-02-15T12:37:46Z" duration-ms="1848384" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Fetch the useremail and password from the test data sheet and set it]]>
@@ -56,10 +56,13 @@
               <![CDATA[Login Successful]]>
             </line>
             <line>
-              <![CDATA[Select the department]]>
+              <![CDATA[Launch URL's]]>
             </line>
             <line>
-              <![CDATA[Selected the department sucessfully]]>
+              <![CDATA[Fetch URL]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the url successfully]]>
             </line>
             <line>
               <![CDATA[Navigate to Home Page from PLP]]>
@@ -71,12 +74,12 @@
               <![CDATA[Logout successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyPLP_PDP_navigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@343570b7]" started-at="2024-02-12T09:27:29Z" name="tearDown" finished-at="2024-02-12T09:27:30Z" duration-ms="879" status="PASS">
+        </test-method> <!-- launchURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:37:46Z" name="tearDown" finished-at="2024-02-15T12:37:46Z" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@343570b7]" started-at="2024-02-12T09:27:30Z" name="closeAll" finished-at="2024-02-12T09:27:31Z" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.JJill.testcases.TestCases@71c3b41]" started-at="2024-02-15T12:37:46Z" name="closeAll" finished-at="2024-02-15T12:37:48Z" duration-ms="1992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAll -->
