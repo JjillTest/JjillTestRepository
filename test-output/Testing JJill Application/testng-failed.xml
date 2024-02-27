@@ -8,10 +8,8 @@
     <classes>
       <class name="com.JJill.testcases.TestCases">
         <methods>
-          <include name="setup"/>
           <include name="closeAll"/>
-          <include name="launchURL"/>
-          <include name="tearDown"/>
+          <include name="getURLs"/>
         </methods>
       </class> <!-- com.JJill.testcases.TestCases -->
     </classes>

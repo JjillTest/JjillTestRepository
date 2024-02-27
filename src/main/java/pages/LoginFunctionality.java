@@ -298,6 +298,11 @@ public class LoginFunctionality extends ElementOperations {
 	}
 	}
 
+	public AddProduct JJill_GuestLoginURL() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		waitforElementVisiblility(btnmyaccount, sleeplow);
+		return new AddProduct();
+	}
 	
 	public LoginFunctionality JJillLogin_ForgotPassword() {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -452,7 +457,5 @@ public class LoginFunctionality extends ElementOperations {
 		System.out.println("exception occurred" + e);
 		}
 		}
-	 
-	 
-		
+
 }

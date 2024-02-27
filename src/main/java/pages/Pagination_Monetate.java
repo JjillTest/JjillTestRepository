@@ -64,6 +64,8 @@ public class Pagination_Monetate  extends ElementOperations {
 		@FindBy(xpath = "//a[contains(text(),'Home')]/../../span[2]/a")
 		WebElement breadcrumb;
 		
+		@FindBy(xpath = "//p[text()='SIGN UP FOR J.JILL EMAIL']")
+		WebElement txtsignupforemail;
 		
 	public Pagination_Monetate() {
 		PageFactory.initElements(driver, this);
@@ -143,6 +145,7 @@ public class Pagination_Monetate  extends ElementOperations {
 					System.out.println(x);
 				item.get(x).click();
 				ElementOperations.waitforElementVisiblility(breadcrumb, 200);
+				jse.executeScript("arguments[0].scrollIntoView()",txtsignupforemail);
 				driver.navigate().back();
 				try {
 					if(feedbackclose.isDisplayed())
