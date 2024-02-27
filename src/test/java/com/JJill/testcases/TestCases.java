@@ -1,24 +1,28 @@
 package com.JJill.testcases;
 
 import java.awt.AWTException;
-import java.net.URL;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import jdk.internal.org.objectweb.asm.commons.Method;
 import pages.LoginFunctionality;
+import pages.URL;
+import pages.URLlist;
 import pojo.TestData;
 import testbase.TestBase;
+import utilities.ElementOperations;
 import utilities.Utility;
 
 public class TestCases extends TestBase{
 	private static LoginFunctionality loginpage;
 	private  static Utility util; 
-	
-	
+	 
+	URL urlpage = new URL();
 	
 	@BeforeMethod(alwaysRun=true)
 	public void setup() {
@@ -26,6 +30,7 @@ public class TestCases extends TestBase{
 		Initialization();
 		util = new Utility();
 		loginpage=new LoginFunctionality();
+	
 	}
 	
 	
@@ -136,12 +141,7 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test() 
-	public void launchURL() throws InterruptedException{
-		loginpage.JJill_Registered_Login()
-		.ConnectingMethodLogin_URL()
-		.launch_PDP_URL();
-	}
+	
 	@Test(groups={"Preprod_SmokeTest"},priority=10) 
 	public void verifyInventoryData() throws InterruptedException{
 		loginpage.JJill_Registered_Login()
@@ -165,26 +165,10 @@ public class TestCases extends TestBase{
 		.JJill_Logout();
 	}
 	
-	@Test(groups={"Preprod_SmokeTest"}) 
-	public void verifyPLP_PDP_navigation() throws InterruptedException{
-		loginpage.JJill_Registered_Login()
-		.selectNewArrivalsDepartment()
-		.ConnectingMethodLogin_Pagination()
-		.navigatefrom_PLPtoPDP()
-		.navigatefromPLPToHomePage()
-		.JJill_LogoutPLP_PDP();
-	}
 	
-	@Test(groups={"Preprod_SmokeTest"}) 
-	public void verifyPLP_PDP_allpages_navigation() throws InterruptedException{
-		loginpage.JJill_Registered_Login()
-		.selectNewArrivalsDepartment()
-		.ConnectingMethodLogin_Pagination()
-		.navigatefrom_PLPtoPDP_allpages()
-		.navigatefromPLPToHomePage()
-		.JJill_Logout();	
-	}
 	
+
+		
 	@Test(groups={"SmokeTest"},priority=12) 
 	public void verifyForgotPasswordFunctionality() throws InterruptedException{
 		loginpage.
@@ -392,6 +376,46 @@ public class TestCases extends TestBase{
 		.JJill_GuestLogout();
 	}	
 	
+	//performance testing 
+	
+	
+	
+	@Test() 
+	public void verifyPLP_PDP_navigation() throws InterruptedException{
+		loginpage.JJill_Registered_Login()
+		.selectNewArrivalsDepartment()
+		.ConnectingMethodLogin_Pagination()
+		.navigatefrom_PLPtoPDP()
+		.navigatefromPLPToHomePage()
+		.JJill_LogoutPLP_PDP();
+	}
+	
+	@Test() 
+	public void verifyPLP_PDP_allpages_navigation() throws InterruptedException{
+		loginpage.JJill_Registered_Login()
+		.selectNewArrivalsDepartment()
+		.ConnectingMethodLogin_Pagination()
+		.navigatefrom_PLPtoPDP_allpages()
+		.navigatefromPLPToHomePage()
+		.JJill_Logout();	
+	}
+	
+	
+	@Test() 
+	public void launchURL() throws InterruptedException{
+		loginpage.JJill_Registered_Login()
+		.ConnectingMethodLogin_URL()
+		.launch_PDP_URL();
+	}
+
+	@Test(invocationCount= 2, dataProvider="datap" , dataProviderClass = URLlist.class)
+	public void getURLs(String url) throws Exception
+	{
+		loginpage.JJill_GuestLoginURL()
+		.ConnectingMethodLogin_URL()
+		.dataprovider_url(url);
+	}
+
 	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
 		driver.close();
