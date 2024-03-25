@@ -251,7 +251,7 @@ public class Checkout extends ElementOperations{
 		jse.executeScript("window.scrollBy(0,100)");
 		Thread.sleep(100);
 		jse.executeScript("window.scrollBy(0,400)");
-		btnEdit.click();
+	//	btnEdit.click();
 		Thread.sleep(500);
 		jse.executeScript("window.scrollBy(0,400)");
 		Thread.sleep(150);
@@ -266,9 +266,9 @@ public class Checkout extends ElementOperations{
 	public Checkout proceedtocheckoutasGuest() throws InterruptedException {
 		Reporter.log("Guest Checkout Started", true);
 		jse.executeScript("window.scrollBy(0,400)");
-		Thread.sleep(100);
+		Thread.sleep(1000);
 		btnproceedCheckout.click();
-		Thread.sleep(100);
+		Thread.sleep(1000);
 		driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);
 		Reporter.log("Guest Checkout Completed", true);
 		return new Checkout();
@@ -332,12 +332,19 @@ public class Checkout extends ElementOperations{
 		jse.executeScript("window.scrollBy(0,400)");
 		Thread.sleep(500);
 		try {
+//			driver.navigate().back();
+//			driver.navigate().forward();
 		btnPayment.click();
 		}
 		catch (Exception e)
-		{}
+		{
+//			System.out.println(e);
+//			driver.navigate().back();
+//			driver.navigate().forward();
+		}
 		finally
 		{
+		//	driver.navigate().refresh();
 		btnPayment.click();
 		}
 		Thread.sleep(1000);		

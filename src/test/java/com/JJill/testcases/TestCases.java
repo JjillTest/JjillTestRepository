@@ -192,10 +192,11 @@ public class TestCases extends TestBase{
 //		.JJill_Logout();
 //	}
 	
-	@Test(groups= {"Checkout", "Fixed"})
+	@Test(invocationCount= 20,groups= {"Checkout", "Fixed"})
 	public void verify_Guest_MajorCC_CheckoutFunctionality() throws InterruptedException, AWTException{
 		loginpage.JJill_GuestLogin()
-		.selectClothingDepartment()
+		//loginpage.JJill_GuestLoginURL()
+		.selectNewArrivalsDepartment()
 		.selectItemDetails()
 		.checkoutProcess()
 		.proceedtocheckoutasGuest()
@@ -408,7 +409,7 @@ public class TestCases extends TestBase{
 		.launch_PDP_URL();
 	}
 
-	@Test(invocationCount= 2, dataProvider="datap" , dataProviderClass = URLlist.class)
+	@Test(invocationCount= 25, dataProvider="datap" , dataProviderClass = URLlist.class)
 	public void getURLs(String url) throws Exception
 	{
 		loginpage.JJill_GuestLoginURL()

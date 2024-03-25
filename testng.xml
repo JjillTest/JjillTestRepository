@@ -8,15 +8,14 @@
     <groups>
     <run>
  <!-- <include name='Preprod_SmokeTest'/>  -->
- <!-- <include name="Checkout1"/>-->
+<!--  <include name="Checkout1"/>-->
     </run>
     </groups>
          <classes>
              <class name="com.JJill.testcases.TestCases">
               <methods> 
-				<!-- <include name="verifyPLP_PDP_allpages_navigation"/> -->
-				  <include name="getURLs"/>
-				  
+				<!--   <include name="verify_Guest_MajorCC_CheckoutFunctionality"/>-->
+				 <include name="getURLs"/>
 			<!-- not fixed
 				  <include name="verifyQuickLookFunctionality"/>
           <include name="verifyShoptheLook"/>

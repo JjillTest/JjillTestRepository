@@ -56,6 +56,8 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--ignore-certificate-errors");
+			options.addArguments("--incognito");
 			options.addArguments("--disable-extensions");
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-notifications");
@@ -64,6 +66,7 @@ public class TestBase {
 			options.addArguments("--disable-save-password-bubble");
 			options.addArguments("--test-type");
 			options.addArguments("--disable-blink-features=AutomationControlled");
+			
 			// options.add_argument("--disable-extensions")
 			 //options.add_experimental_option("useAutomationExtension", false);
 			// options.add_experimental_option("excludeSwitches", ["enable-automation"])
@@ -94,6 +97,7 @@ public class TestBase {
 			    capabilities.setCapability("IntroduceInstabilityByIgnoringProtectedModeSettings", true);
 			    capabilities.setCapability("nativeEvents", true);
 			    capabilities.setCapability("INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS", true);
+			   
 			}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
