@@ -88,13 +88,14 @@ public class AddProduct extends ElementOperations {
 	@FindBy(xpath = "//div[contains(@id,'layout')]/div[2]/div/div/div/div[1]/div/a[2]")
 	List<WebElement> removebutton;
 
-	@FindBy(xpath = "(//div[contains(@id,'product')])[2] /div /div[1]")
+	@FindBy(xpath = "(//div[contains(@id,'product')])[1] /div /div[2]/a")
 	WebElement selectitem;
+	//(//div[contains(@id,'product')])[2] /div /div[1]
 	
 	@FindBy(xpath = "//span[contains(text(),'✖')]")
 	WebElement feedbackclose;
 
-	@FindBy(xpath = "//button[@title='XL']")
+	@FindBy(xpath = "//button[@title='2X']")
 	WebElement btnsize;
 
 	@FindBy(xpath = "//button[@type='submit'][@data-th='add-to-cart']")
@@ -227,6 +228,7 @@ public class AddProduct extends ElementOperations {
 					if(i==0)
 					{
 						action.click(drpNewArrivals.get(i)).perform();
+						break;
 					}
 						
 				}
@@ -322,8 +324,8 @@ public class AddProduct extends ElementOperations {
 		action.click(selectitem).perform();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		Thread.sleep(3000);
-		jse.executeScript("window.scrollBy(0,600)");
-		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+		//jse.executeScript("window.scrollBy(0,300)");
+		//driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 //		try {
 //			Thread.sleep(1000);
 //			feedbackclose.click();

@@ -111,6 +111,9 @@ public class LoginFunctionality extends ElementOperations {
 	@FindBy(xpath = "//span[contains(text(),'X')]")
 	WebElement btnclose;
 	
+	@FindBy(xpath = "//button[@title='Close Dialog']/span")
+	WebElement promotionboxclose;
+	
 	@FindBy(xpath = "//button[@data-testid='closeIcon']")
 	WebElement popupclose;
 	
@@ -255,37 +258,39 @@ public class LoginFunctionality extends ElementOperations {
 //			}
 			driver.switchTo().frame(promotionbox);
 			Thread.sleep(1500);
-			String test = TestBase.testData.get().getUserEmail();
-			String[] emailID = test.split("");
-			System.out.print(TestBase.testData.get().getUserEmail());
-			//jse.executeScript("document.getElementById(txtemail).setAttribute('txtemail', test)");
-			jse.executeScript("arguments[0].value='"+ test +"';", txtemail);
-			//
-			//txtemail.sendKeys(TestBase.testData.get().getUserEmail());
-			Thread.sleep(500);
-			btnsubmit.click();
-			Thread.sleep(500);
-			btnclose.click();
-			Thread.sleep(500);
+			promotionboxclose.click();
+			Thread.sleep(1500);
+//			String test = TestBase.testData.get().getUserEmail();
+//			String[] emailID = test.split("");
+//			System.out.print(TestBase.testData.get().getUserEmail());
+//			//jse.executeScript("document.getElementById(txtemail).setAttribute('txtemail', test)");
+//			jse.executeScript("arguments[0].value='"+ test +"';", txtemail);
+//			//
+//			//txtemail.sendKeys(TestBase.testData.get().getUserEmail());
+//			Thread.sleep(500);
+//			btnsubmit.click();
+//			Thread.sleep(500);
+//			btnclose.click();
+//			Thread.sleep(500);
 			driver.switchTo().parentFrame();
 			Thread.sleep(1000);			
 		}		
-		 catch (Exception e) 
-		{}
-		try {
-//			Thread.sleep(1000);
+//		 catch (Exception e) 
+//		{}
+//		try {
+////			Thread.sleep(1000);
+////			driver.switchTo().frame(phoneframe);
+////			
+////			popupclose.click();
+////			Thread.sleep(2000);		
+//			Thread.sleep(2000);
 //			driver.switchTo().frame(phoneframe);
-//			
-//			popupclose.click();
+//			Thread.sleep(300);
+//			textphone.sendKeys(generateRandomnumber(10));
+//			phnpopup_btnsubmit.click();
 //			Thread.sleep(2000);		
-			Thread.sleep(2000);
-			driver.switchTo().frame(phoneframe);
-			Thread.sleep(300);
-			textphone.sendKeys(generateRandomnumber(10));
-			phnpopup_btnsubmit.click();
-			Thread.sleep(2000);		
-		
-		}
+//		
+//		}
 		
 		catch (Exception e) 
 		{}
